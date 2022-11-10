@@ -1,1 +1,56 @@
+body {
+    margin: 0px;
+}
 
+html {
+    font-family: 'Philosopher', sans-serif;
+}
+
+#ethiceat-logo {
+    width: 150px;
+    margin: 5px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 175px;
+    color: white;
+    background-color: darkgreen;
+    white-space: nowrap;
+}
+
+.header-text-container {
+    position: absolute;
+    left: 160px;
+    top: 10px;
+    padding-right: 300px;
+    margin: 0 30px 0 30px;
+}
+
+#site-title {
+    font-size: 72px;
+    font-weight: 100;
+    margin: 20px 0px 10px 0px;
+}
+
+#site-subtitle {
+    font-size: 24px;
+    font-weight: 100;
+    margin: 10px 0px 10px 5px;
+}
+
+.navigation-container {
+    display: flex;
+    height: 35px;
+    margin: 140px 0 0 350px;
+}
+
+.navigation-container a {
+    color: white;
+    font-size: 24px;
+    background-color: rgb(0, 48, 0);
+    text-decoration: none;
+    margin: 0 15px 0 15px;
+    padding: 3px 5px 5px 5px;
+}
