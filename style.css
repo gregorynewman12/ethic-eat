@@ -55,3 +55,34 @@ header {
     margin: 0 15px 0 15px;
     padding: 3px 5px 5px 5px;
 }
+
+.body-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    min-height: 70vh;
+}
+
+#main-searchbar {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 24px;
+    width: 400px;
+    height: 40px;
+    border: 2px solid rgb(83, 83, 83);
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px gray;
+}
+
+#search-button {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: darkgreen;
+    height: 45px;
+    width: 75px;
+    border: 0px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px gray;
+    margin-left: 5px;
+}
