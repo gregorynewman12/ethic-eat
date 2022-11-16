@@ -10,6 +10,7 @@ var fs = require('fs')
 var css = fs.readFileSync('./public/style.css', 'utf8')
 var js = fs.readFileSync('./public/index.js', 'utf8')
 var html = fs.readFileSync('./public/index.html', 'utf8')
+var invalidPage = fs.readFileSync('./public/404.html', 'utf8')
 
 var server = http.createServer(function(req,res) {
     console.log("request recieved. URL:", req.url)
@@ -31,6 +32,13 @@ var server = http.createServer(function(req,res) {
         res.setHeader('content-type', 'application/javascript')
         res.write(js)
     }
+    else {
+        res.statusCode = 404
+        res.statusMessage = "File not found"
+        res.setHeader('content-type', 'text/html')
+        res.write(invalidPage)
+    }
+    res.end()
 })
 
 
