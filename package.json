@@ -2,7 +2,7 @@
   "name": "ethic-eat",
   "description": "Repository for CS 361 Team 5's Software Engineering Project",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
