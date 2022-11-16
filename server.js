@@ -1,7 +1,7 @@
 /*
  * Temp file to load pages
  * Use "npm start" in home repo to start program in production
- * Use "npm dev" to run in developer mode (automatic refresh)
+ * Use "npm run dev" to run in developer mode (automatic server refresh)
  * - Dom
  */
 
@@ -10,6 +10,8 @@ var fs = require('fs')
 var css = fs.readFileSync('./public/style.css', 'utf8')
 var js = fs.readFileSync('./public/index.js', 'utf8')
 var html = fs.readFileSync('./public/index.html', 'utf8')
+var aboutUs = fs.readFileSync('./public/aboutus.html', 'utf8')
+var savedItems = fs.readFileSync('./public/saveditems.html', 'utf8')
 var invalidPage = fs.readFileSync('./public/404.html', 'utf8')
 
 var server = http.createServer(function(req,res) {
@@ -20,6 +22,18 @@ var server = http.createServer(function(req,res) {
         res.setHeader('content-type', 'text/html')
         res.write(html)
     }
+    else if (req.url === "/aboutus.html") {
+      res.statusCode = 200
+      res.statusMessage = "Success"
+      res.setHeader('content-type', 'text/html')
+      res.write(aboutUs)
+    }
+    else if (req.url === "/saveditems.html") {
+        res.statusCode = 200
+        res.statusMessage = "Success"
+        res.setHeader('content-type', 'text/html')
+        res.write(savedItems)
+      }
     else if (req.url === "/style.css") {
         res.statusCode = 200
         res.statusMessage = "Success"
