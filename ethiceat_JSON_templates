@@ -1,0 +1,39 @@
+Template for ingredients 
+{
+	"name" : "Cucumber",
+	// Whatever the database ID is, don't worry about it for now
+	"id" : 1,
+	"type" : "ingredient",
+	// (int 1-10)
+	"ethicalityScore" : 8,
+	"textDescription" : "Cucumbers are a great ingredient to use in salads...",
+	"vegetarian" : true,
+	"vegan" : true,
+	"produce" : true,
+	// Array of months in season represented as ints
+	"inSeasonMonths" : [ 1, 2, 10, 11, 12],
+	// Array of alternative ingredients (strings)
+	"alternatives" : []
+}
+
+Template for brands
+{
+	"name" : "Nestle",
+	// Whatever the database ID is, don't worry about it for now
+	"id" : 3,
+	"type" : "brand",
+	// (int 1-10)
+	"ethicalityScore" : 5,
+	"textDescription" : "Nestle is a large corporation known for xyz...",
+	// Array of alternative brands (strings)
+	"alternatives" : []
+}
+
+Template for recipes
+{
+	"name" : "Spaghetti and Meatballs",
+	"id" : 2,
+	"type" : "recipe",
+	// Array of ingredients as strings (each ingredient will all have their own JSON object)
+	"ingredients" : [ "noodles", "sauce", "cheese", "beef meatballs" ]
+}
