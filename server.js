@@ -5,58 +5,25 @@
  * - Dom
  */
 
-var http = require('http')
+var path = require('path')
+var express = require('express')
 var fs = require('fs')
-var css = fs.readFileSync('./public/style.css', 'utf8')
-var js = fs.readFileSync('./public/index.js', 'utf8')
-var html = fs.readFileSync('./public/index.html', 'utf8')
-var aboutUs = fs.readFileSync('./public/aboutus.html', 'utf8')
-var savedItems = fs.readFileSync('./public/saveditems.html', 'utf8')
-var invalidPage = fs.readFileSync('./public/404.html', 'utf8')
 
-var server = http.createServer(function(req,res) {
-    console.log("request recieved. URL:", req.url)
-    if (req.url === "/" || req.url === "/index.html") {
-        res.statusCode = 200
-        res.statusMessage = "Success"
-        res.setHeader('content-type', 'text/html')
-        res.write(html)
-    }
-    else if (req.url === "/aboutus.html") {
-      res.statusCode = 200
-      res.statusMessage = "Success"
-      res.setHeader('content-type', 'text/html')
-      res.write(aboutUs)
-    }
-    else if (req.url === "/saveditems.html") {
-        res.statusCode = 200
-        res.statusMessage = "Success"
-        res.setHeader('content-type', 'text/html')
-        res.write(savedItems)
-      }
-    else if (req.url === "/style.css") {
-        res.statusCode = 200
-        res.statusMessage = "Success"
-        res.setHeader('content-type', 'text/css')
-        res.write(css)
-    }
-    else if (req.url === "/index.js") {
-        res.statusCode = 200
-        res.statusMessage = "Success"
-        res.setHeader('content-type', 'application/javascript')
-        res.write(js)
-    }
-    else {
-        res.statusCode = 404
-        res.statusMessage = "File not found"
-        res.setHeader('content-type', 'text/html')
-        res.write(invalidPage)
-    }
-    res.end()
+var app = express()
+var port = process.env.PORT || 3000
+
+
+app.use(express.json())
+app.use(express.static('public'))
+
+app.get('/', function(req, res) { 
+    res.status(200).render('./index.html')
 })
 
+app.get('*', function(req, res) {
+    res.status(404).render('./404.html')
+})
 
-var port = (process.env.PORT === undefined)? 3000 : process.env.PORT
-server.listen(port, function () {
-    console.log("server is listening on port", port)
+app.listen(port, function () {
+    console.log("== Server is listening on port", port)
 })
