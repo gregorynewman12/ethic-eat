@@ -20,6 +20,14 @@ app.get('/', function(req, res) {
     res.status(200).render('./index.html')
 })
 
+app.get('/aboutus.html', function(req, res) { 
+    res.status(200).render('./aboutus.html')
+})
+
+app.get('/saveditems.html', function(req, res) { 
+    res.status(200).render('./saveditems.html')
+})
+
 app.get('*', function(req, res) {
     res.status(404).render('./404.html')
 })
