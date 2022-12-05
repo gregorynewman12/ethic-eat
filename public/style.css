@@ -384,6 +384,7 @@ header {
     background-color: rgb(0, 48, 0);
     font-size: 18px;
     min-height: 100vh;
+    margin-right: 0px
 }
 
 .navlist {
@@ -406,4 +407,8 @@ header {
 .navitem a.active {
     border-left: 5px solid white;
     padding-left: 25px;
+}
+
+.content {
+    display: flex;
 }
