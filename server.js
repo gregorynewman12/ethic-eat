@@ -7,28 +7,32 @@
 
 var path = require('path')
 var express = require('express')
+var exphbs = require("express-handlebars")
+var items = require("./items.json")
 var fs = require('fs')
-
 var app = express()
 var port = process.env.PORT || 3000
 
+app.engine('handlebars', exphbs.engine({
+}))
+app.set("view engine", "handlebars")
 
 app.use(express.json())
 app.use(express.static('public'))
 
-app.get('/', function(req, res) { 
+app.get('/', function (req, res) {
     res.status(200).render('./index.html')
 })
 
-app.get('/aboutus.html', function(req, res) { 
+app.get('/aboutus.html', function (req, res) {
     res.status(200).render('./aboutus.html')
 })
 
-app.get('/saveditems.html', function(req, res) { 
+app.get('/saveditems.html', function (req, res) {
     res.status(200).render('./saveditems.html')
 })
 
-app.get('*', function(req, res) {
+app.get('*', function (req, res) {
     res.status(404).render('./404.html')
 })
 

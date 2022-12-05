@@ -58,6 +58,9 @@ header {
 
 .body-container {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     width: 100vw;
     min-height: 70vh;
 }
@@ -261,6 +264,117 @@ header {
 
 #modal-cancel:hover,
 #modal-accept:hover {
+    cursor: pointer;
+    background-color: rgb(0, 48, 0);
+}
+
+/* Item Card Section */
+
+.item {
+    display: inline-block;
+    min-width: 900px;
+    max-width: 900px;
+    min-height: 300px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: lightgreen;
+    margin: 10px 50px 10px 50px;
+    padding: 10px;
+}
+
+.item-contents {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.item-image-container img {
+    max-width: 200px;
+    max-height: 200px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+.item-info-container {
+    display: grid;
+    grid-template-columns: 35% 35% 30%;
+    grid-column-gap: 1em;
+    grid-template-rows: 30% 45% 25%;
+    grid-template-areas: "name name score"
+        "description description inseason"
+        "alternatives alternatives savebutton";
+    height: 100%;
+    width: 100%;
+    margin: 15px;
+    padding: 10px;
+}
+
+.item-name {
+    grid-area: name;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.ethicality-score {
+    grid-area: score;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.item-description {
+    grid-area: description;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.in-season-indicator {
+    grid-area: inseason;
+    font-size: 24px;
+    color: white;
+    background-color: darkgreen;
+    height: 32px;
+    width: fit-content;
+    margin-top: 25px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.out-of-season-indicator {
+    grid-area: inseason;
+    font-size: 24px;
+    color: white;
+    background-color: rgb(168, 0, 0);
+    height: 32px;
+    width: fit-content;
+    margin-top: 25px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.alternatives {
+    grid-area: alternatives;
+    font-size: 24px;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+
+.save-item-button {
+    grid-area: savebutton;
+    font-size: 24px;
+    color: white;
+    background-color: darkgreen;
+    height: fit-content;
+    width: fit-content;
+    margin: 10px 0 0 35px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.save-item-button:hover {
     cursor: pointer;
     background-color: rgb(0, 48, 0);
 }
