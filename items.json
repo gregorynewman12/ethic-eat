@@ -1,402 +1,600 @@
-{
-	"name" : "Cucumber",
-	"id" : 1,
-	"type" : "ingredient",
-	// (int 1-10)
-	"ethicalityScore" : 8,
-	"textDescription" : "Cucumbers are a great ingredient to use in salads...",
-	"vegetarian" : true,
-	"vegan" : true,
-	"produce" : true,
-	// Array of months in season represented as ints
-	"inSeasonMonths" : [ 1, 2, 10, 11, 12],
-	// Array of alternative ingredients (strings)
-	"alternatives" : []
-}
-
-{
-	"name" : "Chicken breast",
-	"id" : 2,
-	"type" : "ingredient",
-	// (int 1-10)
-	"ethicalityScore" : 8,
-	"textDescription" : "Fred Meyer store bran chicken",
-	"vegetarian" : false,
-	"vegan" : false,
-	"produce" : false,
-	// Array of months in season represented as ints
-	"inSeasonMonths" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-	// Array of alternative ingredients (strings)
-	"alternatives" : ["Daring Original Plant Chicken Pieces"]
-}
-
-{
-	"name" : "Daring Original Plant Chicken Pieces",
-	"id" : 3,
-	"type" : "ingredient",
-	// (int 1-10)
-	"ethicalityScore" : 10,
-	"textDescription" : "Daring Plant Based Chicken Alternative",
-	"vegetarian" : true,
-	"vegan" : true,
-	"produce" : false,
-	// Array of months in season represented as ints
-	"inSeasonMonths" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-	// Array of alternative ingredients (strings)
-	"alternatives" : ["Chicken Breast"]
-}
-
-{
-	"name" : "Red Bell Peppers",
-	"id" : 4,
-	"type" : "ingredient",
-	// (int 1-10)
-	"ethicalityScore" : 8,
-	"textDescription" : "Lovely red peppers",
-	"vegetarian" : true,
-	"vegan" : true,
-	"produce" : true,
-	// Array of months in season represented as ints
-	"inSeasonMonths" : [7, 8, 9],
-	// Array of alternative ingredients (strings)
-	"alternatives" : ["Green Bell Peppers", "Yellow Bell Peppers"]
-}
-
-{
-	"name" : "Yellow Bell Peppers",
-	"id" :5,
-	"type" : "ingredient",
-	// (int 1-10)
-	"ethicalityScore" : 8,
-	"textDescription" : "Lovely yrllow peppers",
-	"vegetarian" : true,
-	"vegan" : true,
-	"produce" : true,
-	// Array of months in season represented as ints
-	"inSeasonMonths" : [7, 8, 9],
-	// Array of alternative ingredients (strings)
-	"alternatives" : ["Green Bell Peppers", "Red Bell Peppers"]
-}
-
-{
-	"name" : "Green Bell Peppers",
-	"id" :6,
-	"type" : "ingredient",
-	// (int 1-10)
-	"ethicalityScore" : 8,
-	"textDescription" : "Lovely green peppers",
-	"vegetarian" : true,
-	"vegan" : true,
-	"produce" : true,
-	// Array of months in season represented as ints
-	"inSeasonMonths" : [7, 8, 9],
-	// Array of alternative ingredients (strings)
-	"alternatives" : ["Yellow Bell Peppers", "Red Bell Peppers"]
-}
-
-{
-	"name" : "Steak",
-	"id" :7,
-	"type" : "ingredient",
-	// (int 1-10)
-	"ethicalityScore" : 6,
-	"textDescription" : "Fred Meyer Steaks.",
-	"vegetarian" : false,
-	"vegan" : false,
-	"produce" : false,
-	// Array of months in season represented as ints
-	"inSeasonMonths" : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-	// Array of alternative ingredients (strings)
-	"alternatives" : [""]
-}
-
-{
-	"name" : "Red Onion",
-	"id" :8,
-	"type" : "ingredient",
-	// (int 1-10)
-	"ethicalityScore" : 9,
-	"textDescription" : "Jumbo red onions.",
-	"vegetarian" : true,
-	"vegan" : true,
-	"produce" : true,
-	// Array of months in season represented as ints
-	"inSeasonMonths" : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-	// Array of alternative ingredients (strings)
-	"alternatives" : ["Sweet Onions"]
-}
-
-{
-	"name" : "Sweet Onions",
-	"id" :9,
-	"type" : "ingredient",
-	// (int 1-10)
-	"ethicalityScore" : 9,
-	"textDescription" : "Jumbo sweet onions.",
-	"vegetarian" : true,
-	"vegan" : true,
-	"produce" : true,
-	// Array of months in season represented as ints
-	"inSeasonMonths" : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-	// Array of alternative ingredients (strings)
-	"alternatives" : ["Red Onions"]
-}
-
-{
-	"name" : "Ground Lamb",
-	"id" :10,
-	"type" : "ingredient",
-	// (int 1-10)
-	"ethicalityScore" : 9,
-	"textDescription" : "Simple Truth Ground Lamb.",
-	"vegetarian" : false,
-	"vegan" : false,
-	"produce" : false,
-	// Array of months in season represented as ints
-	"inSeasonMonths" : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-	// Array of alternative ingredients (strings)
-	"alternatives" : ["Beyond Meat Plant Based Ground-Beef"]
-}
-
-{
-	"name" : "Beyond Meat Plant Based Ground-Beef",
-	"id" :11,
-	"type" : "ingredient",
-	// (int 1-10)
-	"ethicalityScore" : 10,
-	"textDescription" : "Plant based ground beef alternative.",
-	"vegetarian" : true,
-	"vegan" : true,
-	"produce" : false,
-	// Array of months in season represented as ints
-	"inSeasonMonths" : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-	// Array of alternative ingredients (strings)
-	"alternatives" : ["Ground Lamb", "Ground Beef"]
-}
-
-{
-	"name" : "Ground-Beef",
-	"id" :12,
-	"type" : "ingredient",
-	// (int 1-10)
-	"ethicalityScore" : 7,
-	"textDescription" : "Fred Meyer Ground-Beef.",
-	"vegetarian" : false,
-	"vegan" : false,
-	"produce" : false,
-	// Array of months in season represented as ints
-	"inSeasonMonths" : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-	// Array of alternative ingredients (strings)
-	"alternatives" : ["Ground Lamb", "Beyond Meat Plant Based Ground Beef"]
-}
-
-{
-	"name" : "Paprika",
-	"id" :13,
-	"type" : "ingredient",
-	// (int 1-10)
-	"ethicalityScore" : 7,
-	"textDescription" : "Paprika spice.",
-	"vegetarian" : true,
-	"vegan" : true,
-	"produce" : false,
-	// Array of months in season represented as ints
-	"inSeasonMonths" : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-	// Array of alternative ingredients (strings)
-	"alternatives" : [""]
-}
-
-{
-	"name" : "Table Salt",
-	"id" :14,
-	"type" : "ingredient",
-	// (int 1-10)
-	"ethicalityScore" : 10,
-	"textDescription" : "Regular Table Salt.",
-	"vegetarian" : true,
-	"vegan" : true,
-	"produce" : false,
-	// Array of months in season represented as ints
-	"inSeasonMonths" : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-	// Array of alternative ingredients (strings)
-	"alternatives" : ["Himalyan Salt"]
-}
-
-{
-	"name" : "Himalyan Salt",
-	"id" :15,
-	"type" : "ingredient",
-	// (int 1-10)
-	"ethicalityScore" : 9,
-	"textDescription" : "Himalyan Salt.",
-	"vegetarian" : true,
-	"vegan" : true,
-	"produce" : false,
-	// Array of months in season represented as ints
-	"inSeasonMonths" : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-	// Array of alternative ingredients (strings)
-	"alternatives" : ["Table Salt"]
-}
-
-{
-	"name" : "Cilantro",
-	"id" :25,
-	"type" : "ingredient",
-	// (int 1-10)
-	"ethicalityScore" : 10,
-	"textDescription" : "Cilantro leaves.",
-	"vegetarian" : true,
-	"vegan" : true,
-	"produce" : true,
-	// Array of months in season represented as ints
-	"inSeasonMonths" : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-	// Array of alternative ingredients (strings)
-	"alternatives" : []
-}
-
-{
-	"name" : "Mint Leaves",
-	"id" :26,
-	"type" : "ingredient",
-	// (int 1-10)
-	"ethicalityScore" : 10,
-	"textDescription" : "Fresh mint leaves.",
-	"vegetarian" : true,
-	"vegan" : true,
-	"produce" : true,
-	// Array of months in season represented as ints
-	"inSeasonMonths" : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-	// Array of alternative ingredients (strings)
-	"alternatives" : []
-}
-
-{
-	"name" : "Parsley",
-	"id" :27,
-	"type" : "ingredient",
-	// (int 1-10)
-	"ethicalityScore" : 10,
-	"textDescription" : "Fresh parsley bunch.",
-	"vegetarian" : true,
-	"vegan" : true,
-	"produce" : true,
-	// Array of months in season represented as ints
-	"inSeasonMonths" : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-	// Array of alternative ingredients (strings)
-	"alternatives" : []
-}
-
-{
-	"name" : "JIF Creamy Peanut Butter",
-	"id" :16,
-	"type" : "ingredient",
-	// (int 1-10)
-	"ethicalityScore" : 7,
-	"textDescription" : "JIF Creamy Peanut Butter with no chunks.",
-	"vegetarian" : true,
-	"vegan" : true,
-	"produce" : false,
-	// Array of months in season represented as ints
-	"inSeasonMonths" : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-	// Array of alternative ingredients (strings)
-	"alternatives" : ["Skippy Chunky Peanut Butter"]
-}
-
-{
-	"name" : "Skippy Crunchy Peanut Butter",
-	"id" :17,
-	"type" : "ingredient",
-	// (int 1-10)
-	"ethicalityScore" : 7,
-	"textDescription" : "Skippy Crunchy peanut butter with chunks.",
-	"vegetarian" : true,
-	"vegan" : true,
-	"produce" : false,
-	// Array of months in season represented as ints
-	"inSeasonMonths" : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-	// Array of alternative ingredients (strings)
-	"alternatives" : ["JIF Creamy Penut Butter"]
-}
-
-Template for brands
-{
-	"name" : "Nestle",
-	// Whatever the database ID is, don't worry about it for now
-	"id" : 18,
-	"type" : "brand",
-	// (int 1-10)
-	"ethicalityScore" : 2,
-	"textDescription" : "Nestle is a large corporation with an extensive history of unethical behaior.",
-	// Array of alternative brands (strings)
-	"alternatives" : []
-}
-
-Template for brands
-{
-	"name" : "Kroger",
-	// Whatever the database ID is, don't worry about it for now
-	"id" : 19,
-	"type" : "brand",
-	// (int 1-10)
-	"ethicalityScore" : 8,
-	"textDescription" : "Kroger brand is the generic brand in Kroger owned stores",
-	// Array of alternative brands (strings)
-	"alternatives" : []
-}
-
-Template for brands
-{
-	"name" : "Simple Truth",
-	// Whatever the database ID is, don't worry about it for now
-	"id" : 20,
-	"type" : "brand",
-	// (int 1-10)
-	"ethicalityScore" : 9,
-	"textDescription" : "Simple Truth is a Kroger owned brand for their organic products.",
-	// Array of alternative brands (strings)
-	"alternatives" : []
-}
-
-Template for brands
-{
-	"name" : "Jif",
-	// Whatever the database ID is, don't worry about it for now
-	"id" : 21,
-	"type" : "brand",
-	// (int 1-10)
-	"ethicalityScore" : 8,
-	"textDescription" : "Jif Peanut butter.",
-	// Array of alternative brands (strings)
-	"alternatives" : ["Skippy"]
-}
-
-Template for brands
-{
-	"name" : "Skippy",
-	// Whatever the database ID is, don't worry about it for now
-	"id" : 22,
-	"type" : "brand",
-	// (int 1-10)
-	"ethicalityScore" : 8,
-	"textDescription" : "Skippy Peanut butter.",
-	// Array of alternative brands (strings)
-	"alternatives" : ["Jif"]
-}
-
-Template for recipes
-{
-	"name" : "Steak Kebabs",
-	"id" : 23,
-	"type" : "recipe",
-	// Array of ingredients as strings (each ingredient will all have their own JSON object)
-	"ingredients" : [ "Steak", "Red Bell Peppers", "Yellow Bell Peppers", "Red Onions" ]
-}
-
-Template for recipes
-{
-	"name" : "Lamb Kebabs",
-	"id" : 24,
-	"type" : "recipe",
-	// Array of ingredients as strings (each ingredient will all have their own JSON object)
-	"ingredients" : [ "Ground Lamb", "Table Salt", "Paprika", "Cilantro", "Mint Leaves", "Parsley" ]
-}
+[
+	{
+		"name": "Cucumber",
+		"id": 1,
+		"imageURL": "https://images.heb.com/is/image/HEBGrocery/000319432?fit=constrain,1&wid=800&hei=800&fmt=jpg&qlt=85,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+		"type": "ingredient",
+		"ethicalityScore": 8,
+		"textDescription": "Cucumbers are a great ingredient to use in salads...",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": true,
+		"inSeasonMonths": [
+			1,
+			2,
+			10,
+			11,
+			12
+		],
+		"alternatives": []
+	},
+	{
+		"name": "Chicken breast",
+		"id": 2,
+		"imageURL": "https://images.albertsons-media.com/is/image/ABS/960082098?$ng-ecom-pdp-desktop$&defaultImage=Not_Available",
+		"type": "ingredient",
+		"ethicalityScore": 8,
+		"textDescription": "Fred Meyer store brand chicken",
+		"vegetarian": false,
+		"vegan": false,
+		"produce": false,
+		"inSeasonMonths": [
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12
+		],
+		"alternatives": [
+			"Daring Original Plant Chicken Pieces"
+		]
+	},
+	{
+		"name": "Daring Original Plant Chicken Pieces",
+		"id": 3,
+		"imageURL": "https://images.heb.com/is/image/HEBGrocery/006470516",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Daring Plant Based Chicken Alternative",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeasonMonths": [
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12
+		],
+		"alternatives": [
+			"Chicken Breast"
+		]
+	},
+	{
+		"name": "Red Bell Peppers",
+		"id": 4,
+		"imageURL": "https://m.media-amazon.com/images/S/assets.wholefoodsmarket.com/PIE/product/5b34f624e54acd7021de4922_redbellpepper-1.jpg",
+		"type": "ingredient",
+		"ethicalityScore": 8,
+		"textDescription": "Lovely red peppers",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": true,
+		"inSeasonMonths": [
+			7,
+			8,
+			9
+		],
+		"alternatives": [
+			"Green Bell Peppers",
+			"Yellow Bell Peppers"
+		]
+	},
+	{
+		"name": "Yellow Bell Peppers",
+		"id": 5,
+		"imageURL": "https://i5.walmartimages.com/asr/4afb6fc7-4b33-4dc9-b938-035666ab2fe6.dca886c2d62ffc4a948e28a2d0039ea2.jpeg",
+		"type": "ingredient",
+		"ethicalityScore": 8,
+		"textDescription": "Lovely yellow peppers",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": true,
+		"inSeasonMonths": [
+			7,
+			8,
+			9
+		],
+		"alternatives": [
+			"Green Bell Peppers",
+			"Red Bell Peppers"
+		]
+	},
+	{
+		"name": "Green Bell Peppers",
+		"id": 6,
+		"imageURL": "https://target.scene7.com/is/image/Target/GUEST_484810f6-4c45-476a-83c3-d91bc2ec005a",
+		"type": "ingredient",
+		"ethicalityScore": 8,
+		"textDescription": "Lovely green peppers",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": true,
+		"inSeasonMonths": [
+			7,
+			8,
+			9
+		],
+		"alternatives": [
+			"Yellow Bell Peppers",
+			"Red Bell Peppers"
+		]
+	},
+	{
+		"name": "Steak",
+		"id": 7,
+		"imageURL": "https://embed.widencdn.net/img/beef/ng96sbyljl/800x600px/Ribeye%20Steak_Lip-on.psd?keep=c&u=7fueml",
+		"type": "ingredient",
+		"ethicalityScore": 6,
+		"textDescription": "Fred Meyer Steaks.",
+		"vegetarian": false,
+		"vegan": false,
+		"produce": false,
+		"inSeasonMonths": [
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12
+		],
+		"alternatives": [
+			""
+		]
+	},
+	{
+		"name": "Red Onion",
+		"id": 8,
+		"imageURL": "https://images.albertsons-media.com/is/image/ABS/184450056?$ng-ecom-pdp-mobile$&defaultImage=Not_Available",
+		"type": "ingredient",
+		"ethicalityScore": 9,
+		"textDescription": "Jumbo red onions.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": true,
+		"inSeasonMonths": [
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12
+		],
+		"alternatives": [
+			"Sweet Onions"
+		]
+	},
+	{
+		"name": "Sweet Onions",
+		"id": 9,
+		"imageURL": "https://i5.walmartimages.com/asr/ad10f097-b720-45a4-881d-8336dfde0b1b.da769cece43bb81239c46e2b360eee78.png",
+		"type": "ingredient",
+		"ethicalityScore": 9,
+		"textDescription": "Jumbo sweet onions.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": true,
+		"inSeasonMonths": [
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12
+		],
+		"alternatives": [
+			"Red Onions"
+		]
+	},
+	{
+		"name": "Ground Lamb",
+		"id": 10,
+		"imageURL": "https://www.vicfarmmeats.com/site/wp-content/uploads/1970/01/GrLamb_Web.jpg",
+		"type": "ingredient",
+		"ethicalityScore": 9,
+		"textDescription": "Simple Truth Ground Lamb.",
+		"vegetarian": false,
+		"vegan": false,
+		"produce": false,
+		"inSeasonMonths": [
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12
+		],
+		"alternatives": [
+			"Beyond Meat Plant Based Ground-Beef"
+		]
+	},
+	{
+		"name": "Beyond Meat Plant Based Ground-Beef",
+		"id": 11,
+		"imageURL": "https://m.media-amazon.com/images/I/71nsPK88NwL.jpg",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Plant based ground beef alternative.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeasonMonths": [
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12
+		],
+		"alternatives": [
+			"Ground Lamb",
+			"Ground Beef"
+		]
+	},
+	{
+		"name": "Ground Beef",
+		"id": 12,
+		"imageURL": "https://embed.widencdn.net/img/beef/4hh1pywcnj/800x600px/Grind_Fine_85.psd?keep=c&u=7fueml",
+		"type": "ingredient",
+		"ethicalityScore": 7,
+		"textDescription": "Fred Meyer Ground-Beef.",
+		"vegetarian": false,
+		"vegan": false,
+		"produce": false,
+		"inSeasonMonths": [
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12
+		],
+		"alternatives": [
+			"Ground Lamb",
+			"Beyond Meat Plant Based Ground Beef"
+		]
+	},
+	{
+		"name": "Paprika",
+		"id": 13,
+		"imageURL": "https://www.seriouseats.com/thmb/_al2VX_jcg0BDwceiagmuzPiUmw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__20100520-paprika-primary-242cc11b9ff1449c9c3a90ab08eb7615.jpg",
+		"type": "ingredient",
+		"ethicalityScore": 7,
+		"textDescription": "Paprika spice.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeasonMonths": [
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12
+		],
+		"alternatives": [
+			""
+		]
+	},
+	{
+		"name": "Table Salt",
+		"id": 14,
+		"imageURL": "https://www.washingtonpost.com/rf/image_1484w/2010-2019/WashingtonPost/2015/11/17/Production/LocalLiving/Images/we-salt1119.jpg?t=20170517",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Regular Table Salt.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeasonMonths": [
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12
+		],
+		"alternatives": [
+			"Himalyan Salt"
+		]
+	},
+	{
+		"name": "Himalayan Salt",
+		"id": 15,
+		"imageURL": "https://m.media-amazon.com/images/I/91OlaEe6SGL.jpg",
+		"type": "ingredient",
+		"ethicalityScore": 9,
+		"textDescription": "Himalyan Salt.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeasonMonths": [
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12
+		],
+		"alternatives": [
+			"Table Salt"
+		]
+	},
+	{
+		"name": "Cilantro",
+		"id": 25,
+		"imageURL": "https://cdn-prod.medicalnewstoday.com/content/images/articles/277/277627/bunch-of-fresh-coriander-or-cilantro-on-a-wooden-table.jpg",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Cilantro leaves.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": true,
+		"inSeasonMonths": [
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12
+		],
+		"alternatives": []
+	},
+	{
+		"name": "Mint Leaves",
+		"id": 26,
+		"imageURL": "https://img.freepik.com/free-photo/fresh-mint-leaves-isolated_144627-30022.jpg",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Fresh mint leaves.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": true,
+		"inSeasonMonths": [
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12
+		],
+		"alternatives": []
+	},
+	{
+		"name": "Parsley",
+		"id": 27,
+		"imageURL": "https://cdn.britannica.com/62/193862-050-4A7DBC6F/Parsley.jpg",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Fresh parsley bunch.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": true,
+		"inSeasonMonths": [
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12
+		],
+		"alternatives": []
+	},
+	{
+		"name": "JIF Creamy Peanut Butter",
+		"id": 16,
+		"imageURL": "https://target.scene7.com/is/image/Target/GUEST_decde04c-a08a-405d-a1c7-515c2c400afa?wid=488&hei=488&fmt=pjpeg",
+		"type": "ingredient",
+		"ethicalityScore": 7,
+		"textDescription": "JIF Creamy Peanut Butter with no chunks.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeasonMonths": [
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12
+		],
+		"alternatives": [
+			"Skippy Chunky Peanut Butter"
+		]
+	},
+	{
+		"name": "Skippy Crunchy Peanut Butter",
+		"id": 17,
+		"imageURL": "https://www.peanutbutter.com/wp-content/uploads/2019/03/SKIPPY_Product_PB_Spread_Super_Chunk_Peanut_Butter_28oz.png",
+		"type": "ingredient",
+		"ethicalityScore": 7,
+		"textDescription": "Skippy Crunchy peanut butter with chunks.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeasonMonths": [
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10,
+			11,
+			12
+		],
+		"alternatives": [
+			"JIF Creamy Penut Butter"
+		]
+	},
+	{
+		"name": "Nestle",
+		"id": 18,
+		"imageURL": "https://xtalks.com/wp-content/uploads/2021/06/5537492450_5c1e01a8d6_b.jpeg",
+		"type": "brand",
+		"ethicalityScore": 2,
+		"textDescription": "Nestle is a large corporation with an extensive history of unethical behaior.",
+		"alternatives": []
+	},
+	{
+		"name": "Kroger",
+		"id": 19,
+		"imageURL": "https://yt3.ggpht.com/ytc/AMLnZu-KJG9ZQmdjaTs9W36hp3nJlk_kDEbgB1wpSCdgFw=s900-c-k-c0x00ffffff-no-rj",
+		"type": "brand",
+		"ethicalityScore": 8,
+		"textDescription": "Kroger brand is the generic brand in Kroger owned stores",
+		"alternatives": []
+	},
+	{
+		"name": "Simple Truth",
+		"id": 20,
+		"imageURL": "https://www.cornucopia.org/wp-content/uploads/2021/12/Simple_Truth-9-1-1-1-3-1-2-1-1-1-1-1-2-205x200.png",
+		"type": "brand",
+		"ethicalityScore": 9,
+		"textDescription": "Simple Truth is a Kroger owned brand for their organic products.",
+		"alternatives": []
+	},
+	{
+		"name": "Jif",
+		"id": 21,
+		"imageURL": "https://m.media-amazon.com/images/I/71eHIqo9bdL.jpg",
+		"type": "brand",
+		"ethicalityScore": 8,
+		"textDescription": "Jif Peanut butter.",
+		"alternatives": [
+			"Skippy"
+		]
+	},
+	{
+		"name": "Skippy",
+		"id": 22,
+		"imageURL": "https://www.peanutbutter.com/wp-content/uploads/2019/03/SKIPPY_Product_PB_Spread_Creamy_Peanut_Butter_28oz.png",
+		"type": "brand",
+		"ethicalityScore": 8,
+		"textDescription": "Skippy Peanut butter.",
+		"alternatives": [
+			"Jif"
+		]
+	},
+	{
+		"name": "Steak Kebabs",
+		"id": 23,
+		"imageURL": "https://www.cookingclassy.com/wp-content/uploads/2017/04/steak-kebabs-12.jpg",
+		"type": "recipe",
+		"ingredients": [
+			"Steak",
+			"Red Bell Peppers",
+			"Yellow Bell Peppers",
+			"Red Onions"
+		]
+	},
+	{
+		"name": "Lamb Kebabs",
+		"id": 24,
+		"imageURL": "https://www.halfbakedharvest.com/wp-content/uploads/2017/02/Mediterranean-Grilled-Lamb-Kebabs-1.jpg",
+		"type": "recipe",
+		"ingredients": [
+			"Ground Lamb",
+			"Table Salt",
+			"Paprika",
+			"Cilantro",
+			"Mint Leaves",
+			"Parsley"
+		]
+	}
+]
