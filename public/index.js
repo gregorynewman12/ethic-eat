@@ -39,8 +39,8 @@ function closeMultipleIngredientsModal(event) {
     var inputBoxes = [recipeName, ing1, ing2, ing3, ing4, ing5, ing6,
         ing7, ing8, ing9, ing10]
     for (var i = 0; i < inputBoxes.length; i++) {
-        if (textElements[i].value != "") {
-            textElements[i].value = ""
+        if (inputBoxes[i].value != "") {
+            inputBoxes[i].value = ""
         }
     }
 }
@@ -71,8 +71,8 @@ function closeUserModal(event) {
     var inputBoxes = [recipeName, ing1, ing2, ing3, ing4, ing5, ing6,
         ing7, ing8, ing9, ing10]
     for (var i = 0; i < inputBoxes.length; i++) {
-        if (textElements[i].value != "") {
-            textElements[i].value = ""
+        if (inputBoxes[i].value != "") {
+            inputBoxes[i].value = ""
         }
     }
 }
