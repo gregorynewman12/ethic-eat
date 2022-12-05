@@ -272,13 +272,12 @@ header {
 
 .item {
     display: inline-block;
-    min-width: 900px;
-    max-width: 900px;
-    min-height: 300px;
+    width: 900px;
+    height: 300px;
     border: 1px solid black;
     border-radius: 20px;
     background-color: lightgreen;
-    margin: 10px 50px 10px 50px;
+    margin: 10px;
     padding: 10px;
 }
 
@@ -300,9 +299,10 @@ header {
     display: grid;
     grid-template-columns: 35% 35% 30%;
     grid-column-gap: 1em;
-    grid-template-rows: 30% 45% 25%;
+    grid-template-rows: 30% 20% 25% 25%;
     grid-template-areas: "name name score"
         "description description inseason"
+        "description description allergy"
         "alternatives alternatives savebutton";
     height: 100%;
     width: 100%;
@@ -341,6 +341,20 @@ header {
     border-radius: 4px;
 }
 
+.allergy-indicator {
+    grid-area: allergy;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(168, 0, 0);
+    height: fit-content;
+    width: 125px;
+    margin: 25px 0 0 15px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
 .out-of-season-indicator {
     grid-area: inseason;
     font-size: 24px;
@@ -368,7 +382,7 @@ header {
     background-color: darkgreen;
     height: fit-content;
     width: fit-content;
-    margin: 10px 0 0 35px;
+    margin: 20px 0 0 35px;
     padding: 5px;
     border: 2px solid black;
     border-radius: 4px;

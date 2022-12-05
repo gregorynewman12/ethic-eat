@@ -36,6 +36,9 @@
                 <button id="search-button">Search</button>
                 <button id="multiple-ingredients-search">Enter Multiple Ingredients</button>
             </div>
+            {{#each itemList}}
+            {{> item}}
+            {{/each}}
         </div>
     </main>
 
