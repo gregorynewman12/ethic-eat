@@ -28,7 +28,7 @@ app.get('/aboutus.html', function (req, res) {
     res.status(200).render('./aboutus.html')
 })
 
-app.get('/saveditems.html', function (req, res) {
+app.get('/saveditems', function(req, res) { 
     res.status(200).render('./saveditems.html')
 })
 
