@@ -1,0 +1,6 @@
+(function() {
+  var template = Handlebars.template, templates = Handlebars.templates = Handlebars.templates || {};
+templates['item'] = template({"compiler":[8,">= 4.3.0"],"main":function(container,depth0,helpers,partials,data) {
+    return "<div class=\"item\">\n    <div class=\"item-contents\">\n        <div class=\"item-image-container\">\n            <img src=\"https://holylandbrand.com/shop/wp-content/uploads/2020/09/tomato.jpg\" alt=\"Tomato\">\n        </div>\n        <div class=\"item-info-container\">\n            <h2 class=\"item-name\">Tomato</h2>\n            <h3 class=\"ethicality-score\">Score: 9</h3>\n            <p class=\"item-description\">\n                Tomatoes are ripe, flavorful fruits that have a variety of uses. They are also very sustainable, as\n                they can be grown in many different environments, climates, and even hydroponics bays!\n            </p>\n            <span class=\"in-season-indicator\">Out-Of-Season</span>\n            <h3 class=\"alternatives\">Alternatives: Red Bell Pepper, Eggplant, Zucchini</h3>\n            <button class=\"save-item-button\">+ Save</button>\n        </div>\n    </div>\n</div>";
+},"useData":true});
+})();
