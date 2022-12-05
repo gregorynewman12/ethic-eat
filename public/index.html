@@ -26,7 +26,7 @@
             <a href="index.html" id="home-link">Home</a>
             <a href="aboutus.html" id="about-link">About Us</a>
             <a href="saveditems.html" id="saved-items-link">Saved Items</a>
-            <a href="user.html" id="saved-items-link">User</a>
+            <button id="user-link">User</button>
         </div>
     </header>
 
@@ -41,13 +41,13 @@
     </main>
 
 
-    <div id="modal-backdrop" class="hidden"></div>
+    <div id="multiple-items-modal-backdrop" class="hidden"></div>
     <div id="multiple-items-modal" class="hidden">
         <div class="modal-dialog">
 
             <div class="modal-header">
                 <h3>Enter up to 10 Ingredients</h3>
-                <button type="button" id="modal-close" class="modal-hide-button">&times;</button>
+                <button type="button" id="ingredients-modal-close" class="modal-hide-button">&times;</button>
             </div>
 
             <div class="modal-body">
@@ -110,12 +110,47 @@
             </div>
 
             <div class="modal-footer">
-                <button type="button" id="modal-cancel" class="modal-hide-button action-button">Cancel</button>
-                <button type="button" id="modal-accept" class="action-button">Search</button>
+                <button type="button" id="ingredients-modal-cancel"
+                    class="modal-hide-button action-button">Cancel</button>
+                <button type="button" id="ingredients-modal-accept" class="action-button">Search</button>
             </div>
 
         </div>
     </div>
+
+    <div id="user-modal-backdrop" class="hidden"></div>
+    <div id="user-modal" class="hidden">
+        <div class="modal-dialog">
+
+            <div class="modal-header">
+                <h3>User Settings</h3>
+                <button type="button" id="user-modal-close" class="modal-hide-button">&times;</button>
+            </div>
+
+            <div class="modal-body">
+
+                <div class="input-element">
+                    <label for="diet-select">Selected Diet</label>
+                    <select name="diet-dropdown" id="diet">
+                        <option value="none">None</option>
+                        <option value="vegan">Vegan</option>
+                        <option value="vegetarian">Vegetarian</option>
+                    </select>
+                </div>
+
+                <div class="input-element">
+                    <label for="allergy-entry">Allergies</label>
+                    <input type="text" placeholder="" id="allergy-field">
+                    <button id="add-allergy-button">+ Add</button>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" id="user-modal-cancel" class="modal-hide-button action-button">Cancel</button>
+                    <button type="button" id="user-modal-accept" class="action-button">Confirm</button>
+                </div>
+
+            </div>
+        </div>
 </body>
 
 </html>
