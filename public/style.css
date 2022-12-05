@@ -392,3 +392,37 @@ header {
     cursor: pointer;
     background-color: rgb(0, 48, 0);
 }
+
+.navbar {
+    max-width: 300px;
+    background-color: rgb(0, 48, 0);
+    font-size: 18px;
+    min-height: 100vh;
+    margin-right: 0px
+}
+
+.navlist {
+    margin: 0 0 0 20px; 
+    padding: 0;
+}
+
+.navitem {
+    font-size: 36px;  
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 75px;
+}
+
+.navitem a {
+    color: white;
+    text-decoration: none;
+}
+
+.navitem a.active {
+    border-left: 5px solid white;
+    padding-left: 25px;
+}
+
+.content {
+    display: flex;
+}
