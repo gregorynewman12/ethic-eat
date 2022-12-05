@@ -30,12 +30,12 @@ html {
 
 .item-info-container {
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 35% 35% 30%;
     grid-column-gap: 1em;
     grid-template-rows: 30% 45% 25%;
-    grid-template-areas: "name score"
-        "description inseason"
-        "alternatives alternatives";
+    grid-template-areas: "name name score"
+        "description description inseason"
+        "alternatives alternatives savebutton";
     height: 100%;
     width: 100%;
     margin: 15px;
@@ -73,9 +73,40 @@ html {
     border-radius: 4px;
 }
 
+.out-of-season-indicator {
+    grid-area: inseason;
+    font-size: 24px;
+    color: white;
+    background-color: rgb(168, 0, 0);
+    height: 32px;
+    width: fit-content;
+    margin-top: 25px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
 .alternatives {
     grid-area: alternatives;
     font-size: 24px;
     padding-top: 5px;
     margin-top: 5px;
+}
+
+.save-item-button {
+    grid-area: savebutton;
+    font-size: 24px;
+    color: white;
+    background-color: darkgreen;
+    height: fit-content;
+    width: fit-content;
+    margin: 10px 0 0 35px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.save-item-button:hover {
+    cursor: pointer;
+    background-color: rgb(0, 48, 0);
 }

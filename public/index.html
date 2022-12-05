@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EthicEat</title>
+    <script src="index.js" charset="utf-8" defer></script>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,10 +31,89 @@
 
     <main class="content">
         <div class="body-container" id="body-container-home">
-            <input type="text" id="main-searchbar" placeholder="Enter an ingredient, recipe, or brand">
-            <button id="search-button">Search</button>
+            <div class="search-container">
+                <input type="text" id="main-searchbar" placeholder="Enter an ingredient, recipe, or brand">
+                <button id="search-button">Search</button>
+                <button id="multiple-ingredients-search">Enter Multiple Ingredients</button>
+            </div>
         </div>
     </main>
+
+    <div id="modal-backdrop" class="hidden"></div>
+    <div id="multiple-items-modal" class="hidden">
+        <div class="modal-dialog">
+
+            <div class="modal-header">
+                <h3>Enter up to 10 Ingredients</h3>
+                <button type="button" id="modal-close" class="modal-hide-button">&times;</button>
+            </div>
+
+            <div class="modal-body">
+
+                <div class="input-element">
+                    <label for="recipe-name-input">Recipe Name (Optional)</label>
+                    <input type="text" id="recipe-name"></input>
+                </div>
+
+                <div class="input-element">
+                    <label for="ingredient-1-input">Ingredient #1</label>
+                    <input type="text" id="ingredient-1">
+                </div>
+
+                <div class="input-element">
+                    <label for="ingredient-2-input">Ingredient #2</label>
+                    <input type="text" id="ingredient-2">
+                </div>
+
+                <div class="input-element">
+                    <label for="ingredient-3-input">Ingredient #3</label>
+                    <input type="text" id="ingredient-3">
+                </div>
+
+                <div class="input-element">
+                    <label for="ingredient-4-input">Ingredient #4</label>
+                    <input type="text" id="ingredient-4">
+                </div>
+
+                <div class="input-element">
+                    <label for="ingredient-5-input">Ingredient #5</label>
+                    <input type="text" id="ingredient-5">
+                </div>
+
+                <div class="input-element">
+                    <label for="ingredient-6-input">Ingredient #6</label>
+                    <input type="text" id="ingredient-6">
+                </div>
+
+                <div class="input-element">
+                    <label for="ingredient-7-input">Ingredient #7</label>
+                    <input type="text" id="ingredient-7">
+                </div>
+
+                <div class="input-element">
+                    <label for="ingredient-8-input">Ingredient #8</label>
+                    <input type="text" id="ingredient-8">
+                </div>
+
+                <div class="input-element">
+                    <label for="ingredient-9-input">Ingredient #9</label>
+                    <input type="text" id="ingredient-9">
+                </div>
+
+                <div class="input-element">
+                    <label for="ingredient-10-input">Ingredient #10</label>
+                    <input type="text" id="ingredient-10">
+                </div>
+
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" id="modal-cancel" class="modal-hide-button action-button">Cancel</button>
+                <button type="button" id="modal-accept" class="action-button">Search</button>
+            </div>
+
+        </div>
+    </div>
 </body>
 
 </html>
