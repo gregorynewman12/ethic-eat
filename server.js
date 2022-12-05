@@ -27,6 +27,12 @@ app.get('/', function(req, res){
     })
   
   })
+app.get('/index.html', function(req, res){
+    res.status(200).render('index',{
+        itemList: items
+    })
+  
+  })
 
 app.get('/aboutus.html', function (req, res) {
     res.status(200).render('aboutus')
