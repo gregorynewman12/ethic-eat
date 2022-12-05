@@ -29,15 +29,15 @@ app.get('/', function(req, res){
   })
 
 app.get('/aboutus.html', function (req, res) {
-    res.status(200).render('./aboutus.html')
+    res.status(200).render('aboutus')
 })
 
 app.get('/saveditems', function(req, res) { 
-    res.status(200).render('./saveditems.html')
+    res.status(200).render('saveditems')
 })
 
 app.get('*', function (req, res) {
-    res.status(404).render('./404.html')
+    res.status(404).render('404')
 })
 
 app.listen(port, function () {
