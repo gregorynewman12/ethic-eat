@@ -9,13 +9,7 @@
 		"vegetarian": true,
 		"vegan": true,
 		"produce": true,
-		"inSeasonMonths": [
-			1,
-			2,
-			10,
-			11,
-			12
-		],
+		"inSeason": "In Season",
 		"alternatives": []
 	},
 	{
@@ -27,21 +21,7 @@
 		"textDescription": "Fred Meyer store brand chicken",
 		"vegetarian": false,
 		"vegan": false,
-		"produce": false,
-		"inSeasonMonths": [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12
-		],
+		"inSeason": "In Season",
 		"alternatives": [
 			"Daring Original Plant Chicken Pieces"
 		]
@@ -55,21 +35,7 @@
 		"textDescription": "Daring Plant Based Chicken Alternative",
 		"vegetarian": true,
 		"vegan": true,
-		"produce": false,
-		"inSeasonMonths": [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12
-		],
+		"inSeason": "In Season",
 		"alternatives": [
 			"Chicken Breast"
 		]
@@ -84,11 +50,7 @@
 		"vegetarian": true,
 		"vegan": true,
 		"produce": true,
-		"inSeasonMonths": [
-			7,
-			8,
-			9
-		],
+		"inSeason": "Not in Season",
 		"alternatives": [
 			"Green Bell Peppers",
 			"Yellow Bell Peppers"
@@ -104,11 +66,7 @@
 		"vegetarian": true,
 		"vegan": true,
 		"produce": true,
-		"inSeasonMonths": [
-			7,
-			8,
-			9
-		],
+		"inSeason": "Not in Season",
 		"alternatives": [
 			"Green Bell Peppers",
 			"Red Bell Peppers"
@@ -124,11 +82,7 @@
 		"vegetarian": true,
 		"vegan": true,
 		"produce": true,
-		"inSeasonMonths": [
-			7,
-			8,
-			9
-		],
+		"inSeason": "Not in Season",
 		"alternatives": [
 			"Yellow Bell Peppers",
 			"Red Bell Peppers"
@@ -143,21 +97,7 @@
 		"textDescription": "Fred Meyer Steaks.",
 		"vegetarian": false,
 		"vegan": false,
-		"produce": false,
-		"inSeasonMonths": [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12
-		],
+		"inSeason": "In Season",
 		"alternatives": [
 			""
 		]
@@ -172,20 +112,7 @@
 		"vegetarian": true,
 		"vegan": true,
 		"produce": true,
-		"inSeasonMonths": [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12
-		],
+		"inSeason": "In Season",
 		"alternatives": [
 			"Sweet Onions"
 		]
@@ -200,20 +127,7 @@
 		"vegetarian": true,
 		"vegan": true,
 		"produce": true,
-		"inSeasonMonths": [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12
-		],
+		"inSeason": "In Season",
 		"alternatives": [
 			"Red Onions"
 		]
@@ -227,21 +141,7 @@
 		"textDescription": "Simple Truth Ground Lamb.",
 		"vegetarian": false,
 		"vegan": false,
-		"produce": false,
-		"inSeasonMonths": [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12
-		],
+		"inSeason": "In Season",
 		"alternatives": [
 			"Beyond Meat Plant Based Ground-Beef"
 		]
@@ -255,21 +155,7 @@
 		"textDescription": "Plant based ground beef alternative.",
 		"vegetarian": true,
 		"vegan": true,
-		"produce": false,
-		"inSeasonMonths": [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12
-		],
+		"inSeason": "In Season",
 		"alternatives": [
 			"Ground Lamb",
 			"Ground Beef"
@@ -284,21 +170,7 @@
 		"textDescription": "Fred Meyer Ground-Beef.",
 		"vegetarian": false,
 		"vegan": false,
-		"produce": false,
-		"inSeasonMonths": [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12
-		],
+		"inSeason": "In Season",
 		"alternatives": [
 			"Ground Lamb",
 			"Beyond Meat Plant Based Ground Beef"
@@ -313,21 +185,7 @@
 		"textDescription": "Paprika spice.",
 		"vegetarian": true,
 		"vegan": true,
-		"produce": false,
-		"inSeasonMonths": [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12
-		],
+		"inSeason": "In Season",
 		"alternatives": [
 			""
 		]
@@ -341,21 +199,7 @@
 		"textDescription": "Regular Table Salt.",
 		"vegetarian": true,
 		"vegan": true,
-		"produce": false,
-		"inSeasonMonths": [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12
-		],
+		"inSeason": "In Season",
 		"alternatives": [
 			"Himalyan Salt"
 		]
@@ -369,21 +213,7 @@
 		"textDescription": "Himalyan Salt.",
 		"vegetarian": true,
 		"vegan": true,
-		"produce": false,
-		"inSeasonMonths": [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12
-		],
+		"inSeason": "In Season",
 		"alternatives": [
 			"Table Salt"
 		]
@@ -398,20 +228,7 @@
 		"vegetarian": true,
 		"vegan": true,
 		"produce": true,
-		"inSeasonMonths": [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12
-		],
+		"inSeason": "In Season",
 		"alternatives": []
 	},
 	{
@@ -424,20 +241,7 @@
 		"vegetarian": true,
 		"vegan": true,
 		"produce": true,
-		"inSeasonMonths": [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12
-		],
+		"inSeason": "In Season",
 		"alternatives": []
 	},
 	{
@@ -450,20 +254,7 @@
 		"vegetarian": true,
 		"vegan": true,
 		"produce": true,
-		"inSeasonMonths": [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12
-		],
+		"inSeason": "In Season",
 		"alternatives": []
 	},
 	{
@@ -475,21 +266,7 @@
 		"textDescription": "JIF Creamy Peanut Butter with no chunks.",
 		"vegetarian": true,
 		"vegan": true,
-		"produce": false,
-		"inSeasonMonths": [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12
-		],
+		"inSeason": "In Season",
 		"alternatives": [
 			"Skippy Chunky Peanut Butter"
 		]
@@ -503,21 +280,7 @@
 		"textDescription": "Skippy Crunchy peanut butter with chunks.",
 		"vegetarian": true,
 		"vegan": true,
-		"produce": false,
-		"inSeasonMonths": [
-			1,
-			2,
-			3,
-			4,
-			5,
-			6,
-			7,
-			8,
-			9,
-			10,
-			11,
-			12
-		],
+		"inSeason": "In Season",
 		"alternatives": [
 			"JIF Creamy Penut Butter"
 		]

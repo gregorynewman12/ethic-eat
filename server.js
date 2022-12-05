@@ -14,15 +14,19 @@ var app = express()
 var port = process.env.PORT || 3000
 
 app.engine('handlebars', exphbs.engine({
+    defaultLayout: 'main'
 }))
 app.set("view engine", "handlebars")
 
 app.use(express.json())
 app.use(express.static('public'))
 
-app.get('/', function (req, res) {
-    res.status(200).render('./index.html')
-})
+app.get('/', function(req, res){
+    res.status(200).render('index',{
+        itemList: items
+    })
+  
+  })
 
 app.get('/aboutus.html', function (req, res) {
     res.status(200).render('./aboutus.html')
