@@ -37,3 +37,25 @@ function closeModal(event) {
         }
     }
 }
+
+/*
+ * search stuff
+ * TODO: make neater later
+ *       maybe make with handlebars if we can figure out handle bars
+ */
+
+var searchText = document.getElementById('main-searchbar')
+var searchButton = document.getElementById('search-button')
+var itemList = document.getElementsByClassName('item')
+
+function search() {
+    for(var i = 0; i<itemList.length; i++) {
+        itemList[i].classList.remove('hidden')
+        if (itemList[i].textContent.toLowerCase().indexOf(searchText.value.toLowerCase()) < 0) {
+            itemList[i].classList.add('hidden')
+        }
+    }
+}
+
+searchButton.addEventListener('click', search)
+searchText.addEventListener('input', search)
