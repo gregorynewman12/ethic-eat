@@ -88,22 +88,9 @@ function closeUserModal(event) {
     var modalBackdrop = document.getElementById("user-modal-backdrop")
     modalContent.classList.toggle("hidden")
     modalBackdrop.classList.toggle("hidden")
-    var ing1 = document.getElementById("ingredient-1")
-    var ing2 = document.getElementById("ingredient-2")
-    var ing3 = document.getElementById("ingredient-3")
-    var ing4 = document.getElementById("ingredient-4")
-    var ing5 = document.getElementById("ingredient-5")
-    var ing6 = document.getElementById("ingredient-6")
-    var ing7 = document.getElementById("ingredient-7")
-    var ing8 = document.getElementById("ingredient-8")
-    var ing9 = document.getElementById("ingredient-9")
-    var ing10 = document.getElementById("ingredient-10")
-    var inputBoxes = [recipeName, ing1, ing2, ing3, ing4, ing5, ing6,
-        ing7, ing8, ing9, ing10]
-    for (var i = 0; i < inputBoxes.length; i++) {
-        if (inputBoxes[i].value != "") {
-            inputBoxes[i].value = ""
-        }
+    var allergyField = document.getElementById("allergy-field")
+    if (allergyField.value != "") {
+        allergyField.value = ""
     }
 }
 
