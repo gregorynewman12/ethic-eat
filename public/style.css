@@ -111,6 +111,7 @@ header {
 
 .search-container {
     display: grid;
+    margin: 10px 100px 10px 100px;
     width: 480px;
     height: 100px;
     grid-template-columns: 40% 45% 15%;
