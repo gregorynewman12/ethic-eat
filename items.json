@@ -722,6 +722,7 @@
 		"id": 23,
 		"imageURL": "https://www.cookingclassy.com/wp-content/uploads/2017/04/steak-kebabs-12.jpg",
 		"type": "recipe",
+		"textDescription": "Ingredients: Steak, Red Bell Peppers, Yellow Bell Peppers, Red Onions",
 		"ingredients": [
 			"Steak",
 			"Red Bell Peppers",
@@ -734,6 +735,7 @@
 		"id": 24,
 		"imageURL": "https://www.halfbakedharvest.com/wp-content/uploads/2017/02/Mediterranean-Grilled-Lamb-Kebabs-1.jpg",
 		"type": "recipe",
+		"textDescription": "Ingredients: Ground Lamb, Table Salt, Paprika, Cilantro, Parsley",
 		"ingredients": [
 			"Ground Lamb",
 			"Table Salt",
@@ -748,6 +750,7 @@
 		"id": 55,
 		"imageURL": "https://loveinmyoven.com/wp-content/uploads/2020/04/cheesy-tortellini-bake-1-e1588215136751.jpg",
 		"type": "recipe",
+		"textDescription": "Ingredients: Cheese Tortellini, Marinara Sauce, Mozzarella Cheese, Parsley, Mint Leaves",
 		"ingredients": [
 			"Cheese Tortellini",
 			"Marinara Sauce",
@@ -757,10 +760,11 @@
 		]
 	},
 	{
-		"name": "Talapia With Roasted Corn",
+		"name": "Tilapia With Roasted Corn",
 		"id": 56,
 		"imageURL": "https://www.tasteandtellblog.com/wp-content/uploads/2020/02/Tilapia-Roasted-Corn-2-600x900.jpg",
 		"type": "recipe",
+		"textDescription": "Ingredients: Mayonnaise, Chili Powder, Tilapia Filets, Corn, Lime",
 		"ingredients": [
 			"Mayonnaise",
 			"Chili Powder",
@@ -774,6 +778,7 @@
 		"id": 28,
 		"imageURL": "https://www.seriouseats.com/thmb/px_e8tCpfU7pcNvn4-j3bzQ9kGI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/spaghetti-cacio-e-pepe-recipe-hero-02_1-70880518badb4d428f5d5b03d303fabc.JPG",
 		"type": "recipe",
+		"textDescription": "Ingredients: Spaghetti, Olive Oil, Unsalted Butter, Black Pepper, Parmesan, Cheese Tortellini",
 		"ingredients": [
 			"Spaghetti",
 			"Olive Oil",
