@@ -17,6 +17,7 @@ addAllergyButton.addEventListener("click", addAllergy)
 var searchText = document.getElementById('main-searchbar')
 var searchButton = document.getElementById('search-button')
 var itemList = document.getElementsByClassName('item')
+var saveButtons = document.getElementsByClassName("save-item-button")
 
 function launchMultipleIngredientsModal(event) {
     var modalContent = document.getElementById("multiple-items-modal")
@@ -122,5 +123,56 @@ function search() {
     }
 }
 
+
+function handleSaveRequest(savedItem){
+    var req = new XMLHttpRequest()
+    var reqUrl = '/saveditems/addItem'
+    req.open('POST', reqUrl)
+    var itemImg = savedItem.querySelector("img").src
+    var itemName = savedItem.querySelector(".item-name").textContent.trim()
+    var itemEthicality = savedItem.querySelector(".ethicality-score").textContent.trim()
+    itemEthicality = parseInt(itemEthicality.replace ( /[^\d.]/g, '' ))
+    var itemDescription = savedItem.querySelector(".item-description").textContent.trim()
+    var inSeason = savedItem.querySelector(".in-season-indicator")
+    if (!inSeason) {
+        inSeason = ""
+    }
+    else {
+        inSeason = inSeason.textContent.trim()
+    }
+    var alternatives = savedItem.querySelector(".alternatives").textContent.trim()
+    var type = savedItem.querySelector(".hidden").textContent.trim()
+    if (type == "recipe") {
+        itemEthicality = ""
+    }
+
+    var item = {
+        name: itemName,
+        imageURL: itemImg,
+        type: type,
+        ethicalityScore: itemEthicality,
+        textDescription: itemDescription,
+        vegetarian: true,
+		vegan: true,
+	    produce: true,
+        inSeason: inSeason,
+        alternatives: alternatives
+    }
+    
+
+    var reqBody = JSON.stringify(item)
+    console.log("== reqBody:", reqBody)
+
+    req.setRequestHeader('Content-Type', 'application/json')
+
+    req.send(reqBody)
+}
+
 searchButton.addEventListener('click', search)
 searchText.addEventListener('input', search)
+for(var i = 0; i<saveButtons.length; i++) {
+    saveButtons[i].addEventListener('click', (event) => {
+        var savedItem = event.target.parentNode.parentNode
+        handleSaveRequest(savedItem)
+    })
+}
