@@ -613,7 +613,7 @@
 			"vegetarian": true,
 			"vegan": true,
 			"alternatives": [
-				"JIF Creamy Penut Butter"
+				"JIF Creamy Peanut Butter"
 			]
 		},
 		{
@@ -790,5 +790,7 @@
 			]
 		}
 	],
-	"saved": []
+	"saved": [],
+	"allergies": [],
+	"diet": "none"
 }

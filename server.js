@@ -23,23 +23,59 @@ app.use(express.static('public'))
 
 app.get('/', function(req, res){
     res.status(200).render('index',{
-        itemList: items
+        itemList: items.all
     })
-  
-  })
+})
+
 app.get('/index.html', function(req, res){
     res.status(200).render('index',{
-        itemList: items
+        itemList: items.all
     })
-  
-  })
+})
 
 app.get('/aboutus.html', function (req, res) {
     res.status(200).render('aboutus')
 })
 
-app.get('/saveditems', function(req, res) { 
-    res.status(200).render('saveditems')
+app.get('/saveditems.html', function(req, res) { 
+    if (items.saved.length == 0) {
+        var itemSaved = 1
+    }
+    res.status(200).render('saveditems', {
+        itemList: items.saved,
+        itemSaved: itemSaved
+    })
+})
+
+app.post('/saveditems/addItem', function (req, res, next) {
+    console.log("== req.body:", req.body)
+    if (req.body) {
+        items.saved.push({
+            name: req.body.name,
+            imageURL: req.body.imageURL,
+            type: req.body.type,
+            ethicalityScore: req.body.ethicalityScore,
+            textDescription: req.body.textDescription,
+            vegetarian: req.body.vegetarian,
+            vegan: req.body.vegan,
+            produce: req.body.produce,
+            inSeason: req.body.inSeason,
+            alternatives: req.body.alternatives
+        })
+        fs.writeFile(
+            __dirname + '/items.json',
+            JSON.stringify(items, null, 2),
+            function (err) {
+                if (err) {
+                    res.status(500).send("Error writing new data.  Try again later.")
+                } else {
+                    res.status(200).send()
+                }
+            }
+        )
+    } else {
+        res.status(400).send("BRUH")
+    }
 })
 
 app.get('*', function (req, res) {

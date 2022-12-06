@@ -6,6 +6,14 @@
     </nav>
 
     <div class="body-container" id="body-container-home">
-        <h2 id="site-subtitle">No items saved!</h2>
+        {{#if itemSaved}}
+            <h2 id="site-subtitle">No items saved!</h2>
+        {{else}}
+            <section id="cards">
+                {{#each itemList}}
+                    {{> item}}
+                {{/each}}
+            </section>
+        {{/if}}
     </div>
 </main>

@@ -1,22 +1,39 @@
 var multipleIngredientEntry = document.getElementById("multiple-ingredients-search")
-multipleIngredientEntry.addEventListener("click", launchMultipleIngredientsModal)
+if (multipleIngredientEntry) {
+    multipleIngredientEntry.addEventListener("click", launchMultipleIngredientsModal)
+}
 var userLink = document.getElementById("user-link")
-userLink.addEventListener("click", launchUserModal)
+if (userLink) {
+    userLink.addEventListener("click", launchUserModal)
+}
 var closeIngredientsModalX = document.getElementById("ingredients-modal-close")
-closeIngredientsModalX.addEventListener("click", closeMultipleIngredientsModal)
+if (closeIngredientsModalX) {
+    closeIngredientsModalX.addEventListener("click", closeMultipleIngredientsModal)
+}
 var closeUserModalX = document.getElementById("user-modal-close")
-closeUserModalX.addEventListener("click", closeUserModal)
+if (closeUserModalX) {
+    closeUserModalX.addEventListener("click", closeUserModal)
+}
 var closeIngredientsModalCancel = document.getElementById("ingredients-modal-cancel")
-closeIngredientsModalCancel.addEventListener("click", closeMultipleIngredientsModal)
+if (closeIngredientsModalCancel) {
+    closeIngredientsModalCancel.addEventListener("click", closeMultipleIngredientsModal)
+}
 var closeIngredientsModalSearch = document.getElementById("ingredients-modal-accept")
-closeIngredientsModalSearch.addEventListener("click", searchMultipleIngredientsModal)
+if (closeIngredientsModalSearch) {
+    closeIngredientsModalSearch.addEventListener("click", searchMultipleIngredientsModal)
+}
 var closeUserModalCancel = document.getElementById("user-modal-cancel")
-closeUserModalCancel.addEventListener("click", closeUserModal)
+if (closeUserModalCancel) {
+    closeUserModalCancel.addEventListener("click", closeUserModal)
+}
 var addAllergyButton = document.getElementById("add-allergy-button")
-addAllergyButton.addEventListener("click", addAllergy)
+if (addAllergyButton) {
+    addAllergyButton.addEventListener("click", addAllergy)
+}
 var searchText = document.getElementById('main-searchbar')
 var searchButton = document.getElementById('search-button')
 var itemList = document.getElementsByClassName('item')
+var saveButtons = document.getElementsByClassName("save-item-button")
 
 function launchMultipleIngredientsModal(event) {
     var modalContent = document.getElementById("multiple-items-modal")
@@ -122,5 +139,70 @@ function search() {
     }
 }
 
-searchButton.addEventListener('click', search)
-searchText.addEventListener('input', search)
+
+function handleSaveRequest(savedItem){
+    var req = new XMLHttpRequest()
+    var reqUrl = '/saveditems/addItem'
+    req.open('POST', reqUrl)
+    var itemImg = savedItem.querySelector("img").src
+    var itemName = savedItem.querySelector(".item-name").textContent.trim()
+    var itemEthicality = savedItem.querySelector(".ethicality-score").textContent.trim()
+    itemEthicality = parseInt(itemEthicality.replace ( /[^\d.]/g, '' ))
+    var itemDescription = savedItem.querySelector(".item-description").textContent.trim()
+    var inSeason = savedItem.querySelector(".in-season-indicator")
+    if (!inSeason) {
+        inSeason = ""
+    }
+    else {
+        inSeason = inSeason.textContent.trim()
+    }
+    var alternatives = savedItem.querySelector(".alternatives").textContent.trim()
+    var type = savedItem.querySelector(".hidden").textContent.trim()
+    if (type == "recipe") {
+        itemEthicality = ""
+    }
+
+    var item = {
+        name: itemName,
+        imageURL: itemImg,
+        type: type,
+        ethicalityScore: itemEthicality,
+        textDescription: itemDescription,
+        vegetarian: true,
+		vegan: true,
+	    produce: true,
+        inSeason: inSeason,
+        alternatives: alternatives
+    }
+    
+
+    var reqBody = JSON.stringify(item)
+    console.log("== reqBody:", reqBody)
+
+    req.setRequestHeader('Content-Type', 'application/json')
+
+    req.send(reqBody)
+}
+
+if (searchButton) {
+    searchButton.addEventListener('click', search)
+}
+if (searchText) {
+    searchText.addEventListener('input', search)
+}
+if (saveButtons) {
+    for(var i = 0; i<saveButtons.length; i++) {
+        saveButtons[i].addEventListener('click', (event) => {
+            var savedItem = event.target.parentNode.parentNode
+            handleSaveRequest(savedItem)
+        })
+    }
+}
+
+var currentURL = window.location.href
+var currRoute = currentURL.split('http://localhost:3000')[1]
+if (currRoute == "/") {
+    for(var i = 0; i<itemList.length; i++) {
+        itemList[i].classList.add('hidden')
+    }
+}
