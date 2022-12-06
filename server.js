@@ -21,14 +21,14 @@ app.set("view engine", "handlebars")
 app.use(express.json())
 app.use(express.static('public'))
 
-app.get('/', function(req, res){
-    res.status(200).render('index',{
-        itemList: items.all
+app.get('/', function (req, res) {
+    res.status(200).render('index', {
+        itemList: items.all,
     })
 })
 
-app.get('/index.html', function(req, res){
-    res.status(200).render('index',{
+app.get('/index.html', function (req, res) {
+    res.status(200).render('index', {
         itemList: items.all
     })
 })
@@ -37,13 +37,13 @@ app.get('/aboutus.html', function (req, res) {
     res.status(200).render('aboutus')
 })
 
-app.get('/saveditems.html', function(req, res) { 
+app.get('/saveditems.html', function (req, res) {
     if (items.saved.length == 0) {
         var itemSaved = 1
     }
     res.status(200).render('saveditems', {
         itemList: items.saved,
-        itemSaved: itemSaved
+        itemSaved: itemSaved,
     })
 })
 

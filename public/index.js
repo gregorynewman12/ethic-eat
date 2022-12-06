@@ -171,6 +171,8 @@ function search() {
 
 
 function handleSaveRequest(savedItem) {
+    var button = savedItem.querySelector(".save-item-button")
+    button.remove()
     var req = new XMLHttpRequest()
     var reqUrl = '/saveditems/addItem'
     req.open('POST', reqUrl)
@@ -252,5 +254,15 @@ var currRoute = currentURL.split('http://localhost:3000')[1]
 if (currRoute == "/") {
     for (var i = 0; i < itemList.length; i++) {
         itemList[i].classList.add('hidden')
+    }
+}
+// Removes Save button from Saved Elements Page
+if (currRoute == "/saveditems.html") {
+    var savedItemsArray = document.getElementsByClassName("item")
+    if (savedItemsArray) {
+        for (var i = 0; i < savedItemsArray.length; i++) {
+            var currentButton = savedItemsArray[i].querySelector(".save-item-button")
+            currentButton.remove()
+        }
     }
 }

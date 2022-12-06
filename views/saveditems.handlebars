@@ -1,19 +1,19 @@
 <main class="content">
     <nav class="navbar">
         <ul class="navlist">
-            <li class="navitem"><a href="/">My Saved Items</a></li>
+            <li class="navitem"><a href="">My Saved Items</a></li>
         </ul>
     </nav>
 
     <div class="body-container" id="body-container-home">
         {{#if itemSaved}}
-            <h2 id="site-subtitle">No items saved!</h2>
+        <h2 id="site-subtitle">No items saved!</h2>
         {{else}}
-            <section id="cards">
-                {{#each itemList}}
-                    {{> item}}
-                {{/each}}
-            </section>
+        <section id="cards">
+            {{#each itemList}}
+            {{> item}}
+            {{/each}}
+        </section>
         {{/if}}
     </div>
 </main>
