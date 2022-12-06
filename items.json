@@ -201,7 +201,8 @@
 		"vegan": true,
 		"inSeason": "In Season",
 		"alternatives": [
-			"Himalyan Salt"
+			"Himalyan Salt",
+			"Morton Sea Salt"
 		]
 	},
 	{
@@ -215,7 +216,8 @@
 		"vegan": true,
 		"inSeason": "In Season",
 		"alternatives": [
-			"Table Salt"
+			"Table Salt",
+			"Morton Sea Salt"
 		]
 	},
 	{
@@ -299,7 +301,8 @@
 		"produce": false,
 		"inSeason": "In Season",
 		"alternatives": [
-			"Bertolli Rich Taste Extra Virgin Olive Oil"
+			"Bertolli Rich Taste Extra Virgin Olive Oil",
+			"Kroger Pure Sesame Oil"
 		]
 	},
 	{
@@ -314,7 +317,8 @@
 		"produce": false,
 		"inSeason": "In Season",
 		"alternatives": [
-			"Kroger Extra Virgin Olive Oil"
+			"Kroger Extra Virgin Olive Oil",
+			"Kroger Pure Sesame Oil"
 		]
 	},
 	{
@@ -573,7 +577,7 @@
 		]
 	},
 	{
-		"name": "Simple Truth Natural Air-Chilled Boneless Skinless Chicken Thighs",
+		"name": "Simple Truth Natural Chicken Thighs",
 		"id": 54,
 		"imageURL": "https://www.kroger.com/product/images/medium/front/0020071600000",
 		"type": "ingredient",
@@ -585,6 +589,1437 @@
 		"inSeason": "In Season",
 		"alternatives": [
 			"Heritage Farm Boneless and Skinless Chicken Thighs"
+		]
+	},
+	{
+		"name": "Fresh Green Beans",
+		"id": 57,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0000000004066",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Fresh green beans from the produce department, Kroger produce is ethically sourced.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": true,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Kroger Cut Canned Green Beans"
+		]
+	},
+	{
+		"name": "Kroger Cut Canned Green Beans",
+		"id": 58,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111080235",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Generic Kroger brand canned green beans. Kroger brand items are ethically sourced.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": true,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Fresh Green Beans"
+		]
+	},
+	{
+		"name": "Private Selection Cherry Tomatos",
+		"id": 59,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111091192",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Private Selection is Kroger's Premium brand, their products are sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": true,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Fresh Roma Tomato"
+		]
+	},
+	{
+		"name": "Simple Truth Basil Pesto",
+		"id": 60,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111003131",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Simple truth is Kroger's Organic brand, their products are sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Barilla Rustic Basil Pesto Sauce Spread"
+		]
+	},
+	{
+		"name": "Heritage Farm Chicken Tenderloins",
+		"id": 62,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0021058100000",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Heritage farms treat animals well and their products are ethical.",
+		"vegetarian": false,
+		"vegan": false,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			""
+		]
+	},
+	{
+		"name": "Kroger Garlic Powder",
+		"id": 63,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111070039",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Generic Kroger brand garlic powder. Kroger brand items are ethically sourced.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Simple Truth Organic Ground Garlic Powder"
+		]
+	},
+	{
+		"name": "Simple Truth Organic Ground Garlic Powder",
+		"id": 64,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111061109",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Generic Kroger brand garlic powder. Kroger brand items are ethically sourced.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Kroger Garlic Powder"
+		]
+	},
+	{
+		"name": "Simple Truth Organic Oregano Leaves",
+		"id": 65,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111002402",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Simple Truth is Kroger's Organic brand, their products are ethical.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Kroger Oregano Leaves"
+		]
+	},
+	{
+		"name": "Kroger Oregano Leaves",
+		"id": 66,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111068292",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Generic Kroger brand oregano leaves. Kroger brand items are ethically sourced.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Simple Truth Organic Oregano Leaves"
+		]
+	},
+	{
+		"name": "Simple Truth Organic Ground Cumin",
+		"id": 67,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111002397",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Simple Truth is Kroger's Organic brand, their products are ethical.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Kroger Ground Cumin"
+		]
+	},
+	{
+		"name": "Kroger Ground Cumin",
+		"id": 68,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111068304",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Generic Kroger brand cumin. Kroger brand items are ethically sourced.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Simple Truth Organic Ground Cumin"
+		]
+	},
+	{
+		"name": "Herdez Medium Salsa Verde",
+		"id": 69,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0007287878529",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Herdez Salsa is ethical.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			""
+		]
+	},
+	{
+		"name": "Barilla Rustic Basil Pesto Sauce Spread",
+		"id": 61,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0007680800787",
+		"type": "ingredient",
+		"ethicalityScore": 2,
+		"textDescription": "Barilla has a history of being anti-LGBTQ.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Simple Truth Basil Pesto"
+		]
+	},
+	{
+		"name": "Whole Boneless Pork Tenderloin",
+		"id": 73,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0020335800000",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Kroger fresh meat and seafood is ethically sourced.",
+		"vegetarian": false,
+		"vegan": false,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			""
+		]
+	},
+	{
+		"name": "A&W Root Beer Soda",
+		"id": 74,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0007800005216",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "A&W have a good track record of being an ethical company outside of just their soda.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Barq's Root Beer Soda"
+		]
+	},
+	{
+		"name": "Barq's Root Beer Soda",
+		"id": 78,
+		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Barq%27s_wordmark.svg/1200px-Barq%27s_wordmark.svg.png",
+		"type": "ingredient",
+		"ethicalityScore": 1,
+		"textDescription": "Barq's is owned by Coca Cola who have a terrible history of unethical business practices.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Barq's Root Beer Soda"
+		]
+	},
+	{
+		"name": "Sweet Baby Ray's Original Barbecue Sauce",
+		"id": 79,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001340991810",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Sweet Baby Ray's is a barbeque sauce brand with no known history of unethical practices.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Kraft Original Slow Simmered BBQ Barbeque Sauce"
+		]
+	},
+	{
+		"name": "Kraft Original Slow Simmered BBQ Barbeque Sauce",
+		"id": 81,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0002100005228",
+		"type": "ingredient",
+		"ethicalityScore": 7,
+		"textDescription": "Kraft Products have a lower score because Kraft has done some shady things in the past, but not directly related to their BBQ sauce.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Sweet Baby Ray's Original Barbecue Sauce"
+		]
+	},
+	{
+		"name": "Kroger White Hamburger Enriched Buns",
+		"id": 82,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111011511",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Generic Kroger brand white hamburger buns, Kroger brand products are sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Private Selection Brioche Hamburger Buns"
+		]
+	},
+	{
+		"name": "Private Selection Brioche Hamburger Buns",
+		"id": 83,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111022281",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Private Selection is Kroger's Premium brand. Their products are sourced ethically",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Kroger White Hamburger Enriched Buns"
+		]
+	},
+	{
+		"name": "Barilla Blue Box Spaghetti Pasta",
+		"id": 84,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0007680828008",
+		"type": "ingredient",
+		"ethicalityScore": 2,
+		"textDescription": "Barilla is known to be anti-lgbtq and their CEO says that people do not care about the belifes of corporations",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Kroger Spaghetti"
+		]
+	},
+	{
+		"name": "Kroger Spaghetti",
+		"id": 85,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111085004",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Generic Kroger brand spaghetti, Kroger brand products are sourced ethically",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Barilla Blue Box Spaghetti Pasta"
+		]
+	},
+	{
+		"name": "Kroger Naturally Hardwood Smoked Bacon",
+		"id": 86,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111097191",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Kroger brand smoked flavor bacon, Kroger brand products are sourced ethically",
+		"vegetarian": false,
+		"vegan": false,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Simple Truth Think Sliced Uncured Hardwood Smoked Bacon"
+		]
+	},
+	{
+		"name": "Simple Truth Think Sliced Uncured Hardwood Smoked Bacon",
+		"id": 87,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111004677",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Simple truth brand smoked flavor bacon (thick), Kroger operated branded products are sourced ethically",
+		"vegetarian": false,
+		"vegan": false,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Kroger Naturally Hardwood Smoked Bacon"
+		]
+	},
+	{
+		"name": "Green Asparagus",
+		"id": 88,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0000000004080",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Fresh Green Asparagus. Kroger fresh produce is sourced ethically",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": true,
+		"inSeason": "Out of Season",
+		"alternatives": [
+			""
+		]
+	},
+	{
+		"name": "Kroger White Cooking Wine",
+		"id": 89,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111004456",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Generic Kroger brand white cooking wine, Kroger brand products are sourced ethically",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Kroger Red Cooking Wine"
+		]
+	},
+	{
+		"name": "Kroger Red Cooking Wine",
+		"id": 90,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111004455",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Generic Kroger brand red cooking wine, Kroger brand products are sourced ethically",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Kroger White Cooking Wine"
+		]
+	},
+	{
+		"name": "Kroger Black Beans",
+		"id": 91,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111072567",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Generic Kroger brand black beans, Kroger brand products are sourced ethically",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Simple Truth Black Beans"
+		]
+	},
+	{
+		"name": "Simple Truth Black Beans",
+		"id": 92,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111084938",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Simple Truth brand black beans, Kroger operated brands products are sourced ethically",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Kroger Black Beans"
+		]
+	},
+	{
+		"name": "Fresh Roma Tomato",
+		"id": 93,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0000000004087",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Fresh Roma Tomatos, Kroger fresh produce is sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": true,
+		"inSeason": "Out of Season",
+		"alternatives": [
+			"Private Selection Cherry Tomatos"
+		]
+	},
+	{
+		"name": "Fresh Garlic",
+		"id": 94,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0000000004608",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Fresh Garlic, Kroger fresh produce is sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": true,
+		"inSeason": "Out of Season",
+		"alternatives": [
+			""
+		]
+	},
+	{
+		"name": "Barilla Blue Box Penne Pasta",
+		"id": 95,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0007680828073",
+		"type": "ingredient",
+		"ethicalityScore": 2,
+		"textDescription": "Barilla has anti lgbtq views, as well as thheir CEO making offensive comments on the topic.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Kroger Penne Rigate Pasta"
+		]
+	},
+	{
+		"name": "Kroger Penne Rigate Pasta",
+		"id": 96,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111085033",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Generic Kroger brand Penne Pasta, Kroger brand products are sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Barilla Blue Box Penne Pasta"
+		]
+	},
+	{
+		"name": "Kroger Arugula",
+		"id": 97,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0007680828073",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Generic Kroger brand arugula, Kroger brand products are sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": true,
+		"inSeason": "Out of Season",
+		"alternatives": [
+			"Simple Truth Organic Baby Arugula"
+		]
+	},
+	{
+		"name": "Simple Truth Organic Baby Arugula",
+		"id": 98,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0007680828073",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Simple Truth brand organic baby arugula, Kroger owned brands products are sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": true,
+		"inSeason": "Out of Season",
+		"alternatives": [
+			"Kroger Arugula"
+		]
+	},
+	{
+		"name": "Lemon",
+		"id": 99,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0000000004053",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Fresh Lemon, Kroger fresh produce is sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": true,
+		"inSeason": "In Season",
+		"alternatives": [
+			""
+		]
+	},
+	{
+		"name": "Simple Truth Organic Crushed Rosemary",
+		"id": 100,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111002404",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Simple Truth brand organic crushed reosemary, Kroger owned brands products are sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Simple Truth Organic Rosemary"
+		]
+	},
+	{
+		"name": "Simple Truth Organic Rosemary",
+		"id": 101,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111001886",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Simple Truth brand organic crushed reosemary, Kroger owned brands products are sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": true,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Simple Truth Organic Crushed Rosemary"
+		]
+	},
+	{
+		"name": "Farm Raised Fresh Atlantic Salmon Filet",
+		"id": 102,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0023858840000",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Kroger fresh meat and seafood is sourced ethically.",
+		"vegetarian": false,
+		"vegan": false,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Kroger Wild Caught Boneless and Skinless Frozen Pink Salmon Fillets"
+		]
+	},
+	{
+		"name": "Kroger Wild Caught Boneless and Skinless Frozen Pink Salmon Fillets",
+		"id": 103,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111077990",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Kroger fresh meat and seafood is sourced ethically.",
+		"vegetarian": false,
+		"vegan": false,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Farm Raised Fresh Atlantic Salmon Filet"
+		]
+	},
+	{
+		"name": "Kroger Balsamic Vinegar",
+		"id": 104,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111000522",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Generic Kroger brand Balsamic Vinegar, Kroger brand products are sourced ethically.",
+		"vegetarian": false,
+		"vegan": true,
+		"produce": true,
+		"inSeason": "In Season",
+		"alternatives": [
+			""
+		]
+	},
+	{
+		"name": "Kroger Clover U.S Grade A Honey",
+		"id": 105,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111086170",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Generic Kroger brand honey, Kroger brand products are sourced ethically.",
+		"vegetarian": true,
+		"vegan": false,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Simple Truth Organic Unfiltered Raw Honey"
+		]
+	},
+	{
+		"name": "Simple Truth Organic Unfiltered Raw Honey",
+		"id": 106,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111087978",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Simple Truth brand organic raw honey, Kroger owned brands products are sourced ethically.",
+		"vegetarian": true,
+		"vegan": false,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Kroger Clover U.S Grade A Honey"
+		]
+	},
+	{
+		"name": "Kroger Tender Spinach Bag",
+		"id": 107,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111091649",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Generic Kroger brand spinach, Kroger brand products are sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": true,
+		"inSeason": "Out of Season",
+		"alternatives": [
+			"Simple Truth Organic Baby Spinach"
+		]
+	},
+	{
+		"name": "Simple Truth Organic Baby Spinach",
+		"id": 108,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111091128",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Simple Truth brand organic baby spinach, Kroger owned brands products are sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": true,
+		"inSeason": "Out of Season",
+		"alternatives": [
+			"Kroger Tender Spinach Bag"
+		]
+	},
+	{
+		"name": "The Jackfruit Company Soy Free Gluten Free Vegan Lightly Seasoned Jackfruit",
+		"id": 109,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0085980600329",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "The Jackfruit company does have sustainable supply chains and jackfruit is a sustainable crop.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			""
+		]
+	},
+	{
+		"name": "Kroger Premium Coconut Milk",
+		"id": 111,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111090414",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Generic Kroger brand coconut milk, Kroger brand products are sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Simple Truth Organic Coconut Milk"
+		]
+	},
+	{
+		"name": "Simple Truth Organic Coconut Milk",
+		"id": 112,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111003070",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Simple Truth brand organic coconut milk, Kroger owned brands products are sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Kroger Premium Coconut Milk"
+		]
+	},
+	{
+		"name": "Simple Truth Organic Silken Tofu",
+		"id": 113,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111009716",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Simple Truth brand organic silken tofu, Kroger owned brands products are sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Simple Truth Organic Firm Tofu",
+			"Simple Truth Organic Extra Firm Tofu"
+		]
+	},
+	{
+		"name": "Simple Truth Organic Firm Tofu",
+		"id": 114,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111091341",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Simple Truth brand organic firm tofu, Kroger owned brands products are sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Simple Truth Organic Silken Tofu",
+			"Simple Truth Organic Extra Firm Tofu"
+		]
+	},
+	{
+		"name": "Simple Truth Organic Extra Firm Tofu",
+		"id": 115,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111091342",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Simple Truth brand organic extra firm tofu, Kroger owned brands products are sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Simple Truth Organic Silken Tofu",
+			"Simple Truth Organic Firm Tofu"
+		]
+	},
+	{
+		"name": "Kroger Large White Eggs",
+		"id": 116,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111085428",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Generic Kroger brand eggs, Kroger brand products are sourced ethically.",
+		"vegetarian": true,
+		"vegan": false,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Simple Truth Natural Cage Free Large Brown Eggs"
+		]
+	},
+	{
+		"name": "Simple Truth Natural Cage Free Large Brown Eggs",
+		"id": 117,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111087374",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Simple Truth brand large brown eggs, Kroger owned brands products are sourced ethically.",
+		"vegetarian": true,
+		"vegan": false,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Kroger Large White Eggs"
+		]
+	},
+	{
+		"name": "Kroger Pure Sesame Oil",
+		"id": 118,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111090121",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Generic Kroger brand sesame oil, Kroger brand products are sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Bertolli Rich Taste Extra Virgin Olive Oil",
+			"Kroger Extra Virgin Olive Oil"
+		]
+	},
+	{
+		"name": "Kroger Lite Soy Sauce",
+		"id": 119,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111072245",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Generic Kroger brand soy sauce, Kroger brand products are sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Kikkoman Soy Sauce"
+		]
+	},
+	{
+		"name": "Kikkoman Soy Sauce",
+		"id": 120,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0004139000002",
+		"type": "ingredient",
+		"ethicalityScore": 9,
+		"textDescription": "Kikkoman soy sauce used to engage in animal testing but has stopped.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Kroger Lite Soy Sauce"
+		]
+	},
+	{
+		"name": "Kroger Enriched Long Grain White Rice",
+		"id": 122,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111089875",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Generic Kroger brand white rice, Kroger brand products are sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Kroger Jasmine Rice"
+		]
+	},
+	{
+		"name": "Kroger Jasmine Rice",
+		"id": 123,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111083799",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Generic Kroger brand jasmine rice, Kroger brand products are sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Kroger Enriched Long Grain White Rice"
+		]
+	},
+	{
+		"name": "Avocado",
+		"id": 124,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0000000004225",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Kroger fresh produce is sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": true,
+		"inSeason": "Out Of Season",
+		"alternatives": [
+			""
+		]
+	},
+	{
+		"name": "Kroger Chunk Style Imitation Crab Meat",
+		"id": 125,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111022117",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Kroger meat and seafood is sourced ethically.",
+		"vegetarian": false,
+		"vegan": false,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			""
+		]
+	},
+	{
+		"name": "Fresh Cucumber",
+		"id": 126,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0000000004062",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Kroger produce is sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": true,
+		"inSeason": "Out of Season",
+		"alternatives": [
+			""
+		]
+	},
+	{
+		"name": "Emerald Cove Organic Pacific Sushi Nori",
+		"id": 127,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/1002354730051",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Emerald cove products are sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			""
+		]
+	},
+	{
+		"name": "Simple Truth Peeled and Deveined Jumbo Raw Frozen Shrimp",
+		"id": 129,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111008068",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Kroger meat and seafood is sourced ethically.",
+		"vegetarian": false,
+		"vegan": false,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			""
+		]
+	},
+	{
+		"name": "Kroger Pure Vegetable Oil",
+		"id": 130,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111085605",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Generic Kroger brand vegetable oil, Kroger brand products are sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Simple Truth Organic Pure Vegetable Oil"
+		]
+	},
+	{
+		"name": "Simple Truth Organic Pure Vegetable Oil",
+		"id": 131,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111010254",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Simple Truth brand organic vegetable oil, Kroger owned brands products are sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Kroger Pure Vegetable Oil"
+		]
+	},
+	{
+		"name": "Kroger Hoisin Sauce",
+		"id": 132,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111085181",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Generic Kroger brand hoisin sauce, Kroger brand products are sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			""
+		]
+	},
+	{
+		"name": "Green Onion",
+		"id": 133,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0000000004068",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Kroger produce products are sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": true,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Sweet Onion",
+			"Red Onion"
+		]
+	},
+	{
+		"name": "Kroger Frozen Green Peas",
+		"id": 134,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111089736",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Generic Kroger brand frozen green peas, Kroger brand products are sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Kroger Shelled English Peas"
+		]
+	},
+	{
+		"name": "Kroger Shelled English Peas",
+		"id": 135,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111004791",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Generic Kroger brand shelled english peas, Kroger brand products are sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": true,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Kroger Frozen Green Peas"
+		]
+	},
+	{
+		"name": "Fresh Carrot",
+		"id": 136,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0000000004562",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Kroger fresh produce is sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": true,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Kroger Peeled Baby Carrots"
+		]
+	},
+	{
+		"name": "Kroger Peeled Baby Carrots",
+		"id": 137,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111091620",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Kroger fresh produce is sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": true,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Fresh Carrot"
+		]
+	},
+	{
+		"name": "Chung Jung Sweet Potato Glass Noodle ",
+		"id": 138,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0085232000020",
+		"type": "ingredient",
+		"ethicalityScore": 7,
+		"textDescription": "Chung Jung noodles do not have information available.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			""
+		]
+	},
+	{
+		"name": "Kroger Pure Cane Granulated Sugar",
+		"id": 140,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111088318",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Generic Kroger brand granulated sugar, Kroger brand products are sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Kroger Light Brown Sugar"
+		]
+	},
+	{
+		"name": "Kroger Light Brown Sugar",
+		"id": 141,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111085585",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Generic Kroger brand brown sugar, Kroger brand products are sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Kroger Pure Cane Granulated Sugar"
+		]
+	},
+	{
+		"name": "Sempio Gochujang Hot Pepper Paste",
+		"id": 142,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0880100552345",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Sempio products are sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			""
+		]
+	},
+	{
+		"name": "Kroger Sliced White Mushrooms",
+		"id": 144,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111091487",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Kroger fresh produce is sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": true,
+		"inSeason": "Out of Season",
+		"alternatives": [
+			"Kroger Sliced Baby Bella Mushrooms"
+		]
+	},
+	{
+		"name": "Kroger Sliced Baby Bella Mushrooms",
+		"id": 145,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111091493",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Kroger fresh produce is sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": true,
+		"inSeason": "Out of Season",
+		"alternatives": [
+			"Kroger Sliced White Mushrooms"
+		]
+	},
+	{
+		"name": "Norita White Miso Soy Bean Paste",
+		"id": 146,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0086262300022",
+		"type": "ingredient",
+		"ethicalityScore": 7,
+		"textDescription": "Norita Miso Paste is sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			""
+		]
+	},
+	{
+		"name": "Norita White Miso Soy Bean Paste",
+		"id": 146,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0086262300022",
+		"type": "ingredient",
+		"ethicalityScore": 7,
+		"textDescription": "Norita Miso Paste is sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			""
+		]
+	},
+	{
+		"name": "Bob's Red Mill Organic White Rice Flour",
+		"id": 148,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0003997802967",
+		"type": "ingredient",
+		"ethicalityScore": 7,
+		"textDescription": "Bob's red mill does not engage in animal research and produce ethical ingredients.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			""
+		]
+	},
+	{
+		"name": "Pumkin",
+		"id": 149,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0000000093134",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Kroger fresh produce is sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": true,
+		"inSeason": "Out of Season",
+		"alternatives": [
+			""
+		]
+	},
+	{
+		"name": "Morton Sea Salt",
+		"id": 150,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0002460001085",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Morton salt is sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Kroger Table Salt",
+			"Himelayan Salt"
+		]
+	},
+	{
+		"name": "Hakubaku Organic Udon Noodles",
+		"id": 152,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0083732800100",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Hakubaku noodles are sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			""
+		]
+	},
+	{
+		"name": "Kikkoman Manjo Aji Mirin Cooking Rice Wine",
+		"id": 154,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001115202140",
+		"type": "ingredient",
+		"ethicalityScore": 9,
+		"textDescription": "Kikkoman products are sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			""
+		]
+	},
+	{
+		"name": "Simple Truth Korean Style Kimchi",
+		"id": 155,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111008470",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Simple Truth is Kroger's organic brand, Kroger operated brands source their ingredients ethically.",
+		"vegetarian": false,
+		"vegan": false,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			""
+		]
+	},
+	{
+		"name": "Gourmet Garden Garlic Stir In Paste",
+		"id": 156,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0087520800064",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Gourmet Garden products have no known ethical issues.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			""
+		]
+	},
+	{
+		"name": "Kroger Unbleached All Purpose Enriched Flour",
+		"id": 158,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111086116",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Generic Kroger brand unbleached all purpose flour, Kroger brand products are sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Kroger Bleached All Purpose Enriched Flour"
+		]
+	},
+	{
+		"name": "Kroger Bleached All Purpose Enriched Flour",
+		"id": 159,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111085402",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Generic Kroger brand bleached all purpose flour, Kroger brand products are sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Kroger Unbleached All Purpose Enriched Flour"
+		]
+	},
+	{
+		"name": "Ocean's Halo Organic Ramen Noodles",
+		"id": 160,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0081167003004",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Ocean's Halo products are sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			""
+		]
+	},
+	{
+		"name": "Kroger Lemon Juice",
+		"id": 162,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111070205",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Generic Kroger brand lemon juice, Kroger brand products are sourced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			""
+		]
+	},
+	{
+		"name": "Pompeii Lemon Juice",
+		"id": 163,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0007587925187",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Pompeii juice products do not have any known ethical problems.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			""
+		]
+	},
+	{
+		"name": "Mission Soft Taco Flour Tortillas",
+		"id": 165,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0007373100415",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Mission food products are produced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Guerrero White Corn Tortillas"
+		]
+	},
+	{
+		"name": "Guerrero White Corn Tortillas",
+		"id": 168,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0004856406000",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Guerrero is owned by Mission foods who's products are produced ethically.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Mission Soft Taco Flour Tortillas"
+		]
+	},
+	{
+		"name": "Simple Truth Organic Original Goat Cheese",
+		"id": 169,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111018139",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Simple Truth is Kroger's organic brand, Kroger operated brands source their ingredients ethically.",
+		"vegetarian": true,
+		"vegan": false,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Vermont Creamery Classic Chevre Goat Cheese Log"
+		]
+	},
+	{
+		"name": "Vermont Creamery Classic Chevre Goat Cheese Log",
+		"id": 170,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0001182610012",
+		"type": "ingredient",
+		"ethicalityScore": 9,
+		"textDescription": "Vermont Creamory products are ethically produced with sustainability in mind.",
+		"vegetarian": true,
+		"vegan": false,
+		"produce": false,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Simple Truth Organic Original Goat Cheese"
 		]
 	},
 	{
@@ -627,12 +2062,167 @@
 		]
 	},
 	{
+		"name": "Emerald Cove",
+		"id": 128,
+		"imageURL": "https://i5.walmartimages.com/asr/2b7be0e0-73ad-4295-bd85-56203877b1dc.102b403e192b9852e0b7c0c2c48c713e.jpeg",
+		"type": "brand",
+		"ethicalityScore": 10,
+		"textDescription": "Emerald Cove has no known ethical issues.",
+		"alternatives": [
+			""
+		]
+	},
+	{
+		"name": "Vermont Creamery",
+		"id": 171,
+		"imageURL": "https://bigelowllc.com/wp-content/uploads/2018/06/vermont-logo.png",
+		"type": "brand",
+		"ethicalityScore": 10,
+		"textDescription": "Vermont Creamery produces ethical products are prioritizes sustainability.",
+		"alternatives": [
+			"Simple Truth"
+		]
+	},
+	{
+		"name": "Mission Foods",
+		"id": 166,
+		"imageURL": "https://pbs.twimg.com/profile_images/692267245/MissionLogo_2_400x400.JPG",
+		"type": "brand",
+		"ethicalityScore": 10,
+		"textDescription": "Mission Foods is commited to upholding a high ethical standard for their products.",
+		"alternatives": [
+			"Guerrero"
+		]
+	},
+	{
+		"name": "Guerrero",
+		"id": 167,
+		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Flag_of_Guerrero.svg/1200px-Flag_of_Guerrero.svg.png",
+		"type": "brand",
+		"ethicalityScore": 10,
+		"textDescription": "Guerrero tortillas is owned by Mission Foods who are commited to upholding high ethical standards.",
+		"alternatives": [
+			"Mission Foods"
+		]
+	},
+	{
+		"name": "Ocean's Halo",
+		"id": 161,
+		"imageURL": "https://uspto.report/TM/88007422/mark.png",
+		"type": "brand",
+		"ethicalityScore": 10,
+		"textDescription": "Ocean's Halo is an ethical brand that resues plastic and donates one percent of their profit to protect the planet.",
+		"alternatives": [
+			""
+		]
+	},
+	{
+		"name": "Pompeii",
+		"id": 164,
+		"imageURL": "https://cdn.shopify.com/s/files/1/0242/5379/2308/products/pompeii-juice-lemon-100-13-oz-grocery-beverages-juices-shelhealth-566.jpg",
+		"type": "brand",
+		"ethicalityScore": 10,
+		"textDescription": "Pompeii has no known ethical problems.",
+		"alternatives": [
+			""
+		]
+	},
+	{
+		"name": "Gourmet Garden",
+		"id": 157,
+		"imageURL": "https://cdn.cookielaw.org/logos/4eea276a-8fd7-46af-9f86-8ace826b296b/cb7236c1-60f0-4849-944e-6dd1f6840018/gourmet_garden_brandmark.png",
+		"type": "brand",
+		"ethicalityScore": 10,
+		"textDescription": "Gourmet Garden has no known ethical problems.",
+		"alternatives": [
+			"Kroger"
+		]
+	},
+	{
+		"name": "Morton",
+		"id": 151,
+		"imageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Morton_Salt_Umbrella_Girl.svg/800px-Morton_Salt_Umbrella_Girl.svg.png",
+		"type": "brand",
+		"ethicalityScore": 10,
+		"textDescription": "Morton Salt sources their Salt ethically.",
+		"alternatives": [
+			"Kroger"
+		]
+	},
+	{
+		"name": "Hakubaku",
+		"id": 153,
+		"imageURL": "https://cdn.shopify.com/s/files/1/0602/2617/5224/files/image4_a87461c0-546e-49c2-b750-d41d9c9379fd_480x480.png?v=1665708535",
+		"type": "brand",
+		"ethicalityScore": 10,
+		"textDescription": "Hakubaku sources their products through 100 percent organic ethical methods.",
+		"alternatives": [
+			""
+		]
+	},
+	{
+		"name": "Norita",
+		"id": 147,
+		"imageURL": "https://i5.walmartimages.com/asr/d1b5144e-3a41-4e0c-b2b2-36710c2003f9.fecaed01bb88a58522d5cad109e897f3.png",
+		"type": "brand",
+		"ethicalityScore": 7,
+		"textDescription": "Norita does not have much information avaialable but they do not have any known ethical issues.",
+		"alternatives": [
+			""
+		]
+	},
+	{
+		"name": "Sempio",
+		"id": 143,
+		"imageURL": "http://web.tradekorea.com/minisitecomphead/778/18778/500500.jpg",
+		"type": "brand",
+		"ethicalityScore": 10,
+		"textDescription": "Sempio has no history of unethical practices.",
+		"alternatives": [
+			"Kroger",
+			"Kikkoman"
+		]
+	},
+	{
+		"name": "Chung Jung",
+		"id": 139,
+		"imageURL": "https://www.kroger.com/product/images/medium/front/0085232000020",
+		"type": "brand",
+		"ethicalityScore": 7,
+		"textDescription": "No information available online about Chung Jung.",
+		"alternatives": [
+			""
+		]
+	},
+	{
+		"name": "The Jackfruit Company",
+		"id": 110,
+		"imageURL": "https://wkhjackfruit.wpenginepowered.com/wp-content/uploads/2018/06/the-jackfruit-company.svg",
+		"type": "brand",
+		"ethicalityScore": 10,
+		"textDescription": "The Jackfruit company sells sustainable products with a sustainable supply chain.",
+		"alternatives": [
+			""
+		]
+	},
+	{
 		"name": "Land O'Lakes",
 		"id": 36,
 		"imageURL": "https://logos-world.net/wp-content/uploads/2021/09/Land-OLakes-Logo.png",
 		"type": "brand",
 		"ethicalityScore": 9,
-		"textDescription": "Barilla Pasta.",
+		"textDescription": "Land O'Lakes is an American member-owned agricultural cooperative based in the Minneapolis",
+		"alternatives": [
+			"Kroger"
+		]
+	},
+	{
+		"name": "Kikkoman",
+		"id": 121,
+		"imageURL": "https://www.kikkoman.eu/fileadmin/_processed_/0/7/csm_Logo_company_811c708e68.jpg",
+		"type": "brand",
+		"ethicalityScore": 9,
+		"textDescription": "Kikkoman is a soysauce company that used to engage in animal testing but has since stopped.",
 		"alternatives": [
 			"Kroger"
 		]
@@ -696,6 +2286,15 @@
 		"alternatives": []
 	},
 	{
+		"name": "Herdez",
+		"id": 70,
+		"imageURL": "https://www.megamexfoodservice.com/wp-content/uploads/2018/09/Herdez-logo_red-2.png",
+		"type": "brand",
+		"ethicalityScore": 10,
+		"textDescription": "Herdez products come from ethical sources.",
+		"alternatives": []
+	},
+	{
 		"name": "Jif",
 		"id": 21,
 		"imageURL": "https://m.media-amazon.com/images/I/71eHIqo9bdL.jpg",
@@ -704,6 +2303,50 @@
 		"textDescription": "Jif Peanut butter.",
 		"alternatives": [
 			"Skippy"
+		]
+	},
+	{
+		"name": "A&W",
+		"id": 75,
+		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/All_American_Food_Logo.svg/800px-All_American_Food_Logo.svg.png",
+		"type": "brand",
+		"ethicalityScore": 10,
+		"textDescription": "A&W All American Food is a soda and fast food company that has a good track record of sourcing ethical products.",
+		"alternatives": [
+			"Coca Cola"
+		]
+	},
+	{
+		"name": "Coca Cola",
+		"id": 76,
+		"imageURL": "https://us.coca-cola.com/content/dam/nagbrands/us/coke/en/participating-brands/logo_coke.jpg",
+		"type": "brand",
+		"ethicalityScore": 1,
+		"textDescription": "Coca Cola has a long history of bad practices including anticompeitivness, dsicrimination in the workplace, and unsustainable practices.",
+		"alternatives": [
+			"A&W"
+		]
+	},
+	{
+		"name": "Barq's",
+		"id": 77,
+		"imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Barq%27s_wordmark.svg/1200px-Barq%27s_wordmark.svg.png",
+		"type": "brand",
+		"ethicalityScore": 1,
+		"textDescription": "Barq's is a brand owned by Coca Cola who have a long history of bad practices including anticompeitivness, dsicrimination in the workplace, and unsustainable practices.",
+		"alternatives": [
+			"A&W"
+		]
+	},
+	{
+		"name": "Sweet Baby Ray's",
+		"id": 80,
+		"imageURL": "https://ih1.redbubble.net/image.3070053253.3896/st,small,507x507-pad,600x600,f8f8f8.jpg",
+		"type": "brand",
+		"ethicalityScore": 10,
+		"textDescription": "Sweet Baby Ray's is a line of Barbeque sauces with no known history of unethical activity.",
+		"alternatives": [
+			"A&W"
 		]
 	},
 	{
@@ -767,6 +2410,312 @@
 			"Talapia Filets",
 			"Corn",
 			"Lime"
+		]
+	},
+	{
+		"name": "Pesto Chicken and Veggies",
+		"id": 71,
+		"imageURL": "https://www.budgetbytes.com/wp-content/uploads/2021/05/Pesto-Chicken-and-Vegetables-close.jpg",
+		"type": "recipe",
+		"ingredients": [
+			"Olive Oil",
+			"Chicken Thighs",
+			"Green Beans",
+			"Cherry Tomatos",
+			"Basil Pesto"
+		]
+	},
+	{
+		"name": "Salsa Verde Chicken",
+		"id": 72,
+		"imageURL": "https://static01.nyt.com/images/2020/08/09/dining/sd-slow-cooker-salsa-verde-chicken/sd-slow-cooker-salsa-verde-chicken-articleLarge.jpg",
+		"type": "recipe",
+		"ingredients": [
+			"Chicken Tenders",
+			"Garlic Powder",
+			"Oregano",
+			"Cumin",
+			"Roasted Salsa Verde"
+		]
+	},
+	{
+		"name": "Pulled Pork Sandwiches",
+		"id": 172,
+		"imageURL": "https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_auto,w_1500,ar_3:2/k%2Farchive%2F5f846e99af1d5a7abfe11f2c50ba71d763642073",
+		"type": "recipe",
+		"ingredients": [
+			"Pork Tenderloin",
+			"Root Beer",
+			"Barbeque Sauce",
+			"Hamburger Buns"
+		]
+	},
+	{
+		"name": "Bacon Asparagus Pasta",
+		"id": 173,
+		"imageURL": "https://www.smalltownwoman.com/wp-content/uploads/2016/07/Bacon-Asparagus-Cajun-Pasta-1.jpg",
+		"type": "recipe",
+		"ingredients": [
+			"Pasta",
+			"Bacon",
+			"Fresh Asparagus",
+			"White Wine"
+		]
+	},
+	{
+		"name": "Black Bean Soup",
+		"id": 174,
+		"imageURL": "https://www.cookingclassy.com/wp-content/uploads/2016/01/black_bean_soup4..jpg",
+		"type": "recipe",
+		"ingredients": [
+			"Black Beans",
+			"Salsa",
+			"Garlic",
+			"Cumin",
+			"Cilantro"
+		]
+	},
+	{
+		"name": "Pasta Salad",
+		"id": 175,
+		"imageURL": "https://www.inspiredtaste.net/wp-content/uploads/2018/12/Easy-Pasta-Salad-Recipe-2-1200.jpg",
+		"type": "recipe",
+		"ingredients": [
+			"Penne Pasta",
+			"Arugula",
+			"Mozerella",
+			"Red Peppers",
+			"Pesto"
+		]
+	},
+	{
+		"name": "Lemon Garlic Chicken",
+		"id": 176,
+		"imageURL": "https://rasamalaysia.com/wp-content/uploads/2021/08/lemon-garlic-chicken3.jpg",
+		"type": "recipe",
+		"ingredients": [
+			"Chicken",
+			"Lemon",
+			"Garlic",
+			"Rosemary"
+		]
+	},
+	{
+		"name": "Balsamic Glazed Salmon",
+		"id": 177,
+		"imageURL": "https://www.cookingclassy.com/wp-content/uploads/2017/06/balsamic-salmon-1.jpg",
+		"type": "recipe",
+		"ingredients": [
+			"Salmon",
+			"Balsamic",
+			"White Wine",
+			"Honey"
+		]
+	},
+	{
+		"name": "Jackfruit Spinach Pie",
+		"id": 178,
+		"imageURL": "https://theveglife.com/wp-content/uploads/2014/02/spanikopita-spinach-pie.jpg",
+		"type": "recipe",
+		"ingredients": [
+			"Spinach",
+			"Jackfruit",
+			"Onion",
+			"Black Beans",
+			"Coconut Milk"
+		]
+	},
+	{
+		"name": "Tofu Stew",
+		"id": 179,
+		"imageURL": "https://drivemehungry.com/wp-content/uploads/2021/10/soondubu-jjigae-korean-tofu-soup.jpg",
+		"type": "recipe",
+		"ingredients": [
+			"Soft Tofu",
+			"Egg",
+			"Sesame Oil",
+			"Soy Sauce",
+			"Chili Powder"
+		]
+	},
+	{
+		"name": "Califonia Roll",
+		"id": 180,
+		"imageURL": "https://norecipes.com/wp-content/uploads/2012/07/california-roll-012.jpg",
+		"type": "recipe",
+		"ingredients": [
+			"Cooked Rice",
+			"Avocado",
+			"Imitation Crab",
+			"Cucumber",
+			"Sheets Sushi Grade Nori"
+		]
+	},
+	{
+		"name": "Tofu & Shrimp",
+		"id": 181,
+		"imageURL": "http://www.dreamsofdashi.com/wp-content/uploads/2015/10/Shrimp-and-Tofu.jpg",
+		"type": "recipe",
+		"ingredients": [
+			"Tofu",
+			"Shrimp",
+			"Vegetable Oil",
+			"Hoisin Sauce",
+			"Water"
+		]
+	},
+	{
+		"name": "Fried Rice",
+		"id": 182,
+		"imageURL": "https://www.averiecooks.com/wp-content/uploads/2016/01/chickenfriedrice-2-650x975.jpg",
+		"type": "recipe",
+		"ingredients": [
+			"Cooked Rice",
+			"Green Onion",
+			"Sesame Oil",
+			"Onions",
+			"Frozen Peas"
+		]
+	},
+	{
+		"name": "Japchae",
+		"id": 183,
+		"imageURL": "https://www.maangchi.com/wp-content/uploads/2007/07/japchae_plate.jpg",
+		"type": "recipe",
+		"ingredients": [
+			"Soy Sauce",
+			"Carrot",
+			"Sesame Oil",
+			"Sweet Potato Starch Noodles",
+			"Sugar"
+		]
+	},
+	{
+		"name": "Bibimbap",
+		"id": 184,
+		"imageURL": "https://assets.bonappetit.com/photos/624f3dc73a6e981591892a9d/4:5/w_2240,h_2800,c_limit/0407-bibimbap-at-home-lede.jpg",
+		"type": "recipe",
+		"ingredients": [
+			"Seasoned Spinach",
+			"Cooked Rice",
+			"Gochujang",
+			"Mushroom",
+			"Egg"
+		]
+	},
+	{
+		"name": "Miso Soup",
+		"id": 185,
+		"imageURL": "https://www.justonecookbook.com/wp-content/uploads/2022/06/Miso-Soup-8297-I-500x500.jpg",
+		"type": "recipe",
+		"ingredients": [
+			"Green Onion",
+			"Tofu",
+			"Water",
+			"Miso Paste",
+			"Dashi Granules"
+		]
+	},
+	{
+		"name": "Pumpkin Porridge",
+		"id": 186,
+		"imageURL": "https://www.koreanbapsang.com/wp-content/uploads/2011/10/DSC4547-3.jpg",
+		"type": "recipe",
+		"ingredients": [
+			"Water",
+			"Rice Flour",
+			"Kent Pumkin",
+			"Sugar",
+			"Sea Salt"
+		]
+	},
+	{
+		"name": "Yaki Udon",
+		"id": 187,
+		"imageURL": "https://drivemehungry.com/wp-content/uploads/2019/09/yaki-udon-udon-noodle-stir-fry-9.jpg",
+		"type": "recipe",
+		"ingredients": [
+			"Udon Noodles",
+			"Dashi",
+			"Soy Sauce",
+			"Sugar",
+			"Mirin"
+		]
+	},
+	{
+		"name": "Kimchi Stew",
+		"id": 188,
+		"imageURL": "https://www.koreanbapsang.com/wp-content/uploads/2014/03/DSC5897-2.jpg",
+		"type": "recipe",
+		"ingredients": [
+			"Kimchi",
+			"Water",
+			"Onions",
+			"Sugar",
+			"Garlic Paste"
+		]
+	},
+	{
+		"name": "Seafood Green Onion Pancake",
+		"id": 189,
+		"imageURL": "https://www.koreanbapsang.com/wp-content/uploads/2019/12/DSC3273-e1613669537769.jpg",
+		"type": "recipe",
+		"ingredients": [
+			"All Purpose Flour",
+			"Vegetable Oil",
+			"Green Onion",
+			"Shrimp",
+			"Egg"
+		]
+	},
+	{
+		"name": "Ramen",
+		"id": 190,
+		"imageURL": "https://www.forkknifeswoon.com/wp-content/uploads/2014/10/simple-homemade-chicken-ramen-fork-knife-swoon-01.jpg",
+		"type": "recipe",
+		"ingredients": [
+			"Ramen Noodles",
+			"Spinach",
+			"Mushrooms",
+			"Green Onions",
+			"Egg"
+		]
+	},
+	{
+		"name": "Sweet Lemon Shrimp",
+		"id": 191,
+		"imageURL": "https://www.joyousapron.com/wp-content/uploads/2018/08/Honey-Lemon-Garlic-Shrimp-Sq-Pic.jpg",
+		"type": "recipe",
+		"ingredients": [
+			"Shrimp",
+			"Hoisin Sauce",
+			"Honey",
+			"Lemon Juice",
+			"Cilantro"
+		]
+	},
+	{
+		"name": "Tilapia With Roasted Corn",
+		"id": 192,
+		"imageURL": "https://www.tasteandtellblog.com/wp-content/uploads/2020/02/Tilapia-Roasted-Corn-1.jpg",
+		"type": "recipe",
+		"ingredients": [
+			"Corn",
+			"Chili Powder",
+			"Mayo",
+			"Lime"
+		]
+	},
+	{
+		"name": "Tacos With Spiced Black Beans",
+		"id": 193,
+		"imageURL": "https://i0.wp.com/foodandstyle.com/wp-content/uploads/2012/02/IMG_8591-Spicy-black-bean-tacos-750.jpg?fit=750%2C500&ssl=1",
+		"type": "recipe",
+		"ingredients": [
+			"Tortillas",
+			"Black Beans",
+			"Goat Cheese",
+			"Avocado"
 		]
 	},
 	{
