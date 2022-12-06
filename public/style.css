@@ -292,9 +292,12 @@ header {
 }
 
 /* Item Card Section */
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .item {
-    display: inline-block;
     width: 900px;
     height: 300px;
     border: 1px solid black;
