@@ -19,7 +19,7 @@ templates['item'] = template({"1":function(container,depth0,helpers,partials,dat
         return undefined
     };
 
-  return "<div class=\"item\">\n    <div class=\"item-contents\">\n        <div class=\"item-image-container\">\n            <img src="
+  return "<div class=\"item hidden\">\n    <div class=\"item-contents\">\n        <div class=\"item-image-container\">\n            <img src="
     + alias4(((helper = (helper = lookupProperty(helpers,"imageURL") || (depth0 != null ? lookupProperty(depth0,"imageURL") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"imageURL","hash":{},"data":data,"loc":{"start":{"line":4,"column":21},"end":{"line":4,"column":33}}}) : helper)))
     + " alt="
     + alias4(((helper = (helper = lookupProperty(helpers,"name") || (depth0 != null ? lookupProperty(depth0,"name") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"name","hash":{},"data":data,"loc":{"start":{"line":4,"column":38},"end":{"line":4,"column":46}}}) : helper)))
