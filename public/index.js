@@ -80,9 +80,9 @@ function searchMultipleIngredientsModal(event) {
     var inputBoxes = [ing1, ing2, ing3, ing4, ing5, ing6,
         ing7, ing8, ing9, ing10]
     console.log(inputBoxes[0].value)
-    for(var i = 0; i<itemList.length; i++) {
+    for (var i = 0; i < itemList.length; i++) {
         itemList[i].classList.add('hidden')
-        for(var j = 0; j<inputBoxes.length; j++) {
+        for (var j = 0; j < inputBoxes.length; j++) {
             if (inputBoxes[j].value.length != 0) {
                 if ((itemList[i].textContent.toLowerCase().indexOf(inputBoxes[j].value.toLowerCase()) >= 0)) {
                     itemList[i].classList.remove('hidden')
@@ -122,15 +122,15 @@ function addAllergy(event) {
         inputField.setAttribute("placeholder", "Enter a value!")
     }
 }
-  
+
 function search() {
     if (searchText.value.length == 0) {
-        for(var i = 0; i<itemList.length; i++) {
+        for (var i = 0; i < itemList.length; i++) {
             itemList[i].classList.add('hidden')
         }
     }
     else {
-        for(var i = 0; i<itemList.length; i++) {
+        for (var i = 0; i < itemList.length; i++) {
             itemList[i].classList.remove('hidden')
             if (itemList[i].textContent.toLowerCase().indexOf(searchText.value.toLowerCase()) < 0) {
                 itemList[i].classList.add('hidden')
@@ -140,14 +140,14 @@ function search() {
 }
 
 
-function handleSaveRequest(savedItem){
+function handleSaveRequest(savedItem) {
     var req = new XMLHttpRequest()
     var reqUrl = '/saveditems/addItem'
     req.open('POST', reqUrl)
     var itemImg = savedItem.querySelector("img").src
     var itemName = savedItem.querySelector(".item-name").textContent.trim()
     var itemEthicality = savedItem.querySelector(".ethicality-score").textContent.trim()
-    itemEthicality = parseInt(itemEthicality.replace ( /[^\d.]/g, '' ))
+    itemEthicality = parseInt(itemEthicality.replace(/[^\d.]/g, ''))
     var itemDescription = savedItem.querySelector(".item-description").textContent.trim()
     var inSeason = savedItem.querySelector(".in-season-indicator")
     if (!inSeason) {
@@ -170,12 +170,12 @@ function handleSaveRequest(savedItem){
         ethicalityScore: itemEthicality,
         textDescription: itemDescription,
         vegetarian: true,
-		vegan: true,
-	    produce: true,
+        vegan: true,
+        produce: true,
         inSeason: inSeason,
         alternatives: alternatives
     }
-    
+
 
     var reqBody = JSON.stringify(item)
     console.log("== reqBody:", reqBody)
@@ -192,7 +192,7 @@ if (searchText) {
     searchText.addEventListener('input', search)
 }
 if (saveButtons) {
-    for(var i = 0; i<saveButtons.length; i++) {
+    for (var i = 0; i < saveButtons.length; i++) {
         saveButtons[i].addEventListener('click', (event) => {
             var savedItem = event.target.parentNode.parentNode
             handleSaveRequest(savedItem)
@@ -203,7 +203,7 @@ if (saveButtons) {
 var currentURL = window.location.href
 var currRoute = currentURL.split('http://localhost:3000')[1]
 if (currRoute == "/") {
-    for(var i = 0; i<itemList.length; i++) {
+    for (var i = 0; i < itemList.length; i++) {
         itemList[i].classList.add('hidden')
     }
 }
