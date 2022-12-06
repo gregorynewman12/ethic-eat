@@ -563,7 +563,7 @@
 			]
 		},
 		{
-			"name": "Simple Truth Natural Air-Chilled Boneless Skinless Chicken Thighs",
+			"name": "Simple Truth Natural Chicken Thighs",
 			"id": 53,
 			"imageURL": "https://www.kroger.com/product/images/medium/front/0021086500000",
 			"type": "ingredient",
@@ -573,7 +573,7 @@
 			"vegan": false,
 			"produce": false,
 			"alternatives": [
-				"Fresh Limes"
+				"Daring Original Plant Chicken Pieces"
 			]
 		},
 		{
@@ -723,7 +723,9 @@
 			"id": 23,
 			"imageURL": "https://www.cookingclassy.com/wp-content/uploads/2017/04/steak-kebabs-12.jpg",
 			"type": "recipe",
-			"textDescription": "Ingredients: Steak, Red Bell Peppers, Yellow Bell Peppers, Red Onions",
+			"textDescription": "Steak, Red Bell Peppers, Yellow Bell Peppers, Red Onions",
+			"vegetarian": false,
+			"vegan": false,
 			"ingredients": [
 				"Steak",
 				"Red Bell Peppers",
@@ -736,7 +738,9 @@
 			"id": 24,
 			"imageURL": "https://www.halfbakedharvest.com/wp-content/uploads/2017/02/Mediterranean-Grilled-Lamb-Kebabs-1.jpg",
 			"type": "recipe",
-			"textDescription": "Ingredients: Ground Lamb, Table Salt, Paprika, Cilantro, Parsley",
+			"textDescription": "Ground Lamb, Table Salt, Paprika, Cilantro, Mint Leaves, Parsley",
+			"vegetarian": false,
+			"vegan": false,
 			"ingredients": [
 				"Ground Lamb",
 				"Table Salt",
@@ -751,11 +755,13 @@
 			"id": 55,
 			"imageURL": "https://loveinmyoven.com/wp-content/uploads/2020/04/cheesy-tortellini-bake-1-e1588215136751.jpg",
 			"type": "recipe",
-			"textDescription": "Ingredients: Cheese Tortellini, Marinara Sauce, Mozzarella Cheese, Parsley, Mint Leaves",
+			"textDescription": "Cheese Tortellini, Marinara Sauce, Mozzarella Cheese, Parsley, Mint Leaves",
+			"vegetarian": true,
+			"vegan": false,
 			"ingredients": [
 				"Cheese Tortellini",
 				"Marinara Sauce",
-				"Mozzerella Cheese",
+				"Mozzarella Cheese",
 				"Parsley",
 				"Mint Leaves"
 			]
@@ -765,13 +771,394 @@
 			"id": 56,
 			"imageURL": "https://www.tasteandtellblog.com/wp-content/uploads/2020/02/Tilapia-Roasted-Corn-2-600x900.jpg",
 			"type": "recipe",
-			"textDescription": "Ingredients: Mayonnaise, Chili Powder, Tilapia Filets, Corn, Lime",
+			"textDescription": "Tilapia Filets, Chili Powder, Mayonnaise, Corn, Lime",
+			"vegetarian": false,
+			"vegan": false,
 			"ingredients": [
 				"Mayonnaise",
 				"Chili Powder",
-				"Talapia Filets",
+				"Tilapia Filets",
 				"Corn",
 				"Lime"
+			]
+		},
+		{
+			"name": "Pesto Chicken and Veggies",
+			"id": 71,
+			"imageURL": "https://www.budgetbytes.com/wp-content/uploads/2021/05/Pesto-Chicken-and-Vegetables-close.jpg",
+			"type": "recipe",
+			"textDescription": "Chicken Thighs, Green Beans, Cherry Tomatoes, Basil Pesto, Olive Oil",
+			"vegetarian": false,
+			"vegan": false,
+			"ingredients": [
+				"Olive Oil",
+				"Chicken Thighs",
+				"Green Beans",
+				"Cherry Tomatoes",
+				"Basil Pesto"
+			]
+		},
+		{
+			"name": "Salsa Verde Chicken",
+			"id": 72,
+			"imageURL": "https://static01.nyt.com/images/2020/08/09/dining/sd-slow-cooker-salsa-verde-chicken/sd-slow-cooker-salsa-verde-chicken-articleLarge.jpg",
+			"type": "recipe",
+			"textDescription": "Chicken Tenders, Garlic Powder, Oregano, Cumin, Roasted Salsa Verde",
+			"vegetarian": false,
+			"vegan": false,
+			"ingredients": [
+				"Chicken Tenders",
+				"Garlic Powder",
+				"Oregano",
+				"Cumin",
+				"Roasted Salsa Verde"
+			]
+		},
+		{
+			"name": "Pulled Pork Sandwiches",
+			"id": 172,
+			"imageURL": "https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_auto,w_1500,ar_3:2/k%2Farchive%2F5f846e99af1d5a7abfe11f2c50ba71d763642073",
+			"type": "recipe",
+			"textDescription": "Pork Tenderloin, Root Beer, Barbecue Sauce, Hamburger Buns",
+			"vegetarian": false,
+			"vegan": false,
+			"ingredients": [
+				"Pork Tenderloin",
+				"Root Beer",
+				"Barbecue Sauce",
+				"Hamburger Buns"
+			]
+		},
+		{
+			"name": "Bacon Asparagus Pasta",
+			"id": 173,
+			"imageURL": "https://www.smalltownwoman.com/wp-content/uploads/2016/07/Bacon-Asparagus-Cajun-Pasta-1.jpg",
+			"type": "recipe",
+			"textDescription": "Pasta, Bacon, Fresh Asparagus, White Wine",
+			"vegetarian": false,
+			"vegan": false,
+			"ingredients": [
+				"Pasta",
+				"Bacon",
+				"Fresh Asparagus",
+				"White Wine"
+			]
+		},
+		{
+			"name": "Black Bean Soup",
+			"id": 174,
+			"imageURL": "https://www.cookingclassy.com/wp-content/uploads/2016/01/black_bean_soup4..jpg",
+			"type": "recipe",
+			"textDescription": "Black Beans, Salsa, Garlic, Cumin, Cilantro",
+			"vegetarian": true,
+			"vegan": true,
+			"ingredients": [
+				"Black Beans",
+				"Salsa",
+				"Garlic",
+				"Cumin",
+				"Cilantro"
+			]
+		},
+		{
+			"name": "Pasta Salad",
+			"id": 175,
+			"imageURL": "https://www.inspiredtaste.net/wp-content/uploads/2018/12/Easy-Pasta-Salad-Recipe-2-1200.jpg",
+			"type": "recipe",
+			"textDescription": "Penne Pasta, Arugula, Mozzarella Cheese, Red Peppers, Pesto",
+			"vegetarian": true,
+			"vegan": true,
+			"ingredients": [
+				"Penne Pasta",
+				"Arugula",
+				"Mozzarella",
+				"Red Peppers",
+				"Pesto"
+			]
+		},
+		{
+			"name": "Lemon Garlic Chicken",
+			"id": 176,
+			"imageURL": "https://rasamalaysia.com/wp-content/uploads/2021/08/lemon-garlic-chicken3.jpg",
+			"type": "recipe",
+			"textDescription": "Chicken, Lemon, Garlic, Rosemary",
+			"vegetarian": false,
+			"vegan": false,
+			"ingredients": [
+				"Chicken",
+				"Lemon",
+				"Garlic",
+				"Rosemary"
+			]
+		},
+		{
+			"name": "Balsamic Glazed Salmon",
+			"id": 177,
+			"imageURL": "https://www.cookingclassy.com/wp-content/uploads/2017/06/balsamic-salmon-1.jpg",
+			"type": "recipe",
+			"textDescription": "Salmon, Balsamic, White Wine, Honey",
+			"vegetarian": false,
+			"vegan": false,
+			"ingredients": [
+				"Salmon",
+				"Balsamic",
+				"White Wine",
+				"Honey"
+			]
+		},
+		{
+			"name": "Jackfruit Spinach Pie",
+			"id": 178,
+			"imageURL": "https://theveglife.com/wp-content/uploads/2014/02/spanikopita-spinach-pie.jpg",
+			"type": "recipe",
+			"textDescription": "Jackfruit, Spinach, Onion, Black Beans, Coconut Milk",
+			"vegetarian": true,
+			"vegan": true,
+			"ingredients": [
+				"Spinach",
+				"Jackfruit",
+				"Onion",
+				"Black Beans",
+				"Coconut Milk"
+			]
+		},
+		{
+			"name": "Tofu Stew",
+			"id": 179,
+			"imageURL": "https://drivemehungry.com/wp-content/uploads/2021/10/soondubu-jjigae-korean-tofu-soup.jpg",
+			"type": "recipe",
+			"textDescription": "Soft Tofu, Egg, Sesame Oil, Soy Sauce, Chili Powder",
+			"vegetarian": true,
+			"vegan": false,
+			"ingredients": [
+				"Soft Tofu",
+				"Egg",
+				"Sesame Oil",
+				"Soy Sauce",
+				"Chili Powder"
+			]
+		},
+		{
+			"name": "Califonia Roll",
+			"id": 180,
+			"imageURL": "https://norecipes.com/wp-content/uploads/2012/07/california-roll-012.jpg",
+			"type": "recipe",
+			"textDescription": "Cooked Rice, Avocado, Imitation Crab, Cucumber, Sheets Sushi Grade Nori",
+			"vegetarian": false,
+			"vegan": false,
+			"ingredients": [
+				"Cooked Rice",
+				"Avocado",
+				"Imitation Crab",
+				"Cucumber",
+				"Sheets Sushi Grade Nori"
+			]
+		},
+		{
+			"name": "Tofu & Shrimp",
+			"id": 181,
+			"imageURL": "http://www.dreamsofdashi.com/wp-content/uploads/2015/10/Shrimp-and-Tofu.jpg",
+			"type": "recipe",
+			"textDescription": "Tofu, Shrimp, Vegetable Oil, Hoisin Sauce, Water",
+			"vegetarian": false,
+			"vegan": false,
+			"ingredients": [
+				"Tofu",
+				"Shrimp",
+				"Vegetable Oil",
+				"Hoisin Sauce",
+				"Water"
+			]
+		},
+		{
+			"name": "Fried Rice",
+			"id": 182,
+			"imageURL": "https://www.averiecooks.com/wp-content/uploads/2016/01/chickenfriedrice-2-650x975.jpg",
+			"type": "recipe",
+			"textDescription": "Cooked Rice, Green Onion, Sesame Oil, Onions, Frozen Peas",
+			"vegetarian": true,
+			"vegan": true,
+			"ingredients": [
+				"Cooked Rice",
+				"Green Onion",
+				"Sesame Oil",
+				"Onions",
+				"Frozen Peas"
+			]
+		},
+		{
+			"name": "Japchae",
+			"id": 183,
+			"imageURL": "https://www.maangchi.com/wp-content/uploads/2007/07/japchae_plate.jpg",
+			"type": "recipe",
+			"vegetarian": true,
+			"vegan": true,
+			"textDescription": "Soy Sauce, Carrot, Sesame Oil, Sweet Potato Starch Noodles, Sugar",
+			"ingredients": [
+				"Soy Sauce",
+				"Carrot",
+				"Sesame Oil",
+				"Sweet Potato Starch Noodles",
+				"Sugar"
+			]
+		},
+		{
+			"name": "Bibimbap",
+			"id": 184,
+			"imageURL": "https://assets.bonappetit.com/photos/624f3dc73a6e981591892a9d/4:5/w_2240,h_2800,c_limit/0407-bibimbap-at-home-lede.jpg",
+			"type": "recipe",
+			"vegetarian": true,
+			"vegan": false,
+			"textDescription": "Seasoned Spinach, Cooked Rice, Gochujang, Mushroom, Egg",
+			"ingredients": [
+				"Seasoned Spinach",
+				"Cooked Rice",
+				"Gochujang",
+				"Mushroom",
+				"Egg"
+			]
+		},
+		{
+			"name": "Miso Soup",
+			"id": 185,
+			"imageURL": "https://www.justonecookbook.com/wp-content/uploads/2022/06/Miso-Soup-8297-I-500x500.jpg",
+			"type": "recipe",
+			"vegetarian": true,
+			"vegan": true,
+			"textDescription": "Green Onion, Tofu, Water, Miso Paste, Dashi Granules",
+			"ingredients": [
+				"Green Onion",
+				"Tofu",
+				"Water",
+				"Miso Paste",
+				"Dashi Granules"
+			]
+		},
+		{
+			"name": "Pumpkin Porridge",
+			"id": 186,
+			"imageURL": "https://www.koreanbapsang.com/wp-content/uploads/2011/10/DSC4547-3.jpg",
+			"type": "recipe",
+			"vegetarian": true,
+			"vegan": true,
+			"textDescription": "Water, Rice Flour, Canned Pumpkin, Sugar, Sea Salt",
+			"ingredients": [
+				"Water",
+				"Rice Flour",
+				"Canned Pumpkin",
+				"Sugar",
+				"Sea Salt"
+			]
+		},
+		{
+			"name": "Yaki Udon",
+			"id": 187,
+			"imageURL": "https://drivemehungry.com/wp-content/uploads/2019/09/yaki-udon-udon-noodle-stir-fry-9.jpg",
+			"type": "recipe",
+			"vegetarian": true,
+			"vegan": true,
+			"textDescription": "Udon Noodles, Dashi, Soy Sauce, Sugar, Mirin",
+			"ingredients": [
+				"Udon Noodles",
+				"Dashi",
+				"Soy Sauce",
+				"Sugar",
+				"Mirin"
+			]
+		},
+		{
+			"name": "Kimchi Stew",
+			"id": 188,
+			"imageURL": "https://www.koreanbapsang.com/wp-content/uploads/2014/03/DSC5897-2.jpg",
+			"type": "recipe",
+			"vegetarian": true,
+			"vegan": true,
+			"textDescription": "Kimchi, Water, Onions, Sugar, Garlic Paste",
+			"ingredients": [
+				"Kimchi",
+				"Water",
+				"Onions",
+				"Sugar",
+				"Garlic Paste"
+			]
+		},
+		{
+			"name": "Seafood Green Onion Pancake",
+			"id": 189,
+			"imageURL": "https://www.koreanbapsang.com/wp-content/uploads/2019/12/DSC3273-e1613669537769.jpg",
+			"type": "recipe",
+			"vegetarian": false,
+			"vegan": false,
+			"textDescription": "All Purpose Flour, Vegetable Oil, Green Onion, Shrimp, Egg",
+			"ingredients": [
+				"All Purpose Flour",
+				"Vegetable Oil",
+				"Green Onion",
+				"Shrimp",
+				"Egg"
+			]
+		},
+		{
+			"name": "Ramen",
+			"id": 190,
+			"imageURL": "https://www.forkknifeswoon.com/wp-content/uploads/2014/10/simple-homemade-chicken-ramen-fork-knife-swoon-01.jpg",
+			"type": "recipe",
+			"vegetarian": true,
+			"vegan": false,
+			"textDescription": "Ramen Noodles, Spinach, Mushrooms, Green Onions, Egg",
+			"ingredients": [
+				"Ramen Noodles",
+				"Spinach",
+				"Mushrooms",
+				"Green Onions",
+				"Egg"
+			]
+		},
+		{
+			"name": "Sweet Lemon Shrimp",
+			"id": 191,
+			"imageURL": "https://www.joyousapron.com/wp-content/uploads/2018/08/Honey-Lemon-Garlic-Shrimp-Sq-Pic.jpg",
+			"type": "recipe",
+			"vegetarian": false,
+			"vegan": false,
+			"textDescription": "Shrimp, Hoisin Sauce, Honey, Lemon Juice, Cilantro",
+			"ingredients": [
+				"Shrimp",
+				"Hoisin Sauce",
+				"Honey",
+				"Lemon Juice",
+				"Cilantro"
+			]
+		},
+		{
+			"name": "Tilapia With Roasted Corn",
+			"id": 192,
+			"imageURL": "https://www.tasteandtellblog.com/wp-content/uploads/2020/02/Tilapia-Roasted-Corn-1.jpg",
+			"type": "recipe",
+			"vegetarian": false,
+			"vegan": false,
+			"textDescription": "Corn, Chili Powder, Tilapia Filets, Mayo, Lime",
+			"ingredients": [
+				"Corn",
+				"Chili Powder",
+				"Tilapia Filets",
+				"Mayo",
+				"Lime"
+			]
+		},
+		{
+			"name": "Tacos With Spiced Black Beans",
+			"id": 193,
+			"imageURL": "https://i0.wp.com/foodandstyle.com/wp-content/uploads/2012/02/IMG_8591-Spicy-black-bean-tacos-750.jpg?fit=750%2C500&ssl=1",
+			"type": "recipe",
+			"vegetarian": true,
+			"vegan": true,
+			"textDescription": "Tortillas, Black Beans, Goat Cheese, Avocado",
+			"ingredients": [
+				"Tortillas",
+				"Black Beans",
+				"Goat Cheese",
+				"Avocado"
 			]
 		},
 		{
@@ -779,13 +1166,15 @@
 			"id": 28,
 			"imageURL": "https://www.seriouseats.com/thmb/px_e8tCpfU7pcNvn4-j3bzQ9kGI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/spaghetti-cacio-e-pepe-recipe-hero-02_1-70880518badb4d428f5d5b03d303fabc.JPG",
 			"type": "recipe",
-			"textDescription": "Ingredients: Spaghetti, Olive Oil, Unsalted Butter, Black Pepper, Parmesan, Cheese Tortellini",
+			"vegetarian": true,
+			"vegan": true,
+			"textDescription": "Spaghetti, Olive Oil, Unsalted Butter, Black Pepper, Parmesan, Cheese Tortellini",
 			"ingredients": [
 				"Spaghetti",
 				"Olive Oil",
 				"Unsalted Butter",
 				"Black Pepper",
-				"Parmesean",
+				"Parmesan",
 				"Cheese Tortellini"
 			]
 		}
