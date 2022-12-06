@@ -278,7 +278,7 @@
 		"imageURL": "https://www.kroger.com/product/images/medium/front/0007680828008",
 		"type": "ingredient",
 		"ethicalityScore": 2,
-		"textDescription": "Barilla has a history of being anti LGBTQ and their CEO has said that "consumers do not care about percieved ethics or politics of certain companies."",
+		"textDescription": "Barilla has a history of being anti LGBTQ and their CEO has said that \"consumers do not care about percieved ethics or politics of certain companies.\"",
 		"vegetarian": true,
 		"vegan": true,
 		"produce": false,
@@ -438,7 +438,7 @@
 		]
 	},
 	{
-		"name": Kraft Mayo with Olive Oil Reduced Fat Mayonnaise",
+		"name": "Kraft Mayo with Olive Oil Reduced Fat Mayonnaise",
 		"id": 45,
 		"imageURL": "https://www.kroger.com/product/images/medium/front/0002100002678",
 		"type": "ingredient",
@@ -453,7 +453,7 @@
 		]
 	},
 	{
-		"name": Kroger Chili Powder",
+		"name": "Kroger Chili Powder",
 		"id": 46,
 		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111072461",
 		"type": "ingredient",
