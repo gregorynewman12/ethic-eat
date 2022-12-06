@@ -19,7 +19,7 @@ templates['item'] = template({"1":function(container,depth0,helpers,partials,dat
         return undefined
     };
 
-  return "<div class=\"item hidden\">\n    <div class=\"item-contents\">\n        <div class=\"item-image-container\">\n            <img src="
+  return "<div class=\"item\">\n    <div class=\"item-contents\">\n        <div class=\"item-image-container\">\n            <img src="
     + alias4(((helper = (helper = lookupProperty(helpers,"imageURL") || (depth0 != null ? lookupProperty(depth0,"imageURL") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"imageURL","hash":{},"data":data,"loc":{"start":{"line":4,"column":21},"end":{"line":4,"column":33}}}) : helper)))
     + " alt="
     + alias4(((helper = (helper = lookupProperty(helpers,"name") || (depth0 != null ? lookupProperty(depth0,"name") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"name","hash":{},"data":data,"loc":{"start":{"line":4,"column":38},"end":{"line":4,"column":46}}}) : helper)))
@@ -33,6 +33,8 @@ templates['item'] = template({"1":function(container,depth0,helpers,partials,dat
     + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"produce") : depth0),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":12,"column":12},"end":{"line":14,"column":19}}})) != null ? stack1 : "")
     + "            <h3 class=\"alternatives\">Alternatives: "
     + alias4(((helper = (helper = lookupProperty(helpers,"alternatives") || (depth0 != null ? lookupProperty(depth0,"alternatives") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"alternatives","hash":{},"data":data,"loc":{"start":{"line":15,"column":51},"end":{"line":15,"column":67}}}) : helper)))
-    + "</h3>\n            <button class=\"save-item-button\">+ Save</button>\n        </div>\n    </div>\n</div>";
+    + "</h3>\n            <button class=\"save-item-button\">+ Save</button>\n        </div>\n        <div class=\"hidden\">\n            "
+    + alias4(((helper = (helper = lookupProperty(helpers,"type") || (depth0 != null ? lookupProperty(depth0,"type") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"type","hash":{},"data":data,"loc":{"start":{"line":19,"column":12},"end":{"line":19,"column":20}}}) : helper)))
+    + "\n        </div>\n    </div>\n</div>";
 },"useData":true});
 })();
