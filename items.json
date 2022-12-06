@@ -18,7 +18,7 @@
 		"imageURL": "https://images.albertsons-media.com/is/image/ABS/960082098?$ng-ecom-pdp-desktop$&defaultImage=Not_Available",
 		"type": "ingredient",
 		"ethicalityScore": 8,
-		"textDescription": "Fred Meyer store brand chicken",
+		"textDescription": "Poultry production is generally sustainable, as birds take fewer resources to produce than larger animals.",
 		"vegetarian": false,
 		"vegan": false,
 		"inSeason": "In Season",
@@ -32,7 +32,7 @@
 		"imageURL": "https://images.heb.com/is/image/HEBGrocery/006470516",
 		"type": "ingredient",
 		"ethicalityScore": 10,
-		"textDescription": "Daring Plant Based Chicken Alternative",
+		"textDescription": "This plant-based chicken alternative is a great option to help avoid the high resource requirements of raising meat for slaughter.",
 		"vegetarian": true,
 		"vegan": true,
 		"inSeason": "In Season",
@@ -46,7 +46,7 @@
 		"imageURL": "https://m.media-amazon.com/images/S/assets.wholefoodsmarket.com/PIE/product/5b34f624e54acd7021de4922_redbellpepper-1.jpg",
 		"type": "ingredient",
 		"ethicalityScore": 8,
-		"textDescription": "Lovely red peppers",
+		"textDescription": "Pepper production is sustainable as there is no significant environmental damage associated with their cultivation.",
 		"vegetarian": true,
 		"vegan": true,
 		"produce": true,
@@ -61,8 +61,8 @@
 		"id": 5,
 		"imageURL": "https://i5.walmartimages.com/asr/4afb6fc7-4b33-4dc9-b938-035666ab2fe6.dca886c2d62ffc4a948e28a2d0039ea2.jpeg",
 		"type": "ingredient",
-		"ethicalityScore": 8,
-		"textDescription": "Lovely yellow peppers",
+		"ethicalityScore": 10,
+		"textDescription": "Pepper production is sustainable as there is no significant environmental damage associated with their cultivation.",
 		"vegetarian": true,
 		"vegan": true,
 		"produce": true,
@@ -77,8 +77,8 @@
 		"id": 6,
 		"imageURL": "https://target.scene7.com/is/image/Target/GUEST_484810f6-4c45-476a-83c3-d91bc2ec005a",
 		"type": "ingredient",
-		"ethicalityScore": 8,
-		"textDescription": "Lovely green peppers",
+		"ethicalityScore": 10,
+		"textDescription": "Green peppers are often overlooked in favor of reds, yellows, and oranges, and picking them instead can help reduce food waste!",
 		"vegetarian": true,
 		"vegan": true,
 		"produce": true,
@@ -155,7 +155,6 @@
 		"textDescription": "Plant based ground beef alternative.",
 		"vegetarian": true,
 		"vegan": true,
-		"inSeason": "In Season",
 		"alternatives": [
 			"Ground Lamb",
 			"Ground Beef"
@@ -170,7 +169,6 @@
 		"textDescription": "Fred Meyer Ground-Beef.",
 		"vegetarian": false,
 		"vegan": false,
-		"inSeason": "In Season",
 		"alternatives": [
 			"Ground Lamb",
 			"Beyond Meat Plant Based Ground Beef"
@@ -213,7 +211,6 @@
 		"textDescription": "Himalyan Salt.",
 		"vegetarian": true,
 		"vegan": true,
-		"inSeason": "In Season",
 		"alternatives": [
 			"Table Salt"
 		]
@@ -228,8 +225,25 @@
 		"vegetarian": true,
 		"vegan": true,
 		"produce": true,
-		"inSeason": "In Season",
+		"inSeason": "Not In Season",
 		"alternatives": []
+	},
+	{
+		"name": "Butternut Squash",
+		"id": 25,
+		"imageURL": "https://i5.walmartimages.com/asr/76a18a23-dc4f-45a8-90ae-452e50fd5923.c254801fb641a0df6bbd5e83640d8d9c.jpeg",
+		"type": "ingredient",
+		"ethicalityScore": 10,
+		"textDescription": "Butternut squash is best used in the fall and winter months, where it can be found fresh across the United States.",
+		"vegetarian": true,
+		"vegan": true,
+		"produce": true,
+		"inSeason": "In Season",
+		"alternatives": [
+			"Zucchini",
+			"Yellow Squash",
+			"Spaghetti Squash"
+		]
 	},
 	{
 		"name": "Mint Leaves",
@@ -282,7 +296,7 @@
 		"vegetarian": true,
 		"vegan": true,
 		"produce": false,
-		"inSeason": "In Season",
+		"inSeason": "",
 		"alternatives": [
 			"Kroger Spaghetti"
 		]
@@ -297,7 +311,7 @@
 		"vegetarian": true,
 		"vegan": true,
 		"produce": false,
-		"inSeason": "In Season",
+		"inSeason": "",
 		"alternatives": [
 			"Bertolli Rich Taste Extra Virgin Olive Oil"
 		]
@@ -312,7 +326,7 @@
 		"vegetarian": true,
 		"vegan": true,
 		"produce": false,
-		"inSeason": "In Season",
+		"inSeason": "",
 		"alternatives": [
 			"Kroger Extra Virgin Olive Oil"
 		]
@@ -327,7 +341,7 @@
 		"vegetarian": true,
 		"vegan": false,
 		"produce": false,
-		"inSeason": "In Season",
+		"inSeason": "",
 		"alternatives": [
 			"Lando O' Lakes Unsalted Butter Sticks"
 		]
@@ -342,7 +356,7 @@
 		"vegetarian": true,
 		"vegan": false,
 		"produce": false,
-		"inSeason": "In Season",
+		"inSeason": "",
 		"alternatives": [
 			"Kroger Unsalted Butter Sticks"
 		]
@@ -357,7 +371,6 @@
 		"vegetarian": true,
 		"vegan": true,
 		"produce": false,
-		"inSeason": "In Season",
 		"alternatives": [
 			"Morton Black Peppercorn Grinder"
 		]
@@ -372,7 +385,6 @@
 		"vegetarian": true,
 		"vegan": true,
 		"produce": false,
-		"inSeason": "In Season",
 		"alternatives": [
 			"Kroger Ground Black Pepper"
 		]
@@ -387,7 +399,6 @@
 		"vegetarian": true,
 		"vegan": false,
 		"produce": false,
-		"inSeason": "In Season",
 		"alternatives": [
 			"Private Selection Parmesan Wedge Cheese"
 		]
@@ -402,7 +413,6 @@
 		"vegetarian": true,
 		"vegan": false,
 		"produce": false,
-		"inSeason": "In Season",
 		"alternatives": [
 			"Private Selection Fresh Mozzarella Cheese"
 		]
@@ -417,7 +427,6 @@
 		"vegetarian": true,
 		"vegan": false,
 		"produce": false,
-		"inSeason": "In Season",
 		"alternatives": [
 			"Kraft Mozzarella Shredded Cheese"
 		]
@@ -432,7 +441,6 @@
 		"vegetarian": true,
 		"vegan": false,
 		"produce": false,
-		"inSeason": "In Season",
 		"alternatives": [
 			"Kraft Mayo with Olive Oil Reduced Fat Mayonnaise"
 		]
@@ -447,7 +455,6 @@
 		"vegetarian": true,
 		"vegan": false,
 		"produce": false,
-		"inSeason": "In Season",
 		"alternatives": [
 			"Kroger Classic Mayonnaise"
 		]
@@ -462,7 +469,6 @@
 		"vegetarian": true,
 		"vegan": true,
 		"produce": false,
-		"inSeason": "In Season",
 		"alternatives": [
 			"Simple Truth Organic Ground Chili Powder"
 		]
@@ -477,7 +483,6 @@
 		"vegetarian": true,
 		"vegan": true,
 		"produce": false,
-		"inSeason": "In Season",
 		"alternatives": [
 			"Kroger Chili Powder"
 		]
@@ -492,7 +497,6 @@
 		"vegetarian": false,
 		"vegan": false,
 		"produce": false,
-		"inSeason": "In Season",
 		"alternatives": [
 			""
 		]
@@ -507,7 +511,7 @@
 		"vegetarian": true,
 		"vegan": true,
 		"produce": true,
-		"inSeason": "In Season",
+		"inSeason": "Not in Season",
 		"alternatives": [
 			"Kroger Sweet Corn on the Cob"
 		]
@@ -522,7 +526,7 @@
 		"vegetarian": true,
 		"vegan": true,
 		"produce": true,
-		"inSeason": "In Season",
+		"inSeason": "Not in Season",
 		"alternatives": [
 			"Fresh Corn"
 		]
@@ -567,7 +571,6 @@
 		"vegetarian": false,
 		"vegan": false,
 		"produce": false,
-		"inSeason": "In Season",
 		"alternatives": [
 			"Fresh Limes"
 		]
@@ -582,7 +585,6 @@
 		"vegetarian": false,
 		"vegan": false,
 		"produce": false,
-		"inSeason": "In Season",
 		"alternatives": [
 			"Heritage Farm Boneless and Skinless Chicken Thighs"
 		]
@@ -596,7 +598,6 @@
 		"textDescription": "JIF Creamy Peanut Butter with no chunks.",
 		"vegetarian": true,
 		"vegan": true,
-		"inSeason": "In Season",
 		"alternatives": [
 			"Skippy Chunky Peanut Butter"
 		]
@@ -610,7 +611,6 @@
 		"textDescription": "Skippy Crunchy peanut butter with chunks.",
 		"vegetarian": true,
 		"vegan": true,
-		"inSeason": "In Season",
 		"alternatives": [
 			"JIF Creamy Penut Butter"
 		]
