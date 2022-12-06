@@ -25,8 +25,8 @@ templates['item'] = template({"1":function(container,depth0,helpers,partials,dat
     + alias4(((helper = (helper = lookupProperty(helpers,"name") || (depth0 != null ? lookupProperty(depth0,"name") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"name","hash":{},"data":data,"loc":{"start":{"line":4,"column":38},"end":{"line":4,"column":46}}}) : helper)))
     + ">\n        </div>\n        <div class=\"item-info-container\">\n            <h2 class=\"item-name\">"
     + alias4(((helper = (helper = lookupProperty(helpers,"name") || (depth0 != null ? lookupProperty(depth0,"name") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"name","hash":{},"data":data,"loc":{"start":{"line":7,"column":34},"end":{"line":7,"column":42}}}) : helper)))
-    + "</h2>\n            <h3 class=\"ethicality-score\">Ethicality Score: "
-    + alias4(((helper = (helper = lookupProperty(helpers,"ethicalityScore") || (depth0 != null ? lookupProperty(depth0,"ethicalityScore") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"ethicalityScore","hash":{},"data":data,"loc":{"start":{"line":8,"column":59},"end":{"line":8,"column":78}}}) : helper)))
+    + "</h2>\n            <h3 class=\"ethicality-score\">Score: "
+    + alias4(((helper = (helper = lookupProperty(helpers,"ethicalityScore") || (depth0 != null ? lookupProperty(depth0,"ethicalityScore") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"ethicalityScore","hash":{},"data":data,"loc":{"start":{"line":8,"column":48},"end":{"line":8,"column":67}}}) : helper)))
     + "</h3>\n            <p class=\"item-description\">\n                "
     + alias4(((helper = (helper = lookupProperty(helpers,"textDescription") || (depth0 != null ? lookupProperty(depth0,"textDescription") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"textDescription","hash":{},"data":data,"loc":{"start":{"line":10,"column":16},"end":{"line":10,"column":35}}}) : helper)))
     + "\n            </p>\n"
