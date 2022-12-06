@@ -89,100 +89,23 @@ function addAllergy(event) {
     }
 }
 
-/*
- * search stuff
- * TODO: make neater later
- *       maybe make with handlebars if we can figure out handle bars
- */
-
-// function insertNewItem(itemName) {
-//     var templateContext = {
-//       text: itemName,
-//     }
-  
-//     var itemHTML = Handlebars.templates.item(templateContext)
-//     var itemContainer = document.getElementById('cards');
-//     itemContainer.insertAdjacentHTML('beforeEnd', itemHTML)
-// }
-  
-// var itemList = [];
-  
-// function handleModalAcceptClick() {
-//     var itemName = document.getElementById('item-name').value;
-  
-//     if (itemName) {
-//         itemList.push({
-//         text: itemName
-//       });
-//         clearSearchAndReinsertItems();
-//     } 
-// }
-  
-// function clearSearchAndReinsertItems() {
-//     document.getElementById('main-searchbar').value = "";
-//     doSearchUpdate();
-// }
-  
-// function itemMatchesSearchQuery(item, searchQuery) {
-//     if (!searchQuery) {
-//       return true;
-//     }
-
-//     searchQuery = searchQuery.trim().toLowerCase();
-//     return (item.text).toLowerCase().indexOf(searchQuery) >= 0;
-// }
-  
-// function doSearchUpdate() {
-//     var searchQuery = document.getElementById('main-searchbar').value;
-
-//     var itemContainer = document.getElementById('cards');
-//     if (itemContainer) {
-//         while (itemContainer.lastChild) {
-//             itemContainer.removeChild(itemContainer.lastChild);
-//         }
-//     }
-//     itemList.forEach(function (item) {
-//         if (itemMatchesSearchQuery(item, searchQuery)) {
-//             insertNewItem(item.text);
-//         }
-//     });
-// }
-  
-// function parseitemElem(itemElem) {
-//     var item = {};
-  
-//     var itemNameElem = itemElem.querySelector('.item-name');
-//     item.text = itemNameElem.textContent.trim();
-  
-//     return item;
-// }
-  
-// window.addEventListener('DOMContentLoaded', function () {
-//     var itemElemsCollection = document.getElementsByClassName('item');
-//     for (var i = 0; i < itemElemsCollection.length; i++) {
-//         itemList.push(parseitemElem(itemElemsCollection[i]));
-//     }
-  
-//     var searchButton = document.getElementById('search-button');
-//     if (searchButton) {
-//         searchButton.addEventListener('click', doSearchUpdate);
-//     }
-  
-//     var searchInput = document.getElementById('main-searchbar');
-//     if (searchInput) {
-//         searchInput.addEventListener('input', doSearchUpdate);
-//     }
-// });
-
 var searchText = document.getElementById('main-searchbar')
 var searchButton = document.getElementById('search-button')
 var itemList = document.getElementsByClassName('item')
   
 function search() {
-    for(var i = 0; i<itemList.length; i++) {
-        itemList[i].classList.remove('hidden')
-        if (itemList[i].textContent.toLowerCase().indexOf(searchText.value.toLowerCase()) < 0) {
+    console.log(searchText.value.length)
+    if (searchText.value.length == 0) {
+        for(var i = 0; i<itemList.length; i++) {
             itemList[i].classList.add('hidden')
+        }
+    }
+    else {
+        for(var i = 0; i<itemList.length; i++) {
+            itemList[i].classList.remove('hidden')
+            if (itemList[i].textContent.toLowerCase().indexOf(searchText.value.toLowerCase()) < 0) {
+                itemList[i].classList.add('hidden')
+            }
         }
     }
 }
