@@ -8,10 +8,15 @@ var closeUserModalX = document.getElementById("user-modal-close")
 closeUserModalX.addEventListener("click", closeUserModal)
 var closeIngredientsModalCancel = document.getElementById("ingredients-modal-cancel")
 closeIngredientsModalCancel.addEventListener("click", closeMultipleIngredientsModal)
+var closeIngredientsModalSearch = document.getElementById("ingredients-modal-accept")
+closeIngredientsModalSearch.addEventListener("click", searchMultipleIngredientsModal)
 var closeUserModalCancel = document.getElementById("user-modal-cancel")
 closeUserModalCancel.addEventListener("click", closeUserModal)
 var addAllergyButton = document.getElementById("add-allergy-button")
 addAllergyButton.addEventListener("click", addAllergy)
+var searchText = document.getElementById('main-searchbar')
+var searchButton = document.getElementById('search-button')
+var itemList = document.getElementsByClassName('item')
 
 function launchMultipleIngredientsModal(event) {
     var modalContent = document.getElementById("multiple-items-modal")
@@ -25,7 +30,6 @@ function closeMultipleIngredientsModal(event) {
     var modalBackdrop = document.getElementById("multiple-items-modal-backdrop")
     modalContent.classList.toggle("hidden")
     modalBackdrop.classList.toggle("hidden")
-    var recipeName = document.getElementById("recipe-name")
     var ing1 = document.getElementById("ingredient-1")
     var ing2 = document.getElementById("ingredient-2")
     var ing3 = document.getElementById("ingredient-3")
@@ -36,13 +40,40 @@ function closeMultipleIngredientsModal(event) {
     var ing8 = document.getElementById("ingredient-8")
     var ing9 = document.getElementById("ingredient-9")
     var ing10 = document.getElementById("ingredient-10")
-    var inputBoxes = [recipeName, ing1, ing2, ing3, ing4, ing5, ing6,
+    var inputBoxes = [ing1, ing2, ing3, ing4, ing5, ing6,
         ing7, ing8, ing9, ing10]
     for (var i = 0; i < inputBoxes.length; i++) {
         if (inputBoxes[i].value != "") {
             inputBoxes[i].value = ""
         }
     }
+}
+
+function searchMultipleIngredientsModal(event) {
+    var ing1 = document.getElementById("ingredient-1")
+    var ing2 = document.getElementById("ingredient-2")
+    var ing3 = document.getElementById("ingredient-3")
+    var ing4 = document.getElementById("ingredient-4")
+    var ing5 = document.getElementById("ingredient-5")
+    var ing6 = document.getElementById("ingredient-6")
+    var ing7 = document.getElementById("ingredient-7")
+    var ing8 = document.getElementById("ingredient-8")
+    var ing9 = document.getElementById("ingredient-9")
+    var ing10 = document.getElementById("ingredient-10")
+    var inputBoxes = [ing1, ing2, ing3, ing4, ing5, ing6,
+        ing7, ing8, ing9, ing10]
+    console.log(inputBoxes[0].value)
+    for(var i = 0; i<itemList.length; i++) {
+        // itemList[i].classList.add('hidden')
+        for(var j = 0; j<inputBoxes.length; j++) {
+            if (inputBoxes[j].value.length != 0) {
+                if ((itemList[i].textContent.toLowerCase().indexOf(inputBoxes[j].value.toLowerCase()) >= 0)) {
+                    itemList[i].classList.remove('hidden')
+                }
+            }
+        }
+    }
+    closeMultipleIngredientsModal()
 }
 
 function launchUserModal(event) {
@@ -57,23 +88,9 @@ function closeUserModal(event) {
     var modalBackdrop = document.getElementById("user-modal-backdrop")
     modalContent.classList.toggle("hidden")
     modalBackdrop.classList.toggle("hidden")
-    var recipeName = document.getElementById("recipe-name")
-    var ing1 = document.getElementById("ingredient-1")
-    var ing2 = document.getElementById("ingredient-2")
-    var ing3 = document.getElementById("ingredient-3")
-    var ing4 = document.getElementById("ingredient-4")
-    var ing5 = document.getElementById("ingredient-5")
-    var ing6 = document.getElementById("ingredient-6")
-    var ing7 = document.getElementById("ingredient-7")
-    var ing8 = document.getElementById("ingredient-8")
-    var ing9 = document.getElementById("ingredient-9")
-    var ing10 = document.getElementById("ingredient-10")
-    var inputBoxes = [recipeName, ing1, ing2, ing3, ing4, ing5, ing6,
-        ing7, ing8, ing9, ing10]
-    for (var i = 0; i < inputBoxes.length; i++) {
-        if (inputBoxes[i].value != "") {
-            inputBoxes[i].value = ""
-        }
+    var allergyField = document.getElementById("allergy-field")
+    if (allergyField.value != "") {
+        allergyField.value = ""
     }
 }
 
@@ -88,13 +105,8 @@ function addAllergy(event) {
         inputField.setAttribute("placeholder", "Enter a value!")
     }
 }
-
-var searchText = document.getElementById('main-searchbar')
-var searchButton = document.getElementById('search-button')
-var itemList = document.getElementsByClassName('item')
   
 function search() {
-    console.log(searchText.value.length)
     if (searchText.value.length == 0) {
         for(var i = 0; i<itemList.length; i++) {
             itemList[i].classList.add('hidden')
