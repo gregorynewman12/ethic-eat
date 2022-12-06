@@ -23,29 +23,34 @@ app.use(express.static('public'))
 
 app.get('/', function(req, res){
     res.status(200).render('index',{
-        itemList: items
+        itemList: items.all
     })
-  
-  })
+})
+
 app.get('/index.html', function(req, res){
     res.status(200).render('index',{
-        itemList: items
+        itemList: items.all
     })
-  
-  })
+})
 
 app.get('/aboutus.html', function (req, res) {
     res.status(200).render('aboutus')
 })
 
-app.get('/saveditems', function(req, res) { 
-    res.status(200).render('saveditems')
+app.get('/saveditems.html', function(req, res) { 
+    if (items.saved.length == 0) {
+        var itemSaved = 1
+    }
+    res.status(200).render('saveditems', {
+        itemList: items.saved,
+        itemSaved: itemSaved
+    })
 })
 
 app.post('/saveditems/addItem', function (req, res, next) {
     console.log("== req.body:", req.body)
     if (req.body) {
-        items.push({
+        items.saved.push({
             name: req.body.name,
             imageURL: req.body.imageURL,
             type: req.body.type,

@@ -1,19 +1,35 @@
 var multipleIngredientEntry = document.getElementById("multiple-ingredients-search")
-multipleIngredientEntry.addEventListener("click", launchMultipleIngredientsModal)
+if (multipleIngredientEntry) {
+    multipleIngredientEntry.addEventListener("click", launchMultipleIngredientsModal)
+}
 var userLink = document.getElementById("user-link")
-userLink.addEventListener("click", launchUserModal)
+if (userLink) {
+    userLink.addEventListener("click", launchUserModal)
+}
 var closeIngredientsModalX = document.getElementById("ingredients-modal-close")
-closeIngredientsModalX.addEventListener("click", closeMultipleIngredientsModal)
+if (closeIngredientsModalX) {
+    closeIngredientsModalX.addEventListener("click", closeMultipleIngredientsModal)
+}
 var closeUserModalX = document.getElementById("user-modal-close")
-closeUserModalX.addEventListener("click", closeUserModal)
+if (closeUserModalX) {
+    closeUserModalX.addEventListener("click", closeUserModal)
+}
 var closeIngredientsModalCancel = document.getElementById("ingredients-modal-cancel")
-closeIngredientsModalCancel.addEventListener("click", closeMultipleIngredientsModal)
+if (closeIngredientsModalCancel) {
+    closeIngredientsModalCancel.addEventListener("click", closeMultipleIngredientsModal)
+}
 var closeIngredientsModalSearch = document.getElementById("ingredients-modal-accept")
-closeIngredientsModalSearch.addEventListener("click", searchMultipleIngredientsModal)
+if (closeIngredientsModalSearch) {
+    closeIngredientsModalSearch.addEventListener("click", searchMultipleIngredientsModal)
+}
 var closeUserModalCancel = document.getElementById("user-modal-cancel")
-closeUserModalCancel.addEventListener("click", closeUserModal)
+if (closeUserModalCancel) {
+    closeUserModalCancel.addEventListener("click", closeUserModal)
+}
 var addAllergyButton = document.getElementById("add-allergy-button")
-addAllergyButton.addEventListener("click", addAllergy)
+if (addAllergyButton) {
+    addAllergyButton.addEventListener("click", addAllergy)
+}
 var searchText = document.getElementById('main-searchbar')
 var searchButton = document.getElementById('search-button')
 var itemList = document.getElementsByClassName('item')
@@ -168,11 +184,25 @@ function handleSaveRequest(savedItem){
     req.send(reqBody)
 }
 
-searchButton.addEventListener('click', search)
-searchText.addEventListener('input', search)
-for(var i = 0; i<saveButtons.length; i++) {
-    saveButtons[i].addEventListener('click', (event) => {
-        var savedItem = event.target.parentNode.parentNode
-        handleSaveRequest(savedItem)
-    })
+if (searchButton) {
+    searchButton.addEventListener('click', search)
+}
+if (searchText) {
+    searchText.addEventListener('input', search)
+}
+if (saveButtons) {
+    for(var i = 0; i<saveButtons.length; i++) {
+        saveButtons[i].addEventListener('click', (event) => {
+            var savedItem = event.target.parentNode.parentNode
+            handleSaveRequest(savedItem)
+        })
+    }
+}
+
+var currentURL = window.location.href
+var currRoute = currentURL.split('http://localhost:3000')[1]
+if (currRoute == "/") {
+    for(var i = 0; i<itemList.length; i++) {
+        itemList[i].classList.add('hidden')
+    }
 }
