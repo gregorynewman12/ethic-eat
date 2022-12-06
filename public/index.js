@@ -64,7 +64,7 @@ function searchMultipleIngredientsModal(event) {
         ing7, ing8, ing9, ing10]
     console.log(inputBoxes[0].value)
     for(var i = 0; i<itemList.length; i++) {
-        // itemList[i].classList.add('hidden')
+        itemList[i].classList.add('hidden')
         for(var j = 0; j<inputBoxes.length; j++) {
             if (inputBoxes[j].value.length != 0) {
                 if ((itemList[i].textContent.toLowerCase().indexOf(inputBoxes[j].value.toLowerCase()) >= 0)) {
