@@ -31,8 +31,8 @@ templates['item'] = template({"1":function(container,depth0,helpers,partials,dat
     + alias4(((helper = (helper = lookupProperty(helpers,"textDescription") || (depth0 != null ? lookupProperty(depth0,"textDescription") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"textDescription","hash":{},"data":data,"loc":{"start":{"line":10,"column":16},"end":{"line":10,"column":35}}}) : helper)))
     + "\n            </p>\n"
     + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"produce") : depth0),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":12,"column":12},"end":{"line":14,"column":19}}})) != null ? stack1 : "")
-    + "            <h3 class=\"alternatives\">"
-    + alias4(((helper = (helper = lookupProperty(helpers,"alternatives") || (depth0 != null ? lookupProperty(depth0,"alternatives") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"alternatives","hash":{},"data":data,"loc":{"start":{"line":15,"column":37},"end":{"line":15,"column":53}}}) : helper)))
+    + "            <h3 class=\"alternatives\">Alternatives: "
+    + alias4(((helper = (helper = lookupProperty(helpers,"alternatives") || (depth0 != null ? lookupProperty(depth0,"alternatives") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"alternatives","hash":{},"data":data,"loc":{"start":{"line":15,"column":51},"end":{"line":15,"column":67}}}) : helper)))
     + "</h3>\n            <button class=\"save-item-button\">+ Save</button>\n        </div>\n    </div>\n</div>";
 },"useData":true});
 })();
