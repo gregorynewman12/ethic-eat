@@ -723,7 +723,7 @@
 			"id": 23,
 			"imageURL": "https://www.cookingclassy.com/wp-content/uploads/2017/04/steak-kebabs-12.jpg",
 			"type": "recipe",
-			"textDescription": "Steak, Red Bell Peppers, Yellow Bell Peppers, Red Onions",
+			"textDescription": "Ingredients: Steak, Red Bell Peppers, Yellow Bell Peppers, Red Onions",
 			"vegetarian": false,
 			"vegan": false,
 			"ingredients": [
@@ -738,7 +738,7 @@
 			"id": 24,
 			"imageURL": "https://www.halfbakedharvest.com/wp-content/uploads/2017/02/Mediterranean-Grilled-Lamb-Kebabs-1.jpg",
 			"type": "recipe",
-			"textDescription": "Ground Lamb, Table Salt, Paprika, Cilantro, Mint Leaves, Parsley",
+			"textDescription": "Ingredients: Ground Lamb, Table Salt, Paprika, Cilantro, Mint Leaves, Parsley",
 			"vegetarian": false,
 			"vegan": false,
 			"ingredients": [
@@ -755,7 +755,7 @@
 			"id": 55,
 			"imageURL": "https://loveinmyoven.com/wp-content/uploads/2020/04/cheesy-tortellini-bake-1-e1588215136751.jpg",
 			"type": "recipe",
-			"textDescription": "Cheese Tortellini, Marinara Sauce, Mozzarella Cheese, Parsley, Mint Leaves",
+			"textDescription": "Ingredients: Cheese Tortellini, Marinara Sauce, Mozzarella Cheese, Parsley, Mint Leaves",
 			"vegetarian": true,
 			"vegan": false,
 			"ingredients": [
@@ -771,7 +771,7 @@
 			"id": 56,
 			"imageURL": "https://www.tasteandtellblog.com/wp-content/uploads/2020/02/Tilapia-Roasted-Corn-2-600x900.jpg",
 			"type": "recipe",
-			"textDescription": "Tilapia Filets, Chili Powder, Mayonnaise, Corn, Lime",
+			"textDescription": "Ingredients: Tilapia Filets, Chili Powder, Mayonnaise, Corn, Lime",
 			"vegetarian": false,
 			"vegan": false,
 			"ingredients": [
@@ -787,7 +787,7 @@
 			"id": 71,
 			"imageURL": "https://www.budgetbytes.com/wp-content/uploads/2021/05/Pesto-Chicken-and-Vegetables-close.jpg",
 			"type": "recipe",
-			"textDescription": "Chicken Thighs, Green Beans, Cherry Tomatoes, Basil Pesto, Olive Oil",
+			"textDescription": "Ingredients: Chicken Thighs, Green Beans, Cherry Tomatoes, Basil Pesto, Olive Oil",
 			"vegetarian": false,
 			"vegan": false,
 			"ingredients": [
@@ -803,7 +803,7 @@
 			"id": 72,
 			"imageURL": "https://static01.nyt.com/images/2020/08/09/dining/sd-slow-cooker-salsa-verde-chicken/sd-slow-cooker-salsa-verde-chicken-articleLarge.jpg",
 			"type": "recipe",
-			"textDescription": "Chicken Tenders, Garlic Powder, Oregano, Cumin, Roasted Salsa Verde",
+			"textDescription": "Ingredients: Chicken Tenders, Garlic Powder, Oregano, Cumin, Roasted Salsa Verde",
 			"vegetarian": false,
 			"vegan": false,
 			"ingredients": [
@@ -819,7 +819,7 @@
 			"id": 172,
 			"imageURL": "https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fill,g_auto,w_1500,ar_3:2/k%2Farchive%2F5f846e99af1d5a7abfe11f2c50ba71d763642073",
 			"type": "recipe",
-			"textDescription": "Pork Tenderloin, Root Beer, Barbecue Sauce, Hamburger Buns",
+			"textDescription": "Ingredients: Pork Tenderloin, Root Beer, Barbecue Sauce, Hamburger Buns",
 			"vegetarian": false,
 			"vegan": false,
 			"ingredients": [
@@ -834,7 +834,7 @@
 			"id": 173,
 			"imageURL": "https://www.smalltownwoman.com/wp-content/uploads/2016/07/Bacon-Asparagus-Cajun-Pasta-1.jpg",
 			"type": "recipe",
-			"textDescription": "Pasta, Bacon, Fresh Asparagus, White Wine",
+			"textDescription": "Ingredients: Pasta, Bacon, Fresh Asparagus, White Wine",
 			"vegetarian": false,
 			"vegan": false,
 			"ingredients": [
@@ -849,7 +849,7 @@
 			"id": 174,
 			"imageURL": "https://www.cookingclassy.com/wp-content/uploads/2016/01/black_bean_soup4..jpg",
 			"type": "recipe",
-			"textDescription": "Black Beans, Salsa, Garlic, Cumin, Cilantro",
+			"textDescription": "Ingredients: Black Beans, Salsa, Garlic, Cumin, Cilantro",
 			"vegetarian": true,
 			"vegan": true,
 			"ingredients": [
@@ -865,7 +865,7 @@
 			"id": 175,
 			"imageURL": "https://www.inspiredtaste.net/wp-content/uploads/2018/12/Easy-Pasta-Salad-Recipe-2-1200.jpg",
 			"type": "recipe",
-			"textDescription": "Penne Pasta, Arugula, Mozzarella Cheese, Red Peppers, Pesto",
+			"textDescription": "Ingredients: Penne Pasta, Arugula, Mozzarella Cheese, Red Peppers, Pesto",
 			"vegetarian": true,
 			"vegan": true,
 			"ingredients": [
@@ -881,7 +881,7 @@
 			"id": 176,
 			"imageURL": "https://rasamalaysia.com/wp-content/uploads/2021/08/lemon-garlic-chicken3.jpg",
 			"type": "recipe",
-			"textDescription": "Chicken, Lemon, Garlic, Rosemary",
+			"textDescription": "Ingredients: Chicken, Lemon, Garlic, Rosemary",
 			"vegetarian": false,
 			"vegan": false,
 			"ingredients": [
@@ -896,7 +896,7 @@
 			"id": 177,
 			"imageURL": "https://www.cookingclassy.com/wp-content/uploads/2017/06/balsamic-salmon-1.jpg",
 			"type": "recipe",
-			"textDescription": "Salmon, Balsamic, White Wine, Honey",
+			"textDescription": "Ingredients: Salmon, Balsamic, White Wine, Honey",
 			"vegetarian": false,
 			"vegan": false,
 			"ingredients": [
@@ -911,7 +911,7 @@
 			"id": 178,
 			"imageURL": "https://theveglife.com/wp-content/uploads/2014/02/spanikopita-spinach-pie.jpg",
 			"type": "recipe",
-			"textDescription": "Jackfruit, Spinach, Onion, Black Beans, Coconut Milk",
+			"textDescription": "Ingredients: Jackfruit, Spinach, Onion, Black Beans, Coconut Milk",
 			"vegetarian": true,
 			"vegan": true,
 			"ingredients": [
@@ -927,7 +927,7 @@
 			"id": 179,
 			"imageURL": "https://drivemehungry.com/wp-content/uploads/2021/10/soondubu-jjigae-korean-tofu-soup.jpg",
 			"type": "recipe",
-			"textDescription": "Soft Tofu, Egg, Sesame Oil, Soy Sauce, Chili Powder",
+			"textDescription": "Ingredients: Soft Tofu, Egg, Sesame Oil, Soy Sauce, Chili Powder",
 			"vegetarian": true,
 			"vegan": false,
 			"ingredients": [
@@ -943,7 +943,7 @@
 			"id": 180,
 			"imageURL": "https://norecipes.com/wp-content/uploads/2012/07/california-roll-012.jpg",
 			"type": "recipe",
-			"textDescription": "Cooked Rice, Avocado, Imitation Crab, Cucumber, Sheets Sushi Grade Nori",
+			"textDescription": "Ingredients: Cooked Rice, Avocado, Imitation Crab, Cucumber, Sheets Sushi Grade Nori",
 			"vegetarian": false,
 			"vegan": false,
 			"ingredients": [
@@ -959,7 +959,7 @@
 			"id": 181,
 			"imageURL": "http://www.dreamsofdashi.com/wp-content/uploads/2015/10/Shrimp-and-Tofu.jpg",
 			"type": "recipe",
-			"textDescription": "Tofu, Shrimp, Vegetable Oil, Hoisin Sauce, Water",
+			"textDescription": "Ingredients: Tofu, Shrimp, Vegetable Oil, Hoisin Sauce, Water",
 			"vegetarian": false,
 			"vegan": false,
 			"ingredients": [
@@ -975,7 +975,7 @@
 			"id": 182,
 			"imageURL": "https://www.averiecooks.com/wp-content/uploads/2016/01/chickenfriedrice-2-650x975.jpg",
 			"type": "recipe",
-			"textDescription": "Cooked Rice, Green Onion, Sesame Oil, Onions, Frozen Peas",
+			"textDescription": "Ingredients: Cooked Rice, Green Onion, Sesame Oil, Onions, Frozen Peas",
 			"vegetarian": true,
 			"vegan": true,
 			"ingredients": [
@@ -993,7 +993,7 @@
 			"type": "recipe",
 			"vegetarian": true,
 			"vegan": true,
-			"textDescription": "Soy Sauce, Carrot, Sesame Oil, Sweet Potato Starch Noodles, Sugar",
+			"textDescription": "Ingredients: Soy Sauce, Carrot, Sesame Oil, Sweet Potato Starch Noodles, Sugar",
 			"ingredients": [
 				"Soy Sauce",
 				"Carrot",
@@ -1009,7 +1009,7 @@
 			"type": "recipe",
 			"vegetarian": true,
 			"vegan": false,
-			"textDescription": "Seasoned Spinach, Cooked Rice, Gochujang, Mushroom, Egg",
+			"textDescription": "Ingredients: Seasoned Spinach, Cooked Rice, Gochujang, Mushroom, Egg",
 			"ingredients": [
 				"Seasoned Spinach",
 				"Cooked Rice",
@@ -1025,7 +1025,7 @@
 			"type": "recipe",
 			"vegetarian": true,
 			"vegan": true,
-			"textDescription": "Green Onion, Tofu, Water, Miso Paste, Dashi Granules",
+			"textDescription": "Ingredients: Green Onion, Tofu, Water, Miso Paste, Dashi Granules",
 			"ingredients": [
 				"Green Onion",
 				"Tofu",
@@ -1041,7 +1041,7 @@
 			"type": "recipe",
 			"vegetarian": true,
 			"vegan": true,
-			"textDescription": "Water, Rice Flour, Canned Pumpkin, Sugar, Sea Salt",
+			"textDescription": "Ingredients: Water, Rice Flour, Canned Pumpkin, Sugar, Sea Salt",
 			"ingredients": [
 				"Water",
 				"Rice Flour",
@@ -1057,7 +1057,7 @@
 			"type": "recipe",
 			"vegetarian": true,
 			"vegan": true,
-			"textDescription": "Udon Noodles, Dashi, Soy Sauce, Sugar, Mirin",
+			"textDescription": "Ingredients: Udon Noodles, Dashi, Soy Sauce, Sugar, Mirin",
 			"ingredients": [
 				"Udon Noodles",
 				"Dashi",
@@ -1073,7 +1073,7 @@
 			"type": "recipe",
 			"vegetarian": true,
 			"vegan": true,
-			"textDescription": "Kimchi, Water, Onions, Sugar, Garlic Paste",
+			"textDescription": "Ingredients: Kimchi, Water, Onions, Sugar, Garlic Paste",
 			"ingredients": [
 				"Kimchi",
 				"Water",
@@ -1089,7 +1089,7 @@
 			"type": "recipe",
 			"vegetarian": false,
 			"vegan": false,
-			"textDescription": "All Purpose Flour, Vegetable Oil, Green Onion, Shrimp, Egg",
+			"textDescription": "Ingredients: All Purpose Flour, Vegetable Oil, Green Onion, Shrimp, Egg",
 			"ingredients": [
 				"All Purpose Flour",
 				"Vegetable Oil",
@@ -1105,7 +1105,7 @@
 			"type": "recipe",
 			"vegetarian": true,
 			"vegan": false,
-			"textDescription": "Ramen Noodles, Spinach, Mushrooms, Green Onions, Egg",
+			"textDescription": "Ingredients: Ramen Noodles, Spinach, Mushrooms, Green Onions, Egg",
 			"ingredients": [
 				"Ramen Noodles",
 				"Spinach",
@@ -1121,7 +1121,7 @@
 			"type": "recipe",
 			"vegetarian": false,
 			"vegan": false,
-			"textDescription": "Shrimp, Hoisin Sauce, Honey, Lemon Juice, Cilantro",
+			"textDescription": "Ingredients: Shrimp, Hoisin Sauce, Honey, Lemon Juice, Cilantro",
 			"ingredients": [
 				"Shrimp",
 				"Hoisin Sauce",
@@ -1137,7 +1137,7 @@
 			"type": "recipe",
 			"vegetarian": false,
 			"vegan": false,
-			"textDescription": "Corn, Chili Powder, Tilapia Filets, Mayo, Lime",
+			"textDescription": "Ingredients: Corn, Chili Powder, Tilapia Filets, Mayo, Lime",
 			"ingredients": [
 				"Corn",
 				"Chili Powder",
@@ -1153,7 +1153,7 @@
 			"type": "recipe",
 			"vegetarian": true,
 			"vegan": true,
-			"textDescription": "Tortillas, Black Beans, Goat Cheese, Avocado",
+			"textDescription": "Ingredients: Tortillas, Black Beans, Goat Cheese, Avocado",
 			"ingredients": [
 				"Tortillas",
 				"Black Beans",
@@ -1168,7 +1168,7 @@
 			"type": "recipe",
 			"vegetarian": true,
 			"vegan": true,
-			"textDescription": "Spaghetti, Olive Oil, Unsalted Butter, Black Pepper, Parmesan, Cheese Tortellini",
+			"textDescription": "Ingredients: Spaghetti, Olive Oil, Unsalted Butter, Black Pepper, Parmesan, Cheese Tortellini",
 			"ingredients": [
 				"Spaghetti",
 				"Olive Oil",
