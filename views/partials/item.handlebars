@@ -5,14 +5,14 @@
         </div>
         <div class="item-info-container">
             <h2 class="item-name">{{name}}</h2>
-            <h3 class="ethicality-score">{{ethicalityScore}}</h3>
+            <h3 class="ethicality-score">Score: {{ethicalityScore}}</h3>
             <p class="item-description">
                 {{textDescription}}
             </p>
             {{#if produce}}
-                <span class="in-season-indicator">{{inSeason}}</span>
+            <span class="in-season-indicator">{{inSeason}}</span>
             {{/if}}
-            <h3 class="alternatives">{{alternatives}}</h3>
+            <h3 class="alternatives">Alternatives: {{alternatives}}</h3>
             <button class="save-item-button">+ Save</button>
         </div>
     </div>
