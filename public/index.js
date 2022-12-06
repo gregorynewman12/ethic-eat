@@ -157,6 +157,7 @@ function handleSaveRequest(savedItem){
         inSeason = inSeason.textContent.trim()
     }
     var alternatives = savedItem.querySelector(".alternatives").textContent.trim()
+    alternatives = alternatives.split('Alternatives: ')[1]
     var type = savedItem.querySelector(".hidden").textContent.trim()
     if (type == "recipe") {
         itemEthicality = ""
