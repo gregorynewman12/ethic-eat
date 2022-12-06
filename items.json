@@ -1,791 +1,794 @@
-[
-	{
-		"name": "Cucumber",
-		"id": 1,
-		"imageURL": "https://images.heb.com/is/image/HEBGrocery/000319432?fit=constrain,1&wid=800&hei=800&fmt=jpg&qlt=85,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
-		"type": "ingredient",
-		"ethicalityScore": 8,
-		"textDescription": "Cucumbers are a great ingredient to use in salads...",
-		"vegetarian": true,
-		"vegan": true,
-		"produce": true,
-		"inSeason": "In Season",
-		"alternatives": []
-	},
-	{
-		"name": "Chicken breast",
-		"id": 2,
-		"imageURL": "https://images.albertsons-media.com/is/image/ABS/960082098?$ng-ecom-pdp-desktop$&defaultImage=Not_Available",
-		"type": "ingredient",
-		"ethicalityScore": 8,
-		"textDescription": "Poultry production is generally sustainable, as birds take fewer resources to produce than larger animals.",
-		"vegetarian": false,
-		"vegan": false,
-		"inSeason": "In Season",
-		"alternatives": [
-			"Daring Original Plant Chicken Pieces"
-		]
-	},
-	{
-		"name": "Daring Original Plant Chicken Pieces",
-		"id": 3,
-		"imageURL": "https://images.heb.com/is/image/HEBGrocery/006470516",
-		"type": "ingredient",
-		"ethicalityScore": 10,
-		"textDescription": "This plant-based chicken alternative is a great option to help avoid the high resource requirements of raising meat for slaughter.",
-		"vegetarian": true,
-		"vegan": true,
-		"inSeason": "In Season",
-		"alternatives": [
-			"Chicken Breast"
-		]
-	},
-	{
-		"name": "Red Bell Peppers",
-		"id": 4,
-		"imageURL": "https://m.media-amazon.com/images/S/assets.wholefoodsmarket.com/PIE/product/5b34f624e54acd7021de4922_redbellpepper-1.jpg",
-		"type": "ingredient",
-		"ethicalityScore": 8,
-		"textDescription": "Pepper production is sustainable as there is no significant environmental damage associated with their cultivation.",
-		"vegetarian": true,
-		"vegan": true,
-		"produce": true,
-		"inSeason": "Not in Season",
-		"alternatives": [
-			"Green Bell Peppers",
-			"Yellow Bell Peppers"
-		]
-	},
-	{
-		"name": "Yellow Bell Peppers",
-		"id": 5,
-		"imageURL": "https://i5.walmartimages.com/asr/4afb6fc7-4b33-4dc9-b938-035666ab2fe6.dca886c2d62ffc4a948e28a2d0039ea2.jpeg",
-		"type": "ingredient",
-		"ethicalityScore": 10,
-		"textDescription": "Pepper production is sustainable as there is no significant environmental damage associated with their cultivation.",
-		"vegetarian": true,
-		"vegan": true,
-		"produce": true,
-		"inSeason": "Not in Season",
-		"alternatives": [
-			"Green Bell Peppers",
-			"Red Bell Peppers"
-		]
-	},
-	{
-		"name": "Green Bell Peppers",
-		"id": 6,
-		"imageURL": "https://target.scene7.com/is/image/Target/GUEST_484810f6-4c45-476a-83c3-d91bc2ec005a",
-		"type": "ingredient",
-		"ethicalityScore": 10,
-		"textDescription": "Green peppers are often overlooked in favor of reds, yellows, and oranges, and picking them instead can help reduce food waste!",
-		"vegetarian": true,
-		"vegan": true,
-		"produce": true,
-		"inSeason": "Not in Season",
-		"alternatives": [
-			"Yellow Bell Peppers",
-			"Red Bell Peppers"
-		]
-	},
-	{
-		"name": "Steak",
-		"id": 7,
-		"imageURL": "https://embed.widencdn.net/img/beef/ng96sbyljl/800x600px/Ribeye%20Steak_Lip-on.psd?keep=c&u=7fueml",
-		"type": "ingredient",
-		"ethicalityScore": 6,
-		"textDescription": "Fred Meyer Steaks.",
-		"vegetarian": false,
-		"vegan": false,
-		"inSeason": "In Season",
-		"alternatives": [
-			""
-		]
-	},
-	{
-		"name": "Red Onion",
-		"id": 8,
-		"imageURL": "https://images.albertsons-media.com/is/image/ABS/184450056?$ng-ecom-pdp-mobile$&defaultImage=Not_Available",
-		"type": "ingredient",
-		"ethicalityScore": 9,
-		"textDescription": "Jumbo red onions.",
-		"vegetarian": true,
-		"vegan": true,
-		"produce": true,
-		"inSeason": "In Season",
-		"alternatives": [
-			"Sweet Onions"
-		]
-	},
-	{
-		"name": "Sweet Onions",
-		"id": 9,
-		"imageURL": "https://i5.walmartimages.com/asr/ad10f097-b720-45a4-881d-8336dfde0b1b.da769cece43bb81239c46e2b360eee78.png",
-		"type": "ingredient",
-		"ethicalityScore": 9,
-		"textDescription": "Jumbo sweet onions.",
-		"vegetarian": true,
-		"vegan": true,
-		"produce": true,
-		"inSeason": "In Season",
-		"alternatives": [
-			"Red Onions"
-		]
-	},
-	{
-		"name": "Ground Lamb",
-		"id": 10,
-		"imageURL": "https://www.vicfarmmeats.com/site/wp-content/uploads/1970/01/GrLamb_Web.jpg",
-		"type": "ingredient",
-		"ethicalityScore": 9,
-		"textDescription": "Simple Truth Ground Lamb.",
-		"vegetarian": false,
-		"vegan": false,
-		"inSeason": "In Season",
-		"alternatives": [
-			"Beyond Meat Plant Based Ground-Beef"
-		]
-	},
-	{
-		"name": "Beyond Meat Plant Based Ground-Beef",
-		"id": 11,
-		"imageURL": "https://m.media-amazon.com/images/I/71nsPK88NwL.jpg",
-		"type": "ingredient",
-		"ethicalityScore": 10,
-		"textDescription": "Plant based ground beef alternative.",
-		"vegetarian": true,
-		"vegan": true,
-		"alternatives": [
-			"Ground Lamb",
-			"Ground Beef"
-		]
-	},
-	{
-		"name": "Ground Beef",
-		"id": 12,
-		"imageURL": "https://embed.widencdn.net/img/beef/4hh1pywcnj/800x600px/Grind_Fine_85.psd?keep=c&u=7fueml",
-		"type": "ingredient",
-		"ethicalityScore": 7,
-		"textDescription": "Fred Meyer Ground-Beef.",
-		"vegetarian": false,
-		"vegan": false,
-		"alternatives": [
-			"Ground Lamb",
-			"Beyond Meat Plant Based Ground Beef"
-		]
-	},
-	{
-		"name": "Paprika",
-		"id": 13,
-		"imageURL": "https://www.seriouseats.com/thmb/_al2VX_jcg0BDwceiagmuzPiUmw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__20100520-paprika-primary-242cc11b9ff1449c9c3a90ab08eb7615.jpg",
-		"type": "ingredient",
-		"ethicalityScore": 7,
-		"textDescription": "Paprika spice.",
-		"vegetarian": true,
-		"vegan": true,
-		"inSeason": "In Season",
-		"alternatives": [
-			""
-		]
-	},
-	{
-		"name": "Table Salt",
-		"id": 14,
-		"imageURL": "https://www.washingtonpost.com/rf/image_1484w/2010-2019/WashingtonPost/2015/11/17/Production/LocalLiving/Images/we-salt1119.jpg?t=20170517",
-		"type": "ingredient",
-		"ethicalityScore": 10,
-		"textDescription": "Regular Table Salt.",
-		"vegetarian": true,
-		"vegan": true,
-		"inSeason": "In Season",
-		"alternatives": [
-			"Himalyan Salt"
-		]
-	},
-	{
-		"name": "Himalayan Salt",
-		"id": 15,
-		"imageURL": "https://m.media-amazon.com/images/I/91OlaEe6SGL.jpg",
-		"type": "ingredient",
-		"ethicalityScore": 9,
-		"textDescription": "Himalyan Salt.",
-		"vegetarian": true,
-		"vegan": true,
-		"alternatives": [
-			"Table Salt"
-		]
-	},
-	{
-		"name": "Cilantro",
-		"id": 25,
-		"imageURL": "https://cdn-prod.medicalnewstoday.com/content/images/articles/277/277627/bunch-of-fresh-coriander-or-cilantro-on-a-wooden-table.jpg",
-		"type": "ingredient",
-		"ethicalityScore": 10,
-		"textDescription": "Cilantro leaves.",
-		"vegetarian": true,
-		"vegan": true,
-		"produce": true,
-		"inSeason": "Not In Season",
-		"alternatives": []
-	},
-	{
-		"name": "Butternut Squash",
-		"id": 25,
-		"imageURL": "https://i5.walmartimages.com/asr/76a18a23-dc4f-45a8-90ae-452e50fd5923.c254801fb641a0df6bbd5e83640d8d9c.jpeg",
-		"type": "ingredient",
-		"ethicalityScore": 10,
-		"textDescription": "Butternut squash is best used in the fall and winter months, where it can be found fresh across the United States.",
-		"vegetarian": true,
-		"vegan": true,
-		"produce": true,
-		"inSeason": "In Season",
-		"alternatives": [
-			"Zucchini",
-			"Yellow Squash",
-			"Spaghetti Squash"
-		]
-	},
-	{
-		"name": "Mint Leaves",
-		"id": 26,
-		"imageURL": "https://img.freepik.com/free-photo/fresh-mint-leaves-isolated_144627-30022.jpg",
-		"type": "ingredient",
-		"ethicalityScore": 10,
-		"textDescription": "Fresh mint leaves.",
-		"vegetarian": true,
-		"vegan": true,
-		"produce": true,
-		"inSeason": "In Season",
-		"alternatives": []
-	},
-	{
-		"name": "Parsley",
-		"id": 27,
-		"imageURL": "https://cdn.britannica.com/62/193862-050-4A7DBC6F/Parsley.jpg",
-		"type": "ingredient",
-		"ethicalityScore": 10,
-		"textDescription": "Fresh parsley bunch.",
-		"vegetarian": true,
-		"vegan": true,
-		"produce": true,
-		"inSeason": "In Season",
-		"alternatives": []
-	},
-	{
-		"name": "Kroger Spaghetti",
-		"id": 29,
-		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111085004",
-		"type": "ingredient",
-		"ethicalityScore": 10,
-		"textDescription": "Generic Kroger brand Spaghetti, Kroger items are ethically sourced.",
-		"vegetarian": true,
-		"vegan": true,
-		"produce": false,
-		"inSeason": "In Season",
-		"alternatives": [
-			"Barilla Blue Box Spaghetti"
-		]
-	},
-	{
-		"name": "Barilla Blue Box Spaghetti",
-		"id": 30,
-		"imageURL": "https://www.kroger.com/product/images/medium/front/0007680828008",
-		"type": "ingredient",
-		"ethicalityScore": 2,
-		"textDescription": "Barilla has a history of being anti LGBTQ and their CEO has said that \"consumers do not care about percieved ethics or politics of certain companies.\"",
-		"vegetarian": true,
-		"vegan": true,
-		"produce": false,
-		"inSeason": "",
-		"alternatives": [
-			"Kroger Spaghetti"
-		]
-	},
-	{
-		"name": "Kroger Extra Virgin Olive Oil",
-		"id": 32,
-		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111087856",
-		"type": "ingredient",
-		"ethicalityScore": 10,
-		"textDescription": "Generic Kroger brand Olive oil, Kroger items are ethically sourced.",
-		"vegetarian": true,
-		"vegan": true,
-		"produce": false,
-		"inSeason": "",
-		"alternatives": [
-			"Bertolli Rich Taste Extra Virgin Olive Oil"
-		]
-	},
-	{
-		"name": "Bertolli Rich Taste Extra Virgin Olive Oil",
-		"id": 32,
-		"imageURL": "https://www.kroger.com/product/images/medium/front/0004179000160",
-		"type": "ingredient",
-		"ethicalityScore": 10,
-		"textDescription": "Bertolli olive oil is ethical and sustainable.",
-		"vegetarian": true,
-		"vegan": true,
-		"produce": false,
-		"inSeason": "",
-		"alternatives": [
-			"Kroger Extra Virgin Olive Oil"
-		]
-	},
-	{
-		"name": "Kroger Unsalted Butter Sticks",
-		"id": 34,
-		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111078777",
-		"type": "ingredient",
-		"ethicalityScore": 10,
-		"textDescription": "Generic Kroger brand butter, Kroger items are ethically sourced.",
-		"vegetarian": true,
-		"vegan": false,
-		"produce": false,
-		"inSeason": "",
-		"alternatives": [
-			"Lando O' Lakes Unsalted Butter Sticks"
-		]
-	},
-	{
-		"name": "Lando O' Lakes Unsalted Butter Sticks",
-		"id": 35,
-		"imageURL": "https://www.kroger.com/product/images/medium/front/0003450015102",
-		"type": "ingredient",
-		"ethicalityScore": 10,
-		"textDescription": "Land O'Lakes is commited to proper care and humane treatment of animals, their products are ethically sourced.",
-		"vegetarian": true,
-		"vegan": false,
-		"produce": false,
-		"inSeason": "",
-		"alternatives": [
-			"Kroger Unsalted Butter Sticks"
-		]
-	},
-	{
-		"name": "Kroger Ground Black Pepper",
-		"id": 37,
-		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111068318",
-		"type": "ingredient",
-		"ethicalityScore": 10,
-		"textDescription": "Generic Kroger ground black pepper, Kroger items are ethically sourced.",
-		"vegetarian": true,
-		"vegan": true,
-		"produce": false,
-		"alternatives": [
-			"Morton Black Peppercorn Grinder"
-		]
-	},
-	{
-		"name": "Morton Black Peppercorn Grinder",
-		"id": 38,
-		"imageURL": "https://www.kroger.com/product/images/medium/front/0002460002184",
-		"type": "ingredient",
-		"ethicalityScore": 10,
-		"textDescription": "Morton is commited to upholding ethics and integrity in their products.",
-		"vegetarian": true,
-		"vegan": true,
-		"produce": false,
-		"alternatives": [
-			"Kroger Ground Black Pepper"
-		]
-	},
-	{
-		"name": "Kroger Shredded Parmesan Cheese",
-		"id": 39,
-		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111050195",
-		"type": "ingredient",
-		"ethicalityScore": 10,
-		"textDescription": "Generic Kroger shredded parmesan cheese, Kroger items are ethically sourced.",
-		"vegetarian": true,
-		"vegan": false,
-		"produce": false,
-		"alternatives": [
-			"Private Selection Parmesan Wedge Cheese"
-		]
-	},
-	{
-		"name": "Kraft Mozzarella Shredded Cheese",
-		"id": 40,
-		"imageURL": "https://www.kroger.com/product/images/medium/front/0002100005495",
-		"type": "ingredient",
-		"ethicalityScore": 6,
-		"textDescription": "Kraft Shredded Mozzarella. Kraft has been somewhat conflictinng on their stance on sustainabilty.",
-		"vegetarian": true,
-		"vegan": false,
-		"produce": false,
-		"alternatives": [
-			"Private Selection Fresh Mozzarella Cheese"
-		]
-	},
-	{
-		"name": "Private Selection Fresh Mozzarella Cheese",
-		"id": 42,
-		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111004374",
-		"type": "ingredient",
-		"ethicalityScore": 10,
-		"textDescription": "Private selection mozzarella cheese. Private Selection is Kroger's premium brand and is sourced ethically",
-		"vegetarian": true,
-		"vegan": false,
-		"produce": false,
-		"alternatives": [
-			"Kraft Mozzarella Shredded Cheese"
-		]
-	},
-	{
-		"name": "Kroger Classic Mayonnaise",
-		"id": 44,
-		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111001988",
-		"type": "ingredient",
-		"ethicalityScore": 10,
-		"textDescription": "Generic Kroger Mayonnaise, Kroger items are ethically sourced.",
-		"vegetarian": true,
-		"vegan": false,
-		"produce": false,
-		"alternatives": [
-			"Kraft Mayo with Olive Oil Reduced Fat Mayonnaise"
-		]
-	},
-	{
-		"name": "Kraft Mayo with Olive Oil Reduced Fat Mayonnaise",
-		"id": 45,
-		"imageURL": "https://www.kroger.com/product/images/medium/front/0002100002678",
-		"type": "ingredient",
-		"ethicalityScore": 6,
-		"textDescription": "Reduced fat Mayonnaise from Kraft. Kraft does not have a spotless track record which brings them down some points.",
-		"vegetarian": true,
-		"vegan": false,
-		"produce": false,
-		"alternatives": [
-			"Kroger Classic Mayonnaise"
-		]
-	},
-	{
-		"name": "Kroger Chili Powder",
-		"id": 46,
-		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111072461",
-		"type": "ingredient",
-		"ethicalityScore": 10,
-		"textDescription": "Generic Kroger Mayonnaise, Kroger items are ethically sourced.",
-		"vegetarian": true,
-		"vegan": true,
-		"produce": false,
-		"alternatives": [
-			"Simple Truth Organic Ground Chili Powder"
-		]
-	},
-	{
-		"name": "Simple Truth Organic Ground Chili Powder",
-		"id": 47,
-		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111002382",
-		"type": "ingredient",
-		"ethicalityScore": 10,
-		"textDescription": "Simple Truth is Kroger's organic brand. Their producst are sourced ethically.",
-		"vegetarian": true,
-		"vegan": true,
-		"produce": false,
-		"alternatives": [
-			"Kroger Chili Powder"
-		]
-	},
-	{
-		"name": "Fresh Tilapia Fillet",
-		"id": 48,
-		"imageURL": "https://www.kroger.com/product/images/medium/front/0023889540000",
-		"type": "ingredient",
-		"ethicalityScore": 10,
-		"textDescription": "Fresh from the meat and seafood section, Kroger fresh meat and seafood products are ethically sourced.",
-		"vegetarian": false,
-		"vegan": false,
-		"produce": false,
-		"alternatives": [
-			""
-		]
-	},
-	{
-		"name": "Fresh Corn",
-		"id": 49,
-		"imageURL": "https://s30386.pcdn.co/wp-content/uploads/2019/08/FreshCorn_HNL1309_ts135846041.jpg.optimal.jpg",
-		"type": "ingredient",
-		"ethicalityScore": 10,
-		"textDescription": "Fresh from the produce section, Kroger fresh produce products are ethically sourced.",
-		"vegetarian": true,
-		"vegan": true,
-		"produce": true,
-		"inSeason": "Not in Season",
-		"alternatives": [
-			"Kroger Sweet Corn on the Cob"
-		]
-	},
-	{
-		"name": "Kroger Sweet Corn on the Cob",
-		"id": 50,
-		"imageURL": "https://www.kroger.com/product/images/medium/front/0001111018183",
-		"type": "ingredient",
-		"ethicalityScore": 10,
-		"textDescription": "Kroger brand Sweet Corn on the Cob, Kroger items are ethically sourced.",
-		"vegetarian": true,
-		"vegan": true,
-		"produce": true,
-		"inSeason": "Not in Season",
-		"alternatives": [
-			"Fresh Corn"
-		]
-	},
-	{
-		"name": "Fresh Limes",
-		"id": 51,
-		"imageURL": "https://www.kroger.com/product/images/medium/front/0000000004048",
-		"type": "ingredient",
-		"ethicalityScore": 10,
-		"textDescription": "Fresh Limes from Kroger produce, their items are ethically sourced.",
-		"vegetarian": true,
-		"vegan": true,
-		"produce": true,
-		"inSeason": "In Season",
-		"alternatives": [
-			"Organic Fresh Limes"
-		]
-	},
-	{
-		"name": "Organic Fresh Limes",
-		"id": 52,
-		"imageURL": "https://www.kroger.com/product/images/medium/front/0000000094048",
-		"type": "ingredient",
-		"ethicalityScore": 10,
-		"textDescription": "Fresh Organic Limes from Kroger produce, their items are ethically sourced.",
-		"vegetarian": true,
-		"vegan": true,
-		"produce": true,
-		"inSeason": "In Season",
-		"alternatives": [
-			"Fresh Limes"
-		]
-	},
-	{
-		"name": "Simple Truth Natural Air-Chilled Boneless Skinless Chicken Thighs",
-		"id": 53,
-		"imageURL": "https://www.kroger.com/product/images/medium/front/0021086500000",
-		"type": "ingredient",
-		"ethicalityScore": 8,
-		"textDescription": "Hertiage farms treats their animals well and their products are ethical.",
-		"vegetarian": false,
-		"vegan": false,
-		"produce": false,
-		"alternatives": [
-			"Fresh Limes"
-		]
-	},
-	{
-		"name": "Simple Truth Natural Chicken Thighs",
-		"id": 54,
-		"imageURL": "https://www.kroger.com/product/images/medium/front/0020071600000",
-		"type": "ingredient",
-		"ethicalityScore": 10,
-		"textDescription": "Simple Truth Chicken Thighs, Simple truth meat is ethically sourced.",
-		"vegetarian": false,
-		"vegan": false,
-		"produce": false,
-		"alternatives": [
-			"Heritage Farm Boneless and Skinless Chicken Thighs"
-		]
-	},
-	{
-		"name": "JIF Creamy Peanut Butter",
-		"id": 16,
-		"imageURL": "https://target.scene7.com/is/image/Target/GUEST_decde04c-a08a-405d-a1c7-515c2c400afa?wid=488&hei=488&fmt=pjpeg",
-		"type": "ingredient",
-		"ethicalityScore": 7,
-		"textDescription": "JIF Creamy Peanut Butter with no chunks.",
-		"vegetarian": true,
-		"vegan": true,
-		"alternatives": [
-			"Skippy Chunky Peanut Butter"
-		]
-	},
-	{
-		"name": "Skippy Crunchy Peanut Butter",
-		"id": 17,
-		"imageURL": "https://www.peanutbutter.com/wp-content/uploads/2019/03/SKIPPY_Product_PB_Spread_Super_Chunk_Peanut_Butter_28oz.png",
-		"type": "ingredient",
-		"ethicalityScore": 7,
-		"textDescription": "Skippy Crunchy peanut butter with chunks.",
-		"vegetarian": true,
-		"vegan": true,
-		"alternatives": [
-			"JIF Creamy Penut Butter"
-		]
-	},
-	{
-		"name": "Barilla",
-		"id": 31,
-		"imageURL": "https://images.nosh.com/logos/717693902.barilla.jpg",
-		"type": "brand",
-		"ethicalityScore": 2,
-		"textDescription": "Barilla Pasta.",
-		"alternatives": [
-			"Kroger"
-		]
-	},
-	{
-		"name": "Land O'Lakes",
-		"id": 36,
-		"imageURL": "https://logos-world.net/wp-content/uploads/2021/09/Land-OLakes-Logo.png",
-		"type": "brand",
-		"ethicalityScore": 9,
-		"textDescription": "Barilla Pasta.",
-		"alternatives": [
-			"Kroger"
-		]
-	},
-	{
-		"name": "Kraft",
-		"id": 43,
-		"imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqXcfW0D5a5WQ10jp9Y5p6OW4i902ex9DH3A&usqp=CAU",
-		"type": "brand",
-		"ethicalityScore": 6,
-		"textDescription": "Kraft claims to promote sustainable sources but they have a history in engaging in the palm oil industry which not sustainable.",
-		"alternatives": [
-			"Kroger"
-		]
-	},
-	{
-		"name": "Bertolli",
-		"id": 33,
-		"imageURL": "https://www.bertolli.com/wp-content/themes/bertolli/img/header-logo-2018.png",
-		"type": "brand",
-		"ethicalityScore": 10,
-		"textDescription": "Bertolli is known for their pasta products and related sauces.",
-		"alternatives": [
-			"Kroger"
-		]
-	},
-	{
-		"name": "Nestle",
-		"id": 18,
-		"imageURL": "https://xtalks.com/wp-content/uploads/2021/06/5537492450_5c1e01a8d6_b.jpeg",
-		"type": "brand",
-		"ethicalityScore": 2,
-		"textDescription": "Nestle is a large corporation with an extensive history of unethical behaior.",
-		"alternatives": []
-	},
-	{
-		"name": "Kroger",
-		"id": 19,
-		"imageURL": "https://yt3.ggpht.com/ytc/AMLnZu-KJG9ZQmdjaTs9W36hp3nJlk_kDEbgB1wpSCdgFw=s900-c-k-c0x00ffffff-no-rj",
-		"type": "brand",
-		"ethicalityScore": 8,
-		"textDescription": "Kroger brand is the generic brand in Kroger owned stores",
-		"alternatives": []
-	},
-	{
-		"name": "Simple Truth",
-		"id": 20,
-		"imageURL": "https://www.cornucopia.org/wp-content/uploads/2021/12/Simple_Truth-9-1-1-1-3-1-2-1-1-1-1-1-2-205x200.png",
-		"type": "brand",
-		"ethicalityScore": 9,
-		"textDescription": "Simple Truth is a Kroger owned brand for their organic products.",
-		"alternatives": []
-	},
-	{
-		"name": "Private Selection",
-		"id": 41,
-		"imageURL": "https://pbs.twimg.com/profile_images/515491788228800514/vA3_u7rI_400x400.png",
-		"type": "brand",
-		"ethicalityScore": 9,
-		"textDescription": "Private Selection is Kroger's premium brand. Alot of their items have the same source and are ethical.",
-		"alternatives": []
-	},
-	{
-		"name": "Jif",
-		"id": 21,
-		"imageURL": "https://m.media-amazon.com/images/I/71eHIqo9bdL.jpg",
-		"type": "brand",
-		"ethicalityScore": 8,
-		"textDescription": "Jif Peanut butter.",
-		"alternatives": [
-			"Skippy"
-		]
-	},
-	{
-		"name": "Skippy",
-		"id": 22,
-		"imageURL": "https://www.peanutbutter.com/wp-content/uploads/2019/03/SKIPPY_Product_PB_Spread_Creamy_Peanut_Butter_28oz.png",
-		"type": "brand",
-		"ethicalityScore": 8,
-		"textDescription": "Skippy Peanut butter.",
-		"alternatives": [
-			"Jif"
-		]
-	},
-	{
-		"name": "Steak Kebabs",
-		"id": 23,
-		"imageURL": "https://www.cookingclassy.com/wp-content/uploads/2017/04/steak-kebabs-12.jpg",
-		"type": "recipe",
-		"textDescription": "Ingredients: Steak, Red Bell Peppers, Yellow Bell Peppers, Red Onions",
-		"ingredients": [
-			"Steak",
-			"Red Bell Peppers",
-			"Yellow Bell Peppers",
-			"Red Onions"
-		]
-	},
-	{
-		"name": "Lamb Kebabs",
-		"id": 24,
-		"imageURL": "https://www.halfbakedharvest.com/wp-content/uploads/2017/02/Mediterranean-Grilled-Lamb-Kebabs-1.jpg",
-		"type": "recipe",
-		"textDescription": "Ingredients: Ground Lamb, Table Salt, Paprika, Cilantro, Parsley",
-		"ingredients": [
-			"Ground Lamb",
-			"Table Salt",
-			"Paprika",
-			"Cilantro",
-			"Mint Leaves",
-			"Parsley"
-		]
-	},
-	{
-		"name": "Cheesy Tortellini Bake",
-		"id": 55,
-		"imageURL": "https://loveinmyoven.com/wp-content/uploads/2020/04/cheesy-tortellini-bake-1-e1588215136751.jpg",
-		"type": "recipe",
-		"textDescription": "Ingredients: Cheese Tortellini, Marinara Sauce, Mozzarella Cheese, Parsley, Mint Leaves",
-		"ingredients": [
-			"Cheese Tortellini",
-			"Marinara Sauce",
-			"Mozzerella Cheese",
-			"Parsley",
-			"Mint Leaves"
-		]
-	},
-	{
-		"name": "Tilapia With Roasted Corn",
-		"id": 56,
-		"imageURL": "https://www.tasteandtellblog.com/wp-content/uploads/2020/02/Tilapia-Roasted-Corn-2-600x900.jpg",
-		"type": "recipe",
-		"textDescription": "Ingredients: Mayonnaise, Chili Powder, Tilapia Filets, Corn, Lime",
-		"ingredients": [
-			"Mayonnaise",
-			"Chili Powder",
-			"Talapia Filets",
-			"Corn",
-			"Lime"
-		]
-	},
-	{
-		"name": "Cacio e Pepe",
-		"id": 28,
-		"imageURL": "https://www.seriouseats.com/thmb/px_e8tCpfU7pcNvn4-j3bzQ9kGI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/spaghetti-cacio-e-pepe-recipe-hero-02_1-70880518badb4d428f5d5b03d303fabc.JPG",
-		"type": "recipe",
-		"textDescription": "Ingredients: Spaghetti, Olive Oil, Unsalted Butter, Black Pepper, Parmesan, Cheese Tortellini",
-		"ingredients": [
-			"Spaghetti",
-			"Olive Oil",
-			"Unsalted Butter",
-			"Black Pepper",
-			"Parmesean",
-			"Cheese Tortellini"
-		]
-	}
-]
+{
+	"all": [
+		{
+			"name": "Cucumber",
+			"id": 1,
+			"imageURL": "https://images.heb.com/is/image/HEBGrocery/000319432?fit=constrain,1&wid=800&hei=800&fmt=jpg&qlt=85,0&resMode=sharp2&op_usm=1.75,0.3,2,0",
+			"type": "ingredient",
+			"ethicalityScore": 8,
+			"textDescription": "Cucumbers are a great ingredient to use in salads...",
+			"vegetarian": true,
+			"vegan": true,
+			"produce": true,
+			"inSeason": "In Season",
+			"alternatives": []
+		},
+		{
+			"name": "Chicken breast",
+			"id": 2,
+			"imageURL": "https://images.albertsons-media.com/is/image/ABS/960082098?$ng-ecom-pdp-desktop$&defaultImage=Not_Available",
+			"type": "ingredient",
+			"ethicalityScore": 8,
+			"textDescription": "Poultry production is generally sustainable, as birds take fewer resources to produce than larger animals.",
+			"vegetarian": false,
+			"vegan": false,
+			"inSeason": "In Season",
+			"alternatives": [
+				"Daring Original Plant Chicken Pieces"
+			]
+		},
+		{
+			"name": "Daring Original Plant Chicken Pieces",
+			"id": 3,
+			"imageURL": "https://images.heb.com/is/image/HEBGrocery/006470516",
+			"type": "ingredient",
+			"ethicalityScore": 10,
+			"textDescription": "This plant-based chicken alternative is a great option to help avoid the high resource requirements of raising meat for slaughter.",
+			"vegetarian": true,
+			"vegan": true,
+			"inSeason": "In Season",
+			"alternatives": [
+				"Chicken Breast"
+			]
+		},
+		{
+			"name": "Red Bell Peppers",
+			"id": 4,
+			"imageURL": "https://m.media-amazon.com/images/S/assets.wholefoodsmarket.com/PIE/product/5b34f624e54acd7021de4922_redbellpepper-1.jpg",
+			"type": "ingredient",
+			"ethicalityScore": 8,
+			"textDescription": "Pepper production is sustainable as there is no significant environmental damage associated with their cultivation.",
+			"vegetarian": true,
+			"vegan": true,
+			"produce": true,
+			"inSeason": "Not in Season",
+			"alternatives": [
+				"Green Bell Peppers",
+				"Yellow Bell Peppers"
+			]
+		},
+		{
+			"name": "Yellow Bell Peppers",
+			"id": 5,
+			"imageURL": "https://i5.walmartimages.com/asr/4afb6fc7-4b33-4dc9-b938-035666ab2fe6.dca886c2d62ffc4a948e28a2d0039ea2.jpeg",
+			"type": "ingredient",
+			"ethicalityScore": 10,
+			"textDescription": "Pepper production is sustainable as there is no significant environmental damage associated with their cultivation.",
+			"vegetarian": true,
+			"vegan": true,
+			"produce": true,
+			"inSeason": "Not in Season",
+			"alternatives": [
+				"Green Bell Peppers",
+				"Red Bell Peppers"
+			]
+		},
+		{
+			"name": "Green Bell Peppers",
+			"id": 6,
+			"imageURL": "https://target.scene7.com/is/image/Target/GUEST_484810f6-4c45-476a-83c3-d91bc2ec005a",
+			"type": "ingredient",
+			"ethicalityScore": 10,
+			"textDescription": "Green peppers are often overlooked in favor of reds, yellows, and oranges, and picking them instead can help reduce food waste!",
+			"vegetarian": true,
+			"vegan": true,
+			"produce": true,
+			"inSeason": "Not in Season",
+			"alternatives": [
+				"Yellow Bell Peppers",
+				"Red Bell Peppers"
+			]
+		},
+		{
+			"name": "Steak",
+			"id": 7,
+			"imageURL": "https://embed.widencdn.net/img/beef/ng96sbyljl/800x600px/Ribeye%20Steak_Lip-on.psd?keep=c&u=7fueml",
+			"type": "ingredient",
+			"ethicalityScore": 6,
+			"textDescription": "Fred Meyer Steaks.",
+			"vegetarian": false,
+			"vegan": false,
+			"inSeason": "In Season",
+			"alternatives": [
+				""
+			]
+		},
+		{
+			"name": "Red Onion",
+			"id": 8,
+			"imageURL": "https://images.albertsons-media.com/is/image/ABS/184450056?$ng-ecom-pdp-mobile$&defaultImage=Not_Available",
+			"type": "ingredient",
+			"ethicalityScore": 9,
+			"textDescription": "Jumbo red onions.",
+			"vegetarian": true,
+			"vegan": true,
+			"produce": true,
+			"inSeason": "In Season",
+			"alternatives": [
+				"Sweet Onions"
+			]
+		},
+		{
+			"name": "Sweet Onions",
+			"id": 9,
+			"imageURL": "https://i5.walmartimages.com/asr/ad10f097-b720-45a4-881d-8336dfde0b1b.da769cece43bb81239c46e2b360eee78.png",
+			"type": "ingredient",
+			"ethicalityScore": 9,
+			"textDescription": "Jumbo sweet onions.",
+			"vegetarian": true,
+			"vegan": true,
+			"produce": true,
+			"inSeason": "In Season",
+			"alternatives": [
+				"Red Onions"
+			]
+		},
+		{
+			"name": "Ground Lamb",
+			"id": 10,
+			"imageURL": "https://www.vicfarmmeats.com/site/wp-content/uploads/1970/01/GrLamb_Web.jpg",
+			"type": "ingredient",
+			"ethicalityScore": 9,
+			"textDescription": "Simple Truth Ground Lamb.",
+			"vegetarian": false,
+			"vegan": false,
+			"inSeason": "In Season",
+			"alternatives": [
+				"Beyond Meat Plant Based Ground-Beef"
+			]
+		},
+		{
+			"name": "Beyond Meat Plant Based Ground-Beef",
+			"id": 11,
+			"imageURL": "https://m.media-amazon.com/images/I/71nsPK88NwL.jpg",
+			"type": "ingredient",
+			"ethicalityScore": 10,
+			"textDescription": "Plant based ground beef alternative.",
+			"vegetarian": true,
+			"vegan": true,
+			"alternatives": [
+				"Ground Lamb",
+				"Ground Beef"
+			]
+		},
+		{
+			"name": "Ground Beef",
+			"id": 12,
+			"imageURL": "https://embed.widencdn.net/img/beef/4hh1pywcnj/800x600px/Grind_Fine_85.psd?keep=c&u=7fueml",
+			"type": "ingredient",
+			"ethicalityScore": 7,
+			"textDescription": "Fred Meyer Ground-Beef.",
+			"vegetarian": false,
+			"vegan": false,
+			"alternatives": [
+				"Ground Lamb",
+				"Beyond Meat Plant Based Ground Beef"
+			]
+		},
+		{
+			"name": "Paprika",
+			"id": 13,
+			"imageURL": "https://www.seriouseats.com/thmb/_al2VX_jcg0BDwceiagmuzPiUmw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__20100520-paprika-primary-242cc11b9ff1449c9c3a90ab08eb7615.jpg",
+			"type": "ingredient",
+			"ethicalityScore": 7,
+			"textDescription": "Paprika spice.",
+			"vegetarian": true,
+			"vegan": true,
+			"inSeason": "In Season",
+			"alternatives": [
+				""
+			]
+		},
+		{
+			"name": "Table Salt",
+			"id": 14,
+			"imageURL": "https://www.washingtonpost.com/rf/image_1484w/2010-2019/WashingtonPost/2015/11/17/Production/LocalLiving/Images/we-salt1119.jpg?t=20170517",
+			"type": "ingredient",
+			"ethicalityScore": 10,
+			"textDescription": "Regular Table Salt.",
+			"vegetarian": true,
+			"vegan": true,
+			"inSeason": "In Season",
+			"alternatives": [
+				"Himalyan Salt"
+			]
+		},
+		{
+			"name": "Himalayan Salt",
+			"id": 15,
+			"imageURL": "https://m.media-amazon.com/images/I/91OlaEe6SGL.jpg",
+			"type": "ingredient",
+			"ethicalityScore": 9,
+			"textDescription": "Himalyan Salt.",
+			"vegetarian": true,
+			"vegan": true,
+			"alternatives": [
+				"Table Salt"
+			]
+		},
+		{
+			"name": "Cilantro",
+			"id": 25,
+			"imageURL": "https://cdn-prod.medicalnewstoday.com/content/images/articles/277/277627/bunch-of-fresh-coriander-or-cilantro-on-a-wooden-table.jpg",
+			"type": "ingredient",
+			"ethicalityScore": 10,
+			"textDescription": "Cilantro leaves.",
+			"vegetarian": true,
+			"vegan": true,
+			"produce": true,
+			"inSeason": "Not In Season",
+			"alternatives": []
+		},
+		{
+			"name": "Butternut Squash",
+			"id": 25,
+			"imageURL": "https://i5.walmartimages.com/asr/76a18a23-dc4f-45a8-90ae-452e50fd5923.c254801fb641a0df6bbd5e83640d8d9c.jpeg",
+			"type": "ingredient",
+			"ethicalityScore": 10,
+			"textDescription": "Butternut squash is best used in the fall and winter months, where it can be found fresh across the United States.",
+			"vegetarian": true,
+			"vegan": true,
+			"produce": true,
+			"inSeason": "In Season",
+			"alternatives": [
+				"Zucchini",
+				"Yellow Squash",
+				"Spaghetti Squash"
+			]
+		},
+		{
+			"name": "Mint Leaves",
+			"id": 26,
+			"imageURL": "https://img.freepik.com/free-photo/fresh-mint-leaves-isolated_144627-30022.jpg",
+			"type": "ingredient",
+			"ethicalityScore": 10,
+			"textDescription": "Fresh mint leaves.",
+			"vegetarian": true,
+			"vegan": true,
+			"produce": true,
+			"inSeason": "In Season",
+			"alternatives": []
+		},
+		{
+			"name": "Parsley",
+			"id": 27,
+			"imageURL": "https://cdn.britannica.com/62/193862-050-4A7DBC6F/Parsley.jpg",
+			"type": "ingredient",
+			"ethicalityScore": 10,
+			"textDescription": "Fresh parsley bunch.",
+			"vegetarian": true,
+			"vegan": true,
+			"produce": true,
+			"inSeason": "In Season",
+			"alternatives": []
+		},
+		{
+			"name": "Kroger Spaghetti",
+			"id": 29,
+			"imageURL": "https://www.kroger.com/product/images/medium/front/0001111085004",
+			"type": "ingredient",
+			"ethicalityScore": 10,
+			"textDescription": "Generic Kroger brand Spaghetti, Kroger items are ethically sourced.",
+			"vegetarian": true,
+			"vegan": true,
+			"produce": false,
+			"inSeason": "In Season",
+			"alternatives": [
+				"Barilla Blue Box Spaghetti"
+			]
+		},
+		{
+			"name": "Barilla Blue Box Spaghetti",
+			"id": 30,
+			"imageURL": "https://www.kroger.com/product/images/medium/front/0007680828008",
+			"type": "ingredient",
+			"ethicalityScore": 2,
+			"textDescription": "Barilla has a history of being anti LGBTQ and their CEO has said that \"consumers do not care about percieved ethics or politics of certain companies.\"",
+			"vegetarian": true,
+			"vegan": true,
+			"produce": false,
+			"inSeason": "",
+			"alternatives": [
+				"Kroger Spaghetti"
+			]
+		},
+		{
+			"name": "Kroger Extra Virgin Olive Oil",
+			"id": 32,
+			"imageURL": "https://www.kroger.com/product/images/medium/front/0001111087856",
+			"type": "ingredient",
+			"ethicalityScore": 10,
+			"textDescription": "Generic Kroger brand Olive oil, Kroger items are ethically sourced.",
+			"vegetarian": true,
+			"vegan": true,
+			"produce": false,
+			"inSeason": "",
+			"alternatives": [
+				"Bertolli Rich Taste Extra Virgin Olive Oil"
+			]
+		},
+		{
+			"name": "Bertolli Rich Taste Extra Virgin Olive Oil",
+			"id": 32,
+			"imageURL": "https://www.kroger.com/product/images/medium/front/0004179000160",
+			"type": "ingredient",
+			"ethicalityScore": 10,
+			"textDescription": "Bertolli olive oil is ethical and sustainable.",
+			"vegetarian": true,
+			"vegan": true,
+			"produce": false,
+			"inSeason": "",
+			"alternatives": [
+				"Kroger Extra Virgin Olive Oil"
+			]
+		},
+		{
+			"name": "Kroger Unsalted Butter Sticks",
+			"id": 34,
+			"imageURL": "https://www.kroger.com/product/images/medium/front/0001111078777",
+			"type": "ingredient",
+			"ethicalityScore": 10,
+			"textDescription": "Generic Kroger brand butter, Kroger items are ethically sourced.",
+			"vegetarian": true,
+			"vegan": false,
+			"produce": false,
+			"inSeason": "",
+			"alternatives": [
+				"Lando O' Lakes Unsalted Butter Sticks"
+			]
+		},
+		{
+			"name": "Lando O' Lakes Unsalted Butter Sticks",
+			"id": 35,
+			"imageURL": "https://www.kroger.com/product/images/medium/front/0003450015102",
+			"type": "ingredient",
+			"ethicalityScore": 10,
+			"textDescription": "Land O'Lakes is commited to proper care and humane treatment of animals, their products are ethically sourced.",
+			"vegetarian": true,
+			"vegan": false,
+			"produce": false,
+			"inSeason": "",
+			"alternatives": [
+				"Kroger Unsalted Butter Sticks"
+			]
+		},
+		{
+			"name": "Kroger Ground Black Pepper",
+			"id": 37,
+			"imageURL": "https://www.kroger.com/product/images/medium/front/0001111068318",
+			"type": "ingredient",
+			"ethicalityScore": 10,
+			"textDescription": "Generic Kroger ground black pepper, Kroger items are ethically sourced.",
+			"vegetarian": true,
+			"vegan": true,
+			"produce": false,
+			"alternatives": [
+				"Morton Black Peppercorn Grinder"
+			]
+		},
+		{
+			"name": "Morton Black Peppercorn Grinder",
+			"id": 38,
+			"imageURL": "https://www.kroger.com/product/images/medium/front/0002460002184",
+			"type": "ingredient",
+			"ethicalityScore": 10,
+			"textDescription": "Morton is commited to upholding ethics and integrity in their products.",
+			"vegetarian": true,
+			"vegan": true,
+			"produce": false,
+			"alternatives": [
+				"Kroger Ground Black Pepper"
+			]
+		},
+		{
+			"name": "Kroger Shredded Parmesan Cheese",
+			"id": 39,
+			"imageURL": "https://www.kroger.com/product/images/medium/front/0001111050195",
+			"type": "ingredient",
+			"ethicalityScore": 10,
+			"textDescription": "Generic Kroger shredded parmesan cheese, Kroger items are ethically sourced.",
+			"vegetarian": true,
+			"vegan": false,
+			"produce": false,
+			"alternatives": [
+				"Private Selection Parmesan Wedge Cheese"
+			]
+		},
+		{
+			"name": "Kraft Mozzarella Shredded Cheese",
+			"id": 40,
+			"imageURL": "https://www.kroger.com/product/images/medium/front/0002100005495",
+			"type": "ingredient",
+			"ethicalityScore": 6,
+			"textDescription": "Kraft Shredded Mozzarella. Kraft has been somewhat conflictinng on their stance on sustainabilty.",
+			"vegetarian": true,
+			"vegan": false,
+			"produce": false,
+			"alternatives": [
+				"Private Selection Fresh Mozzarella Cheese"
+			]
+		},
+		{
+			"name": "Private Selection Fresh Mozzarella Cheese",
+			"id": 42,
+			"imageURL": "https://www.kroger.com/product/images/medium/front/0001111004374",
+			"type": "ingredient",
+			"ethicalityScore": 10,
+			"textDescription": "Private selection mozzarella cheese. Private Selection is Kroger's premium brand and is sourced ethically",
+			"vegetarian": true,
+			"vegan": false,
+			"produce": false,
+			"alternatives": [
+				"Kraft Mozzarella Shredded Cheese"
+			]
+		},
+		{
+			"name": "Kroger Classic Mayonnaise",
+			"id": 44,
+			"imageURL": "https://www.kroger.com/product/images/medium/front/0001111001988",
+			"type": "ingredient",
+			"ethicalityScore": 10,
+			"textDescription": "Generic Kroger Mayonnaise, Kroger items are ethically sourced.",
+			"vegetarian": true,
+			"vegan": false,
+			"produce": false,
+			"alternatives": [
+				"Kraft Mayo with Olive Oil Reduced Fat Mayonnaise"
+			]
+		},
+		{
+			"name": "Kraft Mayo with Olive Oil Reduced Fat Mayonnaise",
+			"id": 45,
+			"imageURL": "https://www.kroger.com/product/images/medium/front/0002100002678",
+			"type": "ingredient",
+			"ethicalityScore": 6,
+			"textDescription": "Reduced fat Mayonnaise from Kraft. Kraft does not have a spotless track record which brings them down some points.",
+			"vegetarian": true,
+			"vegan": false,
+			"produce": false,
+			"alternatives": [
+				"Kroger Classic Mayonnaise"
+			]
+		},
+		{
+			"name": "Kroger Chili Powder",
+			"id": 46,
+			"imageURL": "https://www.kroger.com/product/images/medium/front/0001111072461",
+			"type": "ingredient",
+			"ethicalityScore": 10,
+			"textDescription": "Generic Kroger Mayonnaise, Kroger items are ethically sourced.",
+			"vegetarian": true,
+			"vegan": true,
+			"produce": false,
+			"alternatives": [
+				"Simple Truth Organic Ground Chili Powder"
+			]
+		},
+		{
+			"name": "Simple Truth Organic Ground Chili Powder",
+			"id": 47,
+			"imageURL": "https://www.kroger.com/product/images/medium/front/0001111002382",
+			"type": "ingredient",
+			"ethicalityScore": 10,
+			"textDescription": "Simple Truth is Kroger's organic brand. Their producst are sourced ethically.",
+			"vegetarian": true,
+			"vegan": true,
+			"produce": false,
+			"alternatives": [
+				"Kroger Chili Powder"
+			]
+		},
+		{
+			"name": "Fresh Tilapia Fillet",
+			"id": 48,
+			"imageURL": "https://www.kroger.com/product/images/medium/front/0023889540000",
+			"type": "ingredient",
+			"ethicalityScore": 10,
+			"textDescription": "Fresh from the meat and seafood section, Kroger fresh meat and seafood products are ethically sourced.",
+			"vegetarian": false,
+			"vegan": false,
+			"produce": false,
+			"alternatives": [
+				""
+			]
+		},
+		{
+			"name": "Fresh Corn",
+			"id": 49,
+			"imageURL": "https://s30386.pcdn.co/wp-content/uploads/2019/08/FreshCorn_HNL1309_ts135846041.jpg.optimal.jpg",
+			"type": "ingredient",
+			"ethicalityScore": 10,
+			"textDescription": "Fresh from the produce section, Kroger fresh produce products are ethically sourced.",
+			"vegetarian": true,
+			"vegan": true,
+			"produce": true,
+			"inSeason": "Not in Season",
+			"alternatives": [
+				"Kroger Sweet Corn on the Cob"
+			]
+		},
+		{
+			"name": "Kroger Sweet Corn on the Cob",
+			"id": 50,
+			"imageURL": "https://www.kroger.com/product/images/medium/front/0001111018183",
+			"type": "ingredient",
+			"ethicalityScore": 10,
+			"textDescription": "Kroger brand Sweet Corn on the Cob, Kroger items are ethically sourced.",
+			"vegetarian": true,
+			"vegan": true,
+			"produce": true,
+			"inSeason": "Not in Season",
+			"alternatives": [
+				"Fresh Corn"
+			]
+		},
+		{
+			"name": "Fresh Limes",
+			"id": 51,
+			"imageURL": "https://www.kroger.com/product/images/medium/front/0000000004048",
+			"type": "ingredient",
+			"ethicalityScore": 10,
+			"textDescription": "Fresh Limes from Kroger produce, their items are ethically sourced.",
+			"vegetarian": true,
+			"vegan": true,
+			"produce": true,
+			"inSeason": "In Season",
+			"alternatives": [
+				"Organic Fresh Limes"
+			]
+		},
+		{
+			"name": "Organic Fresh Limes",
+			"id": 52,
+			"imageURL": "https://www.kroger.com/product/images/medium/front/0000000094048",
+			"type": "ingredient",
+			"ethicalityScore": 10,
+			"textDescription": "Fresh Organic Limes from Kroger produce, their items are ethically sourced.",
+			"vegetarian": true,
+			"vegan": true,
+			"produce": true,
+			"inSeason": "In Season",
+			"alternatives": [
+				"Fresh Limes"
+			]
+		},
+		{
+			"name": "Simple Truth Natural Air-Chilled Boneless Skinless Chicken Thighs",
+			"id": 53,
+			"imageURL": "https://www.kroger.com/product/images/medium/front/0021086500000",
+			"type": "ingredient",
+			"ethicalityScore": 8,
+			"textDescription": "Hertiage farms treats their animals well and their products are ethical.",
+			"vegetarian": false,
+			"vegan": false,
+			"produce": false,
+			"alternatives": [
+				"Fresh Limes"
+			]
+		},
+		{
+			"name": "Simple Truth Natural Chicken Thighs",
+			"id": 54,
+			"imageURL": "https://www.kroger.com/product/images/medium/front/0020071600000",
+			"type": "ingredient",
+			"ethicalityScore": 10,
+			"textDescription": "Simple Truth Chicken Thighs, Simple truth meat is ethically sourced.",
+			"vegetarian": false,
+			"vegan": false,
+			"produce": false,
+			"alternatives": [
+				"Heritage Farm Boneless and Skinless Chicken Thighs"
+			]
+		},
+		{
+			"name": "JIF Creamy Peanut Butter",
+			"id": 16,
+			"imageURL": "https://target.scene7.com/is/image/Target/GUEST_decde04c-a08a-405d-a1c7-515c2c400afa?wid=488&hei=488&fmt=pjpeg",
+			"type": "ingredient",
+			"ethicalityScore": 7,
+			"textDescription": "JIF Creamy Peanut Butter with no chunks.",
+			"vegetarian": true,
+			"vegan": true,
+			"alternatives": [
+				"Skippy Chunky Peanut Butter"
+			]
+		},
+		{
+			"name": "Skippy Crunchy Peanut Butter",
+			"id": 17,
+			"imageURL": "https://www.peanutbutter.com/wp-content/uploads/2019/03/SKIPPY_Product_PB_Spread_Super_Chunk_Peanut_Butter_28oz.png",
+			"type": "ingredient",
+			"ethicalityScore": 7,
+			"textDescription": "Skippy Crunchy peanut butter with chunks.",
+			"vegetarian": true,
+			"vegan": true,
+			"alternatives": [
+				"JIF Creamy Penut Butter"
+			]
+		},
+		{
+			"name": "Barilla",
+			"id": 31,
+			"imageURL": "https://images.nosh.com/logos/717693902.barilla.jpg",
+			"type": "brand",
+			"ethicalityScore": 2,
+			"textDescription": "Barilla Pasta.",
+			"alternatives": [
+				"Kroger"
+			]
+		},
+		{
+			"name": "Land O'Lakes",
+			"id": 36,
+			"imageURL": "https://logos-world.net/wp-content/uploads/2021/09/Land-OLakes-Logo.png",
+			"type": "brand",
+			"ethicalityScore": 9,
+			"textDescription": "Barilla Pasta.",
+			"alternatives": [
+				"Kroger"
+			]
+		},
+		{
+			"name": "Kraft",
+			"id": 43,
+			"imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqXcfW0D5a5WQ10jp9Y5p6OW4i902ex9DH3A&usqp=CAU",
+			"type": "brand",
+			"ethicalityScore": 6,
+			"textDescription": "Kraft claims to promote sustainable sources but they have a history in engaging in the palm oil industry which not sustainable.",
+			"alternatives": [
+				"Kroger"
+			]
+		},
+		{
+			"name": "Bertolli",
+			"id": 33,
+			"imageURL": "https://www.bertolli.com/wp-content/themes/bertolli/img/header-logo-2018.png",
+			"type": "brand",
+			"ethicalityScore": 10,
+			"textDescription": "Bertolli is known for their pasta products and related sauces.",
+			"alternatives": [
+				"Kroger"
+			]
+		},
+		{
+			"name": "Nestle",
+			"id": 18,
+			"imageURL": "https://xtalks.com/wp-content/uploads/2021/06/5537492450_5c1e01a8d6_b.jpeg",
+			"type": "brand",
+			"ethicalityScore": 2,
+			"textDescription": "Nestle is a large corporation with an extensive history of unethical behaior.",
+			"alternatives": []
+		},
+		{
+			"name": "Kroger",
+			"id": 19,
+			"imageURL": "https://yt3.ggpht.com/ytc/AMLnZu-KJG9ZQmdjaTs9W36hp3nJlk_kDEbgB1wpSCdgFw=s900-c-k-c0x00ffffff-no-rj",
+			"type": "brand",
+			"ethicalityScore": 8,
+			"textDescription": "Kroger brand is the generic brand in Kroger owned stores",
+			"alternatives": []
+		},
+		{
+			"name": "Simple Truth",
+			"id": 20,
+			"imageURL": "https://www.cornucopia.org/wp-content/uploads/2021/12/Simple_Truth-9-1-1-1-3-1-2-1-1-1-1-1-2-205x200.png",
+			"type": "brand",
+			"ethicalityScore": 9,
+			"textDescription": "Simple Truth is a Kroger owned brand for their organic products.",
+			"alternatives": []
+		},
+		{
+			"name": "Private Selection",
+			"id": 41,
+			"imageURL": "https://pbs.twimg.com/profile_images/515491788228800514/vA3_u7rI_400x400.png",
+			"type": "brand",
+			"ethicalityScore": 9,
+			"textDescription": "Private Selection is Kroger's premium brand. Alot of their items have the same source and are ethical.",
+			"alternatives": []
+		},
+		{
+			"name": "Jif",
+			"id": 21,
+			"imageURL": "https://m.media-amazon.com/images/I/71eHIqo9bdL.jpg",
+			"type": "brand",
+			"ethicalityScore": 8,
+			"textDescription": "Jif Peanut butter.",
+			"alternatives": [
+				"Skippy"
+			]
+		},
+		{
+			"name": "Skippy",
+			"id": 22,
+			"imageURL": "https://www.peanutbutter.com/wp-content/uploads/2019/03/SKIPPY_Product_PB_Spread_Creamy_Peanut_Butter_28oz.png",
+			"type": "brand",
+			"ethicalityScore": 8,
+			"textDescription": "Skippy Peanut butter.",
+			"alternatives": [
+				"Jif"
+			]
+		},
+		{
+			"name": "Steak Kebabs",
+			"id": 23,
+			"imageURL": "https://www.cookingclassy.com/wp-content/uploads/2017/04/steak-kebabs-12.jpg",
+			"type": "recipe",
+			"textDescription": "Ingredients: Steak, Red Bell Peppers, Yellow Bell Peppers, Red Onions",
+			"ingredients": [
+				"Steak",
+				"Red Bell Peppers",
+				"Yellow Bell Peppers",
+				"Red Onions"
+			]
+		},
+		{
+			"name": "Lamb Kebabs",
+			"id": 24,
+			"imageURL": "https://www.halfbakedharvest.com/wp-content/uploads/2017/02/Mediterranean-Grilled-Lamb-Kebabs-1.jpg",
+			"type": "recipe",
+			"textDescription": "Ingredients: Ground Lamb, Table Salt, Paprika, Cilantro, Parsley",
+			"ingredients": [
+				"Ground Lamb",
+				"Table Salt",
+				"Paprika",
+				"Cilantro",
+				"Mint Leaves",
+				"Parsley"
+			]
+		},
+		{
+			"name": "Cheesy Tortellini Bake",
+			"id": 55,
+			"imageURL": "https://loveinmyoven.com/wp-content/uploads/2020/04/cheesy-tortellini-bake-1-e1588215136751.jpg",
+			"type": "recipe",
+			"textDescription": "Ingredients: Cheese Tortellini, Marinara Sauce, Mozzarella Cheese, Parsley, Mint Leaves",
+			"ingredients": [
+				"Cheese Tortellini",
+				"Marinara Sauce",
+				"Mozzerella Cheese",
+				"Parsley",
+				"Mint Leaves"
+			]
+		},
+		{
+			"name": "Tilapia With Roasted Corn",
+			"id": 56,
+			"imageURL": "https://www.tasteandtellblog.com/wp-content/uploads/2020/02/Tilapia-Roasted-Corn-2-600x900.jpg",
+			"type": "recipe",
+			"textDescription": "Ingredients: Mayonnaise, Chili Powder, Tilapia Filets, Corn, Lime",
+			"ingredients": [
+				"Mayonnaise",
+				"Chili Powder",
+				"Talapia Filets",
+				"Corn",
+				"Lime"
+			]
+		},
+		{
+			"name": "Cacio e Pepe",
+			"id": 28,
+			"imageURL": "https://www.seriouseats.com/thmb/px_e8tCpfU7pcNvn4-j3bzQ9kGI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/spaghetti-cacio-e-pepe-recipe-hero-02_1-70880518badb4d428f5d5b03d303fabc.JPG",
+			"type": "recipe",
+			"textDescription": "Ingredients: Spaghetti, Olive Oil, Unsalted Butter, Black Pepper, Parmesan, Cheese Tortellini",
+			"ingredients": [
+				"Spaghetti",
+				"Olive Oil",
+				"Unsalted Butter",
+				"Black Pepper",
+				"Parmesean",
+				"Cheese Tortellini"
+			]
+		}
+	],
+	"saved": []
+}
