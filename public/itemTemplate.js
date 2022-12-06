@@ -33,8 +33,12 @@ templates['item'] = template({"1":function(container,depth0,helpers,partials,dat
     + ((stack1 = lookupProperty(helpers,"if").call(alias1,(depth0 != null ? lookupProperty(depth0,"produce") : depth0),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data,"loc":{"start":{"line":12,"column":12},"end":{"line":14,"column":19}}})) != null ? stack1 : "")
     + "            <h3 class=\"alternatives\">Alternatives: "
     + alias4(((helper = (helper = lookupProperty(helpers,"alternatives") || (depth0 != null ? lookupProperty(depth0,"alternatives") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"alternatives","hash":{},"data":data,"loc":{"start":{"line":15,"column":51},"end":{"line":15,"column":67}}}) : helper)))
-    + "</h3>\n            <button class=\"save-item-button\">+ Save</button>\n        </div>\n        <div class=\"hidden\">\n            "
+    + "</h3>\n            <button class=\"save-item-button\">+ Save</button>\n        </div>\n        <div id=\"type\" class=\"hidden\">\n            "
     + alias4(((helper = (helper = lookupProperty(helpers,"type") || (depth0 != null ? lookupProperty(depth0,"type") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"type","hash":{},"data":data,"loc":{"start":{"line":19,"column":12},"end":{"line":19,"column":20}}}) : helper)))
+    + "\n        </div>\n        <div id=\"vegan\" class=\"hidden\">\n            "
+    + alias4(((helper = (helper = lookupProperty(helpers,"vegan") || (depth0 != null ? lookupProperty(depth0,"vegan") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"vegan","hash":{},"data":data,"loc":{"start":{"line":22,"column":12},"end":{"line":22,"column":21}}}) : helper)))
+    + "\n        </div>\n        <div id=\"vegetarian\" class=\"hidden\">\n            "
+    + alias4(((helper = (helper = lookupProperty(helpers,"vegetarian") || (depth0 != null ? lookupProperty(depth0,"vegetarian") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"vegetarian","hash":{},"data":data,"loc":{"start":{"line":25,"column":12},"end":{"line":25,"column":26}}}) : helper)))
     + "\n        </div>\n    </div>\n</div>";
 },"useData":true});
 })();

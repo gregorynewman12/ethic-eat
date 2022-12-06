@@ -30,10 +30,17 @@ var addAllergyButton = document.getElementById("add-allergy-button")
 if (addAllergyButton) {
     addAllergyButton.addEventListener("click", addAllergy)
 }
+var userModalSubmit = document.getElementById("user-modal-accept")
+if (userModalSubmit) {
+    userModalSubmit.addEventListener("click", userModalConfirm)
+}
 var searchText = document.getElementById('main-searchbar')
 var searchButton = document.getElementById('search-button')
 var itemList = document.getElementsByClassName('item')
 var saveButtons = document.getElementsByClassName("save-item-button")
+
+// Global variable storing dietary preferences
+var dietaryRestriction = "none"
 
 function launchMultipleIngredientsModal(event) {
     var modalContent = document.getElementById("multiple-items-modal")
@@ -93,6 +100,33 @@ function searchMultipleIngredientsModal(event) {
     closeMultipleIngredientsModal()
 }
 
+function userModalConfirm() {
+    var dietDropdown = document.getElementById("diet")
+    dietaryRestriction = dietDropdown.value
+    var items = document.getElementsByClassName("item")
+    for (var i = 0; i < items.length; i++) {
+        var isVegetarian = items[i].querySelector("#vegetarian").textContent.trim()
+        var isVegan = items[i].querySelector("#vegan").textContent.trim()
+        if (isVegetarian == "false" && dietaryRestriction == "vegetarian") {
+            var dietFlag = document.createElement("span")
+            dietFlag.classList.add("allergy-indicator")
+            dietFlag.textContent = "DIETARY CONFLICT"
+            items[i].querySelector(".item-info-container").appendChild(dietFlag)
+        }
+        if (isVegan == "false" && dietaryRestriction == "vegan") {
+            var dietFlag = document.createElement("span")
+            dietFlag.classList.add("allergy-indicator")
+            dietFlag.textContent = "DIETARY CONFLICT"
+            items[i].querySelector(".item-info-container").appendChild(dietFlag)
+        }
+        if (dietaryRestriction == "none") {
+            var dietSpan = items[i].querySelector(".allergy-indicator")
+            if (dietSpan) { dietSpan.remove() }
+        }
+    }
+    closeUserModal()
+}
+
 function launchUserModal(event) {
     var modalContent = document.getElementById("user-modal")
     var modalBackdrop = document.getElementById("user-modal-backdrop")
@@ -105,10 +139,6 @@ function closeUserModal(event) {
     var modalBackdrop = document.getElementById("user-modal-backdrop")
     modalContent.classList.toggle("hidden")
     modalBackdrop.classList.toggle("hidden")
-    var allergyField = document.getElementById("allergy-field")
-    if (allergyField.value != "") {
-        allergyField.value = ""
-    }
 }
 
 function addAllergy(event) {
@@ -158,22 +188,39 @@ function handleSaveRequest(savedItem) {
     }
     var alternatives = savedItem.querySelector(".alternatives").textContent.trim()
     alternatives = alternatives.split('Alternatives: ')[1]
-    var type = savedItem.querySelector(".hidden").textContent.trim()
+    var type = savedItem.querySelector("#type").textContent.trim()
     if (type == "recipe") {
         itemEthicality = ""
     }
 
-    var item = {
-        name: itemName,
-        imageURL: itemImg,
-        type: type,
-        ethicalityScore: itemEthicality,
-        textDescription: itemDescription,
-        vegetarian: true,
-        vegan: true,
-        produce: true,
-        inSeason: inSeason,
-        alternatives: alternatives
+    var item
+    // If inSeason item is empty, this attribute is not declared in the JSON file
+    if (inSeason == "") {
+        item = {
+            name: itemName,
+            imageURL: itemImg,
+            type: type,
+            ethicalityScore: itemEthicality,
+            textDescription: itemDescription,
+            vegetarian: true,
+            vegan: true,
+            produce: false,
+            alternatives: alternatives
+        }
+    }
+    else {
+        item = {
+            name: itemName,
+            imageURL: itemImg,
+            type: type,
+            ethicalityScore: itemEthicality,
+            textDescription: itemDescription,
+            vegetarian: true,
+            vegan: true,
+            produce: true,
+            inSeason: inSeason,
+            alternatives: alternatives
+        }
     }
 
 
